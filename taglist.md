@@ -11,7 +11,7 @@ title: "Tag List"
   {% for ttt in post.tags %}
   {% if ttt == tag %}
     <ul>
-    <li><h3><a class="archive_list_article_link" href='{{ site.baseurl }}/{{ post.url }}'>{{ post.title }}</a></h3></li>
+    <li><h3><a class="archive_list_article_link" href='{{ site.baseurl }}/{{ post.url }}'>{{ post.title }}</a></h3>({{ post.date }})</li>
     </ul>
   {% endif %}
   {% endfor %}
