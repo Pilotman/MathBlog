@@ -11,7 +11,7 @@
 
   <title>
     
-      First post &middot; MathBlog
+      Tag List &middot; MathBlog
     
   </title>
 
@@ -75,7 +75,7 @@
       
         
           
-            <a class="sidebar-nav-item" href="/MathBlog//taglist.md.bak">Tag List</a>
+            <a class="sidebar-nav-item active" href="/MathBlog//taglist.md.bak">Tag List</a>
           
         
       
@@ -97,55 +97,20 @@
 
 
     <div class="content container">
-      <div class="post">
-  <h1 class="post-title">First post</h1>
-  <span class="post-date">04 Nov 2019</span>
-  This is a first post and trial of Mathjax
+      <div class="page">
+  <h1 class="page-title">Tag List</h1>
+  <ul>
+  
+  
+  
+  
+  <li class="archive_list">
+    <h2><a href="/MathBlog/tag/test">test</a></h2>
+  </li>
+  
+  
+</ul>
 
-* Table of contents
-{:toc}
-
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
-
-### aasdfadf
-
-#### asdfasdfa
-## afsdf
-aasdf
-## fasdf
-# fadf
-
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/MathBlog//2019/11/04/First-Post/">
-            First post
-            <small>04 Nov 2019</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
 </div>
 <!-- Mathjax Support -->
 <script type="text/javascript" async

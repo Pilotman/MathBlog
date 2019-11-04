@@ -4,11 +4,18 @@ title: "Tag List"
 ---
 
 <ul>
-  {% for post in site.posts %}
-  {% for tag in post.tags %}
+  {% for tag in site.taglist %}
   <li class="archive_list">
-    <h2><a href="{{ site.baseurl }}tag/{{ tag }}">{{ tag }}</a></h2>
-  </li>
+    <h2>{{ tag }}</h2>
+  {% for post in site.posts %}
+  {% for ttt in post.tags %}
+  {% if ttt == tag %}
+    <ul>
+    <li><h3><a class="archive_list_article_link" href='{{ site.baseurl }}/{{ post.url }}'>{{ post.title }}</a></h3></li>
+    </ul>
+  {% endif %}
   {% endfor %}
+  {% endfor %}
+  </li>
   {% endfor %}
 </ul>
