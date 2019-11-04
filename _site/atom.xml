@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>MathBlog</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2019-11-04T19:31:28+00:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://github.com/Pilotman/atom.xml" rel="self"/>
+ <link href="https://github.com/Pilotman/"/>
+ <updated>2019-11-04T22:49:21+00:00</updated>
+ <id>https://github.com/Pilotman</id>
  <author>
    <name>Diego Pirx</name>
    <email></email>
@@ -13,65 +13,170 @@
 
  
  <entry>
-   <title>First post</title>
-   <link href="http://localhost:4000/2019/11/04/First-Post.md/"/>
+   <title>Two very interesting Series</title>
+   <link href="https://github.com/Pilotman/2019/11/04/Series/"/>
    <updated>2019-11-04T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2019/11/04/First-Post.md</id>
-   <content type="html">This is a first post and trial of Mathjax
+   <id>https://github.com/Pilotman/2019/11/04/Series</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#table-of-contents&quot; id=&quot;markdown-toc-table-of-contents&quot;&gt;Table of contents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#definitions&quot; id=&quot;markdown-toc-definitions&quot;&gt;Definitions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#types-of-series&quot; id=&quot;markdown-toc-types-of-series&quot;&gt;Types of series&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#the-geometric-series&quot; id=&quot;markdown-toc-the-geometric-series&quot;&gt;The Geometric Series&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#the-harmonic-series&quot; id=&quot;markdown-toc-the-harmonic-series&quot;&gt;The Harmonic series&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 
-* Table of contents
-{:toc}
+&lt;p&gt;I just want to give two very interesting cases of series a whirl. But first, I need to introduce some context:&lt;/p&gt;
 
-$$
-\begin{align*}
-  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
-      \vdots &amp; \ddots &amp; \vdots \\
-      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
+&lt;h2 id=&quot;definitions&quot;&gt;Definitions&lt;/h2&gt;
+&lt;p&gt;We call a set of numbers &lt;script type=&quot;math/tex&quot;&gt;\lbrace a_1, a_2, \dots, a_n \rbrace&lt;/script&gt; a &lt;strong&gt;sequence&lt;/strong&gt;. We can say a sequence is indexed by a subset &lt;script type=&quot;math/tex&quot;&gt;J&lt;/script&gt; of the natural numbers &lt;script type=&quot;math/tex&quot;&gt;\mathbb{N}&lt;/script&gt; if we can describe the set above as&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-### aasdfadf
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lbrace
+ a_i \vert \text{where }i\in J
+\rbrace&lt;/script&gt;
 
-#### asdfasdfa
-## afsdf
-aasdf
-## fasdf
-# fadf
-</content>
- </entry>
- 
- <entry>
-   <title>First post</title>
-   <link href="http://localhost:4000/2019/11/04/First-Post/"/>
-   <updated>2019-11-04T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2019/11/04/First-Post</id>
-   <content type="html">&lt;p&gt;This is a first post and trial of Mathjax&lt;/p&gt;
+&lt;p&gt;And we will call &lt;script type=&quot;math/tex&quot;&gt;J&lt;/script&gt; the &lt;strong&gt;indexing set&lt;/strong&gt;. In the case where the number of elements in &lt;script type=&quot;math/tex&quot;&gt;J&lt;/script&gt; (sometimes written &lt;script type=&quot;math/tex&quot;&gt;\vert J \vert&lt;/script&gt;, read &lt;em&gt;cardinality of &lt;script type=&quot;math/tex&quot;&gt;J&lt;/script&gt;&lt;/em&gt;) is infinite, by convention, we will write &lt;script type=&quot;math/tex&quot;&gt;J = \mathbb{N}&lt;/script&gt;, we can call that sequence an &lt;strong&gt;infinite sequence&lt;/strong&gt;.&lt;/p&gt;
 
+&lt;p&gt;If we have a sequence &lt;script type=&quot;math/tex&quot;&gt;\lbrace a_1, a_2, \dots, a_n \rbrace&lt;/script&gt; with an indexing set &lt;script type=&quot;math/tex&quot;&gt;J&lt;/script&gt;, we sometimes write the sequence as:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lbrace
+ a_i
+\rbrace_{i\in J}&lt;/script&gt;
+
+&lt;p&gt;and this way we can write both the sequence elements and the indexing set in one go.&lt;/p&gt;
+
+&lt;p&gt;We call a set &lt;strong&gt;countably infinite&lt;/strong&gt; if there is a possible one-to-one mapping from it to the natural numbers &lt;script type=&quot;math/tex&quot;&gt;\mathbb{N}&lt;/script&gt;. We call it &lt;strong&gt;uncountably infinite&lt;/strong&gt;, or for a much nicer name, we say that &lt;strong&gt;it has the cardinality of the continuum&lt;/strong&gt; if there is no such mapping.&lt;/p&gt;
+
+&lt;p&gt;We can sum all the elements in a sequence, we will write this sum as:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i\in J} a_i&lt;/script&gt;
+
+&lt;p&gt;in a general sense, but there are two other cases, if &lt;script type=&quot;math/tex&quot;&gt;J&lt;/script&gt; is a sequence of natural numbers from 1 to &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, we can write:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^n a_i&lt;/script&gt;
+
+&lt;p&gt;or, if &lt;script type=&quot;math/tex&quot;&gt;J= \mathbb{N}&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^\infty a_i&lt;/script&gt;
+
+&lt;p&gt;and yes, 0 is &lt;strong&gt;not&lt;/strong&gt; a natural number. When &lt;script type=&quot;math/tex&quot;&gt;J&lt;/script&gt; is countably infinite, we call this a &lt;strong&gt;series&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;types-of-series&quot;&gt;Types of series&lt;/h2&gt;
+
+&lt;p&gt;Basically, we can either have a series that will sum up to &lt;script type=&quot;math/tex&quot;&gt;\infty&lt;/script&gt; or one that sums up to a finite amount (we can also have one type that just oscilates back and forth, but that’s not important now).&lt;/p&gt;
+
+&lt;p&gt;We will call the first type &lt;strong&gt;divergent&lt;/strong&gt; and the second type &lt;strong&gt;convergent&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now the two interesting examples:&lt;/p&gt;
+
+&lt;h3 id=&quot;the-geometric-series&quot;&gt;The Geometric Series&lt;/h3&gt;
+&lt;p&gt;Most people have seen this one, but I like the proof, specially, using it to remember the formula.&lt;/p&gt;
+
+&lt;p&gt;We define recursively a geometric series as (indexing starting at 0, so &lt;script type=&quot;math/tex&quot;&gt;J = \mathbb{N}\cup\lbrace 0 \rbrace&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\cup&lt;/script&gt; means “&lt;em&gt;joined&lt;/em&gt;”):&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align*}
-  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
-      \vdots &amp; \ddots &amp; \vdots \\
-      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*} %]]&gt;&lt;/script&gt;
+\begin{eqnarray}
+ a_0 &amp;=&amp; 1 \\
+ a_{i+1} &amp;=&amp; a_i\cdot r
+\end{eqnarray}
+\qquad\text{where }r\text{ is a real constant called ratio} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;r\ge 1&lt;/script&gt;, we can check quickly that the sum cannot converge, as the values keep getting bigger, or, better put:&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+ a_0 &amp;=&amp; 1 \\
+ a_{i+1} &amp;=&amp; a_i\cdot r
+\end{eqnarray}
+\qquad\text{where }r\text{ is a real constant} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{i\to\infty} a_i =\infty&lt;/script&gt;
+
+&lt;p&gt;But, if we have &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+r&lt;1 %]]&gt;&lt;/script&gt; we have a chance that it is convergent:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+ S = \sum_{i=0}^\infty a_i &amp;=&amp; 1 + r + r^2 + \cdots\\
+                        rS &amp;=&amp;\quad\ \  r + r^2 + \cdots
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Now we can substract &lt;script type=&quot;math/tex&quot;&gt;S - rS&lt;/script&gt; and that way we get:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S-rS = 1\Rightarrow (1-r)S=1\Rightarrow S={1\over (1-r)}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hspace{25cm}\blacksquare&lt;/script&gt;
+
+&lt;p&gt;If we want a more general Geometric Series:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+ a_0 &amp;=&amp; A \\
+ a_{i+1} &amp;=&amp; a_i\cdot r
+\end{eqnarray}
+\qquad\text{where }r\text{ is a real constant} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;we can see quickly that:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A + Ar + Ar^2 + \cdots = A(1+r+r^2+\cdots) = AS = {A \over (1-r)}&lt;/script&gt;
+
+&lt;p&gt;Now the true interesting one:&lt;/p&gt;
+
+&lt;h3 id=&quot;the-harmonic-series&quot;&gt;The Harmonic series&lt;/h3&gt;
+
+&lt;p&gt;We saw before that we checked whether the sequence “went to zero” before checking the series. We need this property, if we do not have it, the series &lt;strong&gt;cannot&lt;/strong&gt; converge, this is why the geometric series, with ratio &lt;script type=&quot;math/tex&quot;&gt;r\ge 1&lt;/script&gt; could not converge.&lt;/p&gt;
+
+&lt;p&gt;It seems intuitive that that would also go the other way, so to say, that if we &lt;strong&gt;do have&lt;/strong&gt; the property, the series converges, but this is not the case, and what better way to prove this than a counterexample:&lt;/p&gt;
+
+&lt;p&gt;The harmonic series is simply defined as:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lbrace
+ a_i
+\rbrace_{i\in \mathbb{N}}\qquad\text{where }
+a_i = {1\over i}&lt;/script&gt;
+
+&lt;p&gt;And, it would make sense for it to converge, right?[^2] To see that it does not, we will check if we can find a “&lt;em&gt;smaller&lt;/em&gt;” series that does not converge either:
+[^2]: Clue: it does not&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{eqnarray}
+ 1 + {1\over2} + {1\over3} + {1\over4} + {1\over5} +{1\over6}+{1\over7}+{1\over8}+{1\over9}+{1\over10}+ \cdots \ge\\
+ 1 + {1\over2} + {1\over4} + {1\over4} + {1\over8} +{1\over8}+{1\over8}+{1\over8}+{1\over16}+{1\over116}+ \cdots
+\end{eqnarray}&lt;/script&gt;
+
+&lt;p&gt;We have substituted every element whose denominator is not a multiple of two by the closest multiple of two above it:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+ &amp;1&amp; + {1\over2} + {1\over4} + {1\over4} + {1\over8} +{1\over8}+{1\over8}+{1\over8}+{1\over16}+{1\over16}+ \cdots = \\
+ &amp;=&amp; (1) + 
+ \left({1\over2}\right) + 
+ \left({1\over4} + {1\over4}\right) +
+ \left({1\over8} +{1\over8}+{1\over8}+{1\over8}\right) +
+ \left({1\over16}+\cdots+{1\over16}\right)+\cdots
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;And now, each of the parenthesis sums to &lt;script type=&quot;math/tex&quot;&gt;1\over2&lt;/script&gt;, therefore, the above will equal:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + {1\over2} +{1\over2} +{1\over2} +\cdots = \infty&lt;/script&gt;
+
+&lt;p&gt;Which means:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{eqnarray}
+ 1 + {1\over2} + {1\over3} + {1\over4} + {1\over5} +{1\over6}+{1\over7}+{1\over8}+ \cdots \ge 1 + {1\over2} +{1\over2} +{1\over2} +\cdots = \infty
+\end{eqnarray}&lt;/script&gt;
+
+&lt;p&gt;Which trivially shows that the sum goes to infinity (because it is “&lt;em&gt;greater than infinity&lt;/em&gt;”)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hspace{25cm}\blacksquare&lt;/script&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Read &lt;script type=&quot;math/tex&quot;&gt;\vert&lt;/script&gt; as “&lt;em&gt;such that&lt;/em&gt;” &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
  </entry>
  

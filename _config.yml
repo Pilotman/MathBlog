@@ -27,6 +27,9 @@ permalink: pretty
 relative_permalinks: false
 
 taglist:
-  - test
-  - algebra
-  - topology
+  #- algebra
+  #- topology
+  - English
+  - Number Theory
+  - Set Theory
+  - Series
