@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>MathBlog</title>
+ <link href="https://github.com/Pilotman/atom.xml" rel="self"/>
+ <link href="https://github.com/Pilotman/"/>
+ <updated>2019-11-04T18:47:58+00:00</updated>
+ <id>https://github.com/Pilotman</id>
+ <author>
+   <name>Diego Pirx</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>First post</title>
+   <link href="https://github.com/Pilotman/2019/11/04/First-Post.md/"/>
+   <updated>2019-11-04T00:00:00+00:00</updated>
+   <id>https://github.com/Pilotman/2019/11/04/First-Post.md</id>
+   <content type="html">This is a first post and trial of Mathjax
+
+* Table of contents
+{:toc}
+
+$$
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+
+### aasdfadf
+
+#### asdfasdfa
+## afsdf
+aasdf
+## fasdf
+# fadf
+</content>
+ </entry>
+ 
+ <entry>
+   <title>First post</title>
+   <link href="https://github.com/Pilotman/2019/11/04/First-Post/"/>
+   <updated>2019-11-04T00:00:00+00:00</updated>
+   <id>https://github.com/Pilotman/2019/11/04/First-Post</id>
+   <content type="html">&lt;p&gt;This is a first post and trial of Mathjax&lt;/p&gt;
+
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;
+</content>
+ </entry>
+ 
+
+</feed>

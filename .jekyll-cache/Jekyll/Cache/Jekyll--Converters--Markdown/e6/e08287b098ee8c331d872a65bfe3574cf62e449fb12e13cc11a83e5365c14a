@@ -1,17 +1,7 @@
----
-title: "First post"
-permalink: /:categories/:year/:month/:day/:title/
-layout: post
-tags:
-  - test
----
+I":<p>This is a first post and trial of Mathjax</p>
 
-This is a first post and trial of Mathjax
 
-* Table of contents
-{:toc}
-
-$$
+<script type="math/tex; mode=display">% <![CDATA[
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
@@ -25,5 +15,5 @@ $$
       \vdots \\
       y_n
     \end{array} \right)
-\end{align*}
-$$
+\end{align*} %]]></script>
+:ET

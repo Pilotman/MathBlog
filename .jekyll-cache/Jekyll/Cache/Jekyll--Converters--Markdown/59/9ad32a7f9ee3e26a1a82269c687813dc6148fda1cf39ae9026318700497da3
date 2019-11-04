@@ -1,0 +1,36 @@
+I"U<p>This is a first post and trial of Mathjax</p>
+
+<ul id="markdown-toc">
+  <li><a href="#aasdfadf" id="markdown-toc-aasdfadf">aasdfadf</a>    <ul>
+      <li><a href="#asdfasdfa" id="markdown-toc-asdfasdfa">asdfasdfa</a></li>
+    </ul>
+  </li>
+  <li><a href="#afsdf" id="markdown-toc-afsdf">afsdf</a></li>
+  <li><a href="#fasdf" id="markdown-toc-fasdf">fasdf</a></li>
+  <li><a href="#fadf" id="markdown-toc-fadf">fadf</a></li>
+</ul>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]></script>
+
+<h3 id="aasdfadf">aasdfadf</h3>
+
+<h4 id="asdfasdfa">asdfasdfa</h4>
+<h2 id="afsdf">afsdf</h2>
+<p>aasdf</p>
+<h2 id="fasdf">fasdf</h2>
+<h1 id="fadf">fadf</h1>
+:ET

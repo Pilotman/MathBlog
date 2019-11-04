@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://github.com/Pilotman/MathBlog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/Pilotman/MathBlog/" rel="alternate" type="text/html" /><updated>2019-11-04T18:47:58+00:00</updated><id>https://github.com/Pilotman/MathBlog/feed.xml</id><title type="html">MathBlog</title><subtitle>Blog about Math and others.</subtitle><author><name>Diego Pirx</name></author><entry><title type="html">First post</title><link href="https://github.com/Pilotman/MathBlog/2019/11/04/First-Post/" rel="alternate" type="text/html" title="First post" /><published>2019-11-04T00:00:00+00:00</published><updated>2019-11-04T00:00:00+00:00</updated><id>https://github.com/Pilotman/MathBlog/2019/11/04/First-Post</id><content type="html" xml:base="https://github.com/Pilotman/MathBlog/2019/11/04/First-Post/">&lt;p&gt;This is a first post and trial of Mathjax&lt;/p&gt;
+
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;</content><author><name>Diego Pirx</name></author><category term="test" /><summary type="html">This is a first post and trial of Mathjax</summary></entry><entry><title type="html">First post</title><link href="https://github.com/Pilotman/MathBlog/2019/11/04/First-Post.md/" rel="alternate" type="text/html" title="First post" /><published>2019-11-04T00:00:00+00:00</published><updated>2019-11-04T00:00:00+00:00</updated><id>https://github.com/Pilotman/MathBlog/2019/11/04/First-Post.md</id><content type="html" xml:base="https://github.com/Pilotman/MathBlog/2019/11/04/First-Post.md/">This is a first post and trial of Mathjax
+
+* Table of contents
+{:toc}
+
+$$
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+
+### aasdfadf
+
+#### asdfasdfa
+## afsdf
+aasdf
+## fasdf
+# fadf</content><author><name>Diego Pirx</name></author><summary type="html">This is a first post and trial of Mathjax</summary></entry></feed>
