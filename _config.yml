@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            MathBlog
 tagline:          'By Pilotman Pirx'
-description:      'Blog about Math and others.'
+description:      'Blog about mainly Math.'
 url:              https://github.com/Pilotman
 baseurl:          /MathBlog/
 
