@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Rule of threes, twisted proof &middot; MathBlog
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/MathBlog/public/css/poole.css">
+  <link rel="stylesheet" href="/MathBlog/public/css/syntax.css">
+  <link rel="stylesheet" href="/MathBlog/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/MathBlog/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/MathBlog/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+	<img src="/MathBlog/public/icon.png" alt="Pirx">
+      <h2>
+        <a href="/MathBlog/">
+          MathBlog
+        </a>
+      </h2>
+      <p class="lead">Blog about Math and others.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/MathBlog/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/MathBlog//about/">About</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/MathBlog//taglist/">Tag List</a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+      <a class="sidebar-nav-item" href="https://twitter.com/DiegoPirx">Twitter</a>
+      <a class="sidebar-nav-item" href="https://www.instagram.com/diego_pirx/">Instagram</a>
+      <a class="sidebar-nav-item" href="https://github.com/Pilotman/">GitHub</a>
+      <a class="sidebar-nav-item" href="https://forms.gle/ELwbnvgag555YSSC6">Feedback and Requests</a>
+      <span class="sidebar-nav-item">Currently v0.2.0</span>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Rule of threes, twisted proof</h1>
+  <span class="post-date">05 Nov 2019</span>
+  <p><a href="/MathBlog/2019/11/05/Rule-of-3.es">Leer en Español</a></p>
+
+<p>For this post, I want to explore a property of the natural numbers (or integers in this case) that is taught at a very young age and whose proof relies on a weird quirk of the decimal system.</p>
+
+<blockquote>
+  <h2 id="table-of-contents">Table of contents</h2>
+<ul id="markdown-toc">
+  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents</a></li>
+  <li><a href="#the-rule-of-threes" id="markdown-toc-the-rule-of-threes">The rule of threes</a></li>
+  <li><a href="#definitions" id="markdown-toc-definitions">Definitions</a></li>
+  <li><a href="#a-proof-of-the-rule-of-threes" id="markdown-toc-a-proof-of-the-rule-of-threes">A proof of the rule of threes</a></li>
+</ul>
+</blockquote>
+
+<h2 id="the-rule-of-threes">The rule of threes</h2>
+
+<p>Assume that we have a very large number, like <script type="math/tex">543</script>, and we want to know whether this number is divisible by 3, that is, than when we divide it by three, the remainder is 0:</p>
+
+<script type="math/tex; mode=display">543 = 3\cdot k,\qquad\text{for some }k\in\mathbb{Z}</script>
+
+<p>An easy way of checking would be to just divide it and see, but, what if that was a lot harder? The rule of threes could help, it tells us that: <em>a number is divisible by three if and only if the sum of its decimal digits is divisible by three</em>. So we check:</p>
+
+<script type="math/tex; mode=display">5+4+3 = 12</script>
+
+<p>Which is divisible by three! (We could keep going as <script type="math/tex">1+2=3</script>)</p>
+
+<p>With nine the same rule applies, but why does it work?</p>
+
+<p>First, let us get some Mathematics out of the way:</p>
+
+<h2 id="definitions">Definitions</h2>
+
+<p>In algebra, we call a set with a sum and a multiplication a <strong>Ring</strong> if those operations have certain properties, we won’t go into a lot of detail, but the basic properties are (we will assume that we are in a commutative ring to ease some complication, this means that <script type="math/tex">a\cdot b = b\cdot a</script>), let <script type="math/tex">R</script> be a ring:</p>
+<ul>
+  <li><script type="math/tex">R</script> is closed by addition, this means that, if we have two elements in <script type="math/tex">R</script>, then their sum will also be in <script type="math/tex">R</script>. Addition also has the following properties:
+    <ol>
+      <li>It is associative: <script type="math/tex">a + (b+c) = (a+b) + c</script></li>
+      <li>It is commutative: <script type="math/tex">a + b = b + a</script></li>
+      <li>There is an element called zero (0) which acts as an identity for the sum, that is <script type="math/tex">0+a=a</script></li>
+      <li>For every element <script type="math/tex">a</script> in <script type="math/tex">R</script> there is an <em>additive inverse</em> called <script type="math/tex">-a</script>, such that <script type="math/tex">a + (-a) = 0</script>.</li>
+    </ol>
+  </li>
+  <li><script type="math/tex">R</script> is closed by multiplication, this means that, if we have two elements in <script type="math/tex">R</script>, then their product will also be in <script type="math/tex">R</script>. Multiplication also has the following properties:
+    <ol>
+      <li><em>Commutative</em>. As we stated in the definition, this is not part of the usual definition of ring, but, because we <strong>do not</strong><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> want to deal with non-commutative rings right now, we will assume that the product is commutative.</li>
+      <li>It is associative: <script type="math/tex">a\cdot (b\cdot c) = (a\cdot b)\cdot c</script></li>
+      <li>There is an element called one (1) which acts as an identity for the multiplication, that is <script type="math/tex">1\cdot a = a</script></li>
+    </ol>
+  </li>
+  <li>Both are associative: <script type="math/tex">a(b + c) = ab + ac</script></li>
+</ul>
+
+<p>You might think “<em>Hang on, every set of numbers I know follows this!</em>”<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>, you are right for the most part. This is why we use this in Algebra.</p>
+
+<p>Say, we have the set of all the integers, usually written as <script type="math/tex">\mathbb{Z}</script>, this is:</p>
+
+<script type="math/tex; mode=display">\mathbb{Z}=
+\lbrace
+\cdots, -4,-3,-2,-1,
+0,
+1,2,3,4,\cdots
+\rbrace</script>
+
+<p>what if we wanted to multiply all the elements by, say, three? We wolud write that as:</p>
+
+<script type="math/tex; mode=display">3\mathbb{Z} = 
+\lbrace
+\cdots, -12,-9,-6,-3,
+0,
+3,6,9,12,\cdots
+\rbrace</script>
+
+<p>And now, what if we want to get only the <strong>possible remainders of dividing by three</strong>? This is what is called a modular ring, it is defined via a relation we will see in a sec, for now:</p>
+
+<script type="math/tex; mode=display">\mathbb{Z}_3 = \mathbb{Z}/{3\mathbb{Z}} = \lbrace
+\bar{0}, \bar{1}, \bar{2}
+\rbrace</script>
+
+<p>The bar notation will come in handy in a second.</p>
+
+<p>It is clear that the only possible remainders when dividing by three are 0, 1 and 2. We determine which one is the remainder of a number using <em>Euclid’s Algorithm</em> for division, also called <em>Long Division</em>, which gives us, for any integer <script type="math/tex">m</script>:</p>
+
+<script type="math/tex; mode=display">m = 3\cdot k + r</script>
+
+<p>Where <script type="math/tex">k</script> is the number we find through division, and <script type="math/tex">r</script> our remainder. The ring above, what it does, is “<em>squash</em>” every element in <script type="math/tex">\mathbb{Z}</script> into its <em>modular class</em>, or, the remainder they give out when dividing by three, usually written with the bar, then <script type="math/tex">\bar{2}</script> would represent any number that gives a remainder of two when dividing by three.</p>
+
+<p>This is what is called a “cyclic” ring, because it is clear that when you add <script type="math/tex">\bar{2}+\bar{1}=\bar{0}</script>, why? Because adding up numbers with a modulo of 2 (remainder of two) and numbers with a modulo of 1 always will give out a multiple of three.</p>
+
+<p>This ring is closed and it has many more nice properties (because 3 is prime) but, why is this so interesting? Because we have a way to embed our numbers here, this is called the modulo operation and it has a very cumbersome notation:</p>
+
+<p>We will say that <script type="math/tex">x \equiv 2 \mod 3</script> or <script type="math/tex">x\equiv \bar{2}</script><sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> if the remainder when dividing by 3 is 2. This operation, as it is defined, has the nice property of being able to be taken through parentheses, as we saw, due to the cyclical nature of <script type="math/tex">\mathbb{Z}_3</script>, this means, and bear with the horrendous notation:</p>
+
+<script type="math/tex; mode=display">(a+b)\mod 3 = \left[ 
+a \mod 3 + b \mod 3
+\right]\mod 3</script>
+
+<p>Which is the reason I prefer using the bars and pretending that everything is happening inside of a modular ring.</p>
+
+<p>Now, back to the rule of threes:</p>
+
+<h2 id="a-proof-of-the-rule-of-threes">A proof of the rule of threes</h2>
+
+<p>Imagine we are given a number <script type="math/tex">x</script> in <script type="math/tex">\mathbb{Z}</script>, this number will have a set of digits in decimal, we will refer to these digits as <script type="math/tex">x_n,\dots,x_2,x_1,x_0</script> such that:</p>
+
+<script type="math/tex; mode=display">x = x_n10^n + \cdots + x_1 10 + x_010^0</script>
+
+<p>(remember that <script type="math/tex">10^0 = 0</script>)</p>
+
+<p>Now, we want to prove that, if <script type="math/tex">x</script> is divisible by 3, that is, if <script type="math/tex">x\equiv 0\mod 3</script> or <script type="math/tex">x\equiv\bar{0}</script>, the sum of all its digits is as well.</p>
+
+<p>We begin by taking the modulo of <script type="math/tex">x</script>, we will assume <script type="math/tex">x</script> is divisible by three to prove the statement:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{eqnarray}
+x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_1 10 + x_010^0) \mod 3 &\equiv& 0 \\
+(x_n10^n\mod 3) + \cdots + (x_1 10\mod 3) + (x_010^0\mod 3) &\equiv& 0
+\end{eqnarray} %]]></script>
+
+<p>Now, we can also take the modulo through the products, and, we will do a change of notation and move to <script type="math/tex">\mathbb{Z}_3</script>, here, because it is a ring:</p>
+
+<script type="math/tex; mode=display">\overline{x_n10^n}=\overline{x_n}\cdot\overline{10^n}</script>
+
+<p>Now, we rewrite the equation above:</p>
+
+<script type="math/tex; mode=display">\overline{x_n}\cdot\overline{10^n} 
++ \cdots + 
+\overline{x_1}\cdot\overline{10^1} + 
+\overline{x_0}\cdot\overline{1} \equiv \bar{0}</script>
+
+<p>Now, it is very easy to see that all the powers of ten will be equivalent to 1 modulo 3:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{eqnarray}
+10 = 3\cdot 3 + 1\therefore \overline{10}&\equiv&\bar{1}\\
+\overline{10^2} = \overline{10}\cdot\overline{10}&\equiv&
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+\overline{10^3} = \overline{10}\cdot\overline{10^2}&\equiv&
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+&\vdots&\\
+\overline{10^n} = \overline{10}\cdot\overline{10^{n-1}}&\equiv&
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+
+\end{eqnarray} %]]></script>
+
+<p>Now, we can rewrite the equation above yet again:</p>
+
+<script type="math/tex; mode=display">\overline{x_n}\cdot\overline{1} 
++ \cdots + 
+\overline{x_1}\cdot\overline{1} + 
+\overline{x_0}\cdot\overline{1} \equiv \bar{0}</script>
+
+<p>And, because of the asociative property, we will have:</p>
+
+<script type="math/tex; mode=display">(\overline{x_n}\cdot
++ \cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\overline{1} \equiv \bar{0}</script>
+
+<p>And now, we have two things, and their product is 0, because <script type="math/tex">\mathbb{Z}_3</script> <em>behaves properly</em> (read: does not have <a href="https://en.wikipedia.org/wiki/Zero_divisor">zero divisors</a>), we will have to assume that, either $$(\overline{x_n}\cdot</p>
+<ul>
+  <li>\cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\equiv 0<script type="math/tex">or</script>\bar{1}\equiv\bar{0}$$ and the second one is impossible, so we have that:</li>
+</ul>
+
+<script type="math/tex; mode=display">(\overline{x_n}\cdot
++ \cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\equiv 0</script>
+
+<p>Which means that the sum of the digits is divisible by three</p>
+
+<p>$$\hspace{25cm}\blacksquare</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>trust me, <strong>we do not</strong> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>If you are not thinking that, Hi fellow mathematician/physicist <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>We use this one when we do not need to specify what number we are dividing by <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/MathBlog//2019/11/05/Rule-of-3.es/">
+            Regla del tres, demostración enrevesada
+            <small>05 Nov 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/MathBlog//2019/11/04/Series/">
+            Two very interesting Series
+            <small>04 Nov 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+<!-- Mathjax Support -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+    </div>
+
+  </body>
+</html>
+<!-- Mathjax Support -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>

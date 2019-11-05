@@ -1,4 +1,4 @@
-I") <blockquote>
+I"� <blockquote>
   <h2 id="table-of-contents">Table of contents</h2>
 <ul id="markdown-toc">
   <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents</a></li>
@@ -118,8 +118,7 @@ r<1 %]]></script> we have a chance that it is convergent:</p>
 \rbrace_{i\in \mathbb{N}}\qquad\text{where }
 a_i = {1\over i}</script>
 
-<p>And, it would make sense for it to converge, right?[^2] To see that it does not, we will check if we can find a “<em>smaller</em>” series that does not converge either:
-[^2]: Clue: it does not</p>
+<p>And, it would make sense for it to converge, right?<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> To see that it does not, we will check if we can find a “<em>smaller</em>” series that does not converge either:</p>
 
 <script type="math/tex; mode=display">\begin{eqnarray}
  1 + {1\over2} + {1\over3} + {1\over4} + {1\over5} +{1\over6}+{1\over7}+{1\over8}+{1\over9}+{1\over10}+ \cdots \ge\\
@@ -151,10 +150,15 @@ a_i = {1\over i}</script>
 <p>Which trivially shows that the sum goes to infinity (because it is “<em>greater than infinity</em>”)</p>
 
 <script type="math/tex; mode=display">\hspace{25cm}\blacksquare</script>
+
+<hr />
 <div class="footnotes">
   <ol>
     <li id="fn:1">
       <p>Read <script type="math/tex">\vert</script> as “<em>such that</em>” <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Clue: it does not <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>

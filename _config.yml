@@ -17,7 +17,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          0.2.0
+version:          0.2.1
 
 github:
   repo:           https://github.com/Pilotman/
@@ -33,3 +33,6 @@ taglist:
   - Number Theory
   - Set Theory
   - Series
+  - Algebraic Structures
+  - Abstract Algebra
+  - Español

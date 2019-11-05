@@ -4,13 +4,406 @@
  <title>MathBlog</title>
  <link href="https://github.com/Pilotman/atom.xml" rel="self"/>
  <link href="https://github.com/Pilotman/"/>
- <updated>2019-11-04T23:47:18+00:00</updated>
+ <updated>2019-11-05T19:07:48+00:00</updated>
  <id>https://github.com/Pilotman</id>
  <author>
    <name>Diego Pirx</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Rule of threes, twisted proof</title>
+   <link href="https://github.com/Pilotman/2019/11/05/Rule-of-3/"/>
+   <updated>2019-11-05T00:00:00+00:00</updated>
+   <id>https://github.com/Pilotman/2019/11/05/Rule-of-3</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/MathBlog/2019/11/05/Rule-of-3.es&quot;&gt;Leer en Español&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For this post, I want to explore a property of the natural numbers (or integers in this case) that is taught at a very young age and whose proof relies on a weird quirk of the decimal system.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#table-of-contents&quot; id=&quot;markdown-toc-table-of-contents&quot;&gt;Table of contents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-rule-of-threes&quot; id=&quot;markdown-toc-the-rule-of-threes&quot;&gt;The rule of threes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#definitions&quot; id=&quot;markdown-toc-definitions&quot;&gt;Definitions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#a-proof-of-the-rule-of-threes&quot; id=&quot;markdown-toc-a-proof-of-the-rule-of-threes&quot;&gt;A proof of the rule of threes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-rule-of-threes&quot;&gt;The rule of threes&lt;/h2&gt;
+
+&lt;p&gt;Assume that we have a very large number, like &lt;script type=&quot;math/tex&quot;&gt;543&lt;/script&gt;, and we want to know whether this number is divisible by 3, that is, than when we divide it by three, the remainder is 0:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;543 = 3\cdot k,\qquad\text{for some }k\in\mathbb{Z}&lt;/script&gt;
+
+&lt;p&gt;An easy way of checking would be to just divide it and see, but, what if that was a lot harder? The rule of threes could help, it tells us that: &lt;em&gt;a number is divisible by three if and only if the sum of its decimal digits is divisible by three&lt;/em&gt;. So we check:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;5+4+3 = 12&lt;/script&gt;
+
+&lt;p&gt;Which is divisible by three! (We could keep going as &lt;script type=&quot;math/tex&quot;&gt;1+2=3&lt;/script&gt;)&lt;/p&gt;
+
+&lt;p&gt;With nine the same rule applies, but why does it work?&lt;/p&gt;
+
+&lt;p&gt;First, let us get some Mathematics out of the way:&lt;/p&gt;
+
+&lt;h2 id=&quot;definitions&quot;&gt;Definitions&lt;/h2&gt;
+
+&lt;p&gt;In algebra, we call a set with a sum and a multiplication a &lt;strong&gt;Ring&lt;/strong&gt; if those operations have certain properties, we won’t go into a lot of detail, but the basic properties are (we will assume that we are in a commutative ring to ease some complication, this means that &lt;script type=&quot;math/tex&quot;&gt;a\cdot b = b\cdot a&lt;/script&gt;), let &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; be a ring:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; is closed by addition, this means that, if we have two elements in &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;, then their sum will also be in &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;. Addition also has the following properties:
+    &lt;ol&gt;
+      &lt;li&gt;It is associative: &lt;script type=&quot;math/tex&quot;&gt;a + (b+c) = (a+b) + c&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;It is commutative: &lt;script type=&quot;math/tex&quot;&gt;a + b = b + a&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;There is an element called zero (0) which acts as an identity for the sum, that is &lt;script type=&quot;math/tex&quot;&gt;0+a=a&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;For every element &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; in &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; there is an &lt;em&gt;additive inverse&lt;/em&gt; called &lt;script type=&quot;math/tex&quot;&gt;-a&lt;/script&gt;, such that &lt;script type=&quot;math/tex&quot;&gt;a + (-a) = 0&lt;/script&gt;.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; is closed by multiplication, this means that, if we have two elements in &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;, then their product will also be in &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;. Multiplication also has the following properties:
+    &lt;ol&gt;
+      &lt;li&gt;&lt;em&gt;Commutative&lt;/em&gt;. As we stated in the definition, this is not part of the usual definition of ring, but, because we &lt;strong&gt;do not&lt;/strong&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; want to deal with non-commutative rings right now, we will assume that the product is commutative.&lt;/li&gt;
+      &lt;li&gt;It is associative: &lt;script type=&quot;math/tex&quot;&gt;a\cdot (b\cdot c) = (a\cdot b)\cdot c&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;There is an element called one (1) which acts as an identity for the multiplication, that is &lt;script type=&quot;math/tex&quot;&gt;1\cdot a = a&lt;/script&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Both are associative: &lt;script type=&quot;math/tex&quot;&gt;a(b + c) = ab + ac&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You might think “&lt;em&gt;Hang on, every set of numbers I know follows this!&lt;/em&gt;”&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, you are right for the most part. This is why we use this in Algebra.&lt;/p&gt;
+
+&lt;p&gt;Say, we have the set of all the integers, usually written as &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}&lt;/script&gt;, this is:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbb{Z}=
+\lbrace
+\cdots, -4,-3,-2,-1,
+0,
+1,2,3,4,\cdots
+\rbrace&lt;/script&gt;
+
+&lt;p&gt;what if we wanted to multiply all the elements by, say, three? We wolud write that as:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;3\mathbb{Z} = 
+\lbrace
+\cdots, -12,-9,-6,-3,
+0,
+3,6,9,12,\cdots
+\rbrace&lt;/script&gt;
+
+&lt;p&gt;And now, what if we want to get only the &lt;strong&gt;possible remainders of dividing by three&lt;/strong&gt;? This is what is called a modular ring, it is defined via a relation we will see in a sec, for now:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbb{Z}_3 = \mathbb{Z}/{3\mathbb{Z}} = \lbrace
+\bar{0}, \bar{1}, \bar{2}
+\rbrace&lt;/script&gt;
+
+&lt;p&gt;The bar notation will come in handy in a second.&lt;/p&gt;
+
+&lt;p&gt;It is clear that the only possible remainders when dividing by three are 0, 1 and 2. We determine which one is the remainder of a number using &lt;em&gt;Euclid’s Algorithm&lt;/em&gt; for division, also called &lt;em&gt;Long Division&lt;/em&gt;, which gives us, for any integer &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;m = 3\cdot k + r&lt;/script&gt;
+
+&lt;p&gt;Where &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; is the number we find through division, and &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt; our remainder. The ring above, what it does, is “&lt;em&gt;squash&lt;/em&gt;” every element in &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}&lt;/script&gt; into its &lt;em&gt;modular class&lt;/em&gt;, or, the remainder they give out when dividing by three, usually written with the bar, then &lt;script type=&quot;math/tex&quot;&gt;\bar{2}&lt;/script&gt; would represent any number that gives a remainder of two when dividing by three.&lt;/p&gt;
+
+&lt;p&gt;This is what is called a “cyclic” ring, because it is clear that when you add &lt;script type=&quot;math/tex&quot;&gt;\bar{2}+\bar{1}=\bar{0}&lt;/script&gt;, why? Because adding up numbers with a modulo of 2 (remainder of two) and numbers with a modulo of 1 always will give out a multiple of three.&lt;/p&gt;
+
+&lt;p&gt;This ring is closed and it has many more nice properties (because 3 is prime) but, why is this so interesting? Because we have a way to embed our numbers here, this is called the modulo operation and it has a very cumbersome notation:&lt;/p&gt;
+
+&lt;p&gt;We will say that &lt;script type=&quot;math/tex&quot;&gt;x \equiv 2 \mod 3&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;x\equiv \bar{2}&lt;/script&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; if the remainder when dividing by 3 is 2. This operation, as it is defined, has the nice property of being able to be taken through parentheses, as we saw, due to the cyclical nature of &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_3&lt;/script&gt;, this means, and bear with the horrendous notation:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(a+b)\mod 3 = \left[ 
+a \mod 3 + b \mod 3
+\right]\mod 3&lt;/script&gt;
+
+&lt;p&gt;Which is the reason I prefer using the bars and pretending that everything is happening inside of a modular ring.&lt;/p&gt;
+
+&lt;p&gt;Now, back to the rule of threes:&lt;/p&gt;
+
+&lt;h2 id=&quot;a-proof-of-the-rule-of-threes&quot;&gt;A proof of the rule of threes&lt;/h2&gt;
+
+&lt;p&gt;Imagine we are given a number &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; in &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}&lt;/script&gt;, this number will have a set of digits in decimal, we will refer to these digits as &lt;script type=&quot;math/tex&quot;&gt;x_n,\dots,x_2,x_1,x_0&lt;/script&gt; such that:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = x_n10^n + \cdots + x_1 10 + x_010^0&lt;/script&gt;
+
+&lt;p&gt;(remember that &lt;script type=&quot;math/tex&quot;&gt;10^0 = 0&lt;/script&gt;)&lt;/p&gt;
+
+&lt;p&gt;Now, we want to prove that, if &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is divisible by 3, that is, if &lt;script type=&quot;math/tex&quot;&gt;x\equiv 0\mod 3&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;x\equiv\bar{0}&lt;/script&gt;, the sum of all its digits is as well.&lt;/p&gt;
+
+&lt;p&gt;We begin by taking the modulo of &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;, we will assume &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is divisible by three to prove the statement:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_1 10 + x_010^0) \mod 3 &amp;\equiv&amp; 0 \\
+(x_n10^n\mod 3) + \cdots + (x_1 10\mod 3) + (x_010^0\mod 3) &amp;\equiv&amp; 0
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Now, we can also take the modulo through the products, and, we will do a change of notation and move to &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_3&lt;/script&gt;, here, because it is a ring:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\overline{x_n10^n}=\overline{x_n}\cdot\overline{10^n}&lt;/script&gt;
+
+&lt;p&gt;Now, we rewrite the equation above:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\overline{x_n}\cdot\overline{10^n} 
++ \cdots + 
+\overline{x_1}\cdot\overline{10^1} + 
+\overline{x_0}\cdot\overline{1} \equiv \bar{0}&lt;/script&gt;
+
+&lt;p&gt;Now, it is very easy to see that all the powers of ten will be equivalent to 1 modulo 3:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+10 = 3\cdot 3 + 1\therefore \overline{10}&amp;\equiv&amp;\bar{1}\\
+\overline{10^2} = \overline{10}\cdot\overline{10}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+\overline{10^3} = \overline{10}\cdot\overline{10^2}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+&amp;\vdots&amp;\\
+\overline{10^n} = \overline{10}\cdot\overline{10^{n-1}}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Now, we can rewrite the equation above yet again:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\overline{x_n}\cdot\overline{1} 
++ \cdots + 
+\overline{x_1}\cdot\overline{1} + 
+\overline{x_0}\cdot\overline{1} \equiv \bar{0}&lt;/script&gt;
+
+&lt;p&gt;And, because of the asociative property, we will have:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\overline{x_n}\cdot
++ \cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\overline{1} \equiv \bar{0}&lt;/script&gt;
+
+&lt;p&gt;And now, we have two things, and their product is 0, because &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_3&lt;/script&gt; &lt;em&gt;behaves properly&lt;/em&gt; (read: does not have &lt;a href=&quot;https://en.wikipedia.org/wiki/Zero_divisor&quot;&gt;zero divisors&lt;/a&gt;), we will have to assume that, either $$(\overline{x_n}\cdot&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;\cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\equiv 0&lt;script type=&quot;math/tex&quot;&gt;or&lt;/script&gt;\bar{1}\equiv\bar{0}$$ and the second one is impossible, so we have that:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\overline{x_n}\cdot
++ \cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\equiv 0&lt;/script&gt;
+
+&lt;p&gt;Which means that the sum of the digits is divisible by three&lt;/p&gt;
+
+&lt;p&gt;$$\hspace{25cm}\blacksquare&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;trust me, &lt;strong&gt;we do not&lt;/strong&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;If you are not thinking that, Hi fellow mathematician/physicist &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;We use this one when we do not need to specify what number we are dividing by &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Regla del tres, demostración enrevesada</title>
+   <link href="https://github.com/Pilotman/2019/11/05/Rule-of-3.es/"/>
+   <updated>2019-11-05T00:00:00+00:00</updated>
+   <id>https://github.com/Pilotman/2019/11/05/Rule-of-3.es</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/MathBlog/2019/11/05/Rule-of-3&quot;&gt;Read in English&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Para esta entrada, me gustaría explorar una propiedad de los numeros naturales (o enteros en este caso) que se enseña en primaria, pero su demostración requiere una pequeña peculiaridad del sistema decimal.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;índice&quot;&gt;Índice&lt;/h2&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#índice&quot; id=&quot;markdown-toc-índice&quot;&gt;Índice&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#la-regla-del-tres&quot; id=&quot;markdown-toc-la-regla-del-tres&quot;&gt;La regla del tres&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#definiciones&quot; id=&quot;markdown-toc-definiciones&quot;&gt;Definiciones&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#una-demostración-de-la-regla-del-tres&quot; id=&quot;markdown-toc-una-demostración-de-la-regla-del-tres&quot;&gt;Una demostración de la Regla del Tres&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;la-regla-del-tres&quot;&gt;La regla del tres&lt;/h2&gt;
+
+&lt;p&gt;Pongamos que tenemos un número grande, como &lt;script type=&quot;math/tex&quot;&gt;543&lt;/script&gt;, y queremos saber si es divisible por tres, es decir, que si cuando lo dividamos entre tres, el resto sea 0&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;543 = 3\cdot k,\qquad\text{para algún }k\in\mathbb{Z}&lt;/script&gt;
+
+&lt;p&gt;Una manera sencilla de comprobarlo, sería dividir y ya está, pero, ¿y si fuese mucho más difícil? La regla del tres podría asistirnos, dice: &lt;em&gt;un número es divisible entre tres si y sólo si la suma de sus dígitos decimales es divisible entre tres&lt;/em&gt;. Así que comprobamos:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;5+4+3 = 12&lt;/script&gt;
+
+&lt;p&gt;¡Es divisible entre tres! (De hecho, podríamos seguir dado que &lt;script type=&quot;math/tex&quot;&gt;1+2=3&lt;/script&gt;)&lt;/p&gt;
+
+&lt;p&gt;Con el nueve tenemos una regla similar, pero, ¿por qué funciona?&lt;/p&gt;
+
+&lt;p&gt;Primero, quitémonos unas pocas definiciones de en medio:&lt;/p&gt;
+
+&lt;h2 id=&quot;definiciones&quot;&gt;Definiciones&lt;/h2&gt;
+
+&lt;p&gt;En álgebra, llamamos a un conjunto que tiene definido sobre sus elementos una suma y una multiplicación un &lt;strong&gt;anillo&lt;/strong&gt;, si esas operaciones cumplen ciertas propiedades, no nos metemos en mucho detalle, pero las propiedades básicas son (vamos a asumir que estamos en un anillo conmutativo, esto significa que &lt;script type=&quot;math/tex&quot;&gt;a\cdot b = b\cdot a&lt;/script&gt;), sea &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; un anillo:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; esta cerrado por la suma, esto quiere decir que si tenemos dos elementos del anillo y los sumamos, “&lt;em&gt;no nos salimos&lt;/em&gt;”, es decir, la suma sigue estando en el anillo. La sima también cumple las siguientes propiedades:
+    &lt;ol&gt;
+      &lt;li&gt;Es asociativa: &lt;script type=&quot;math/tex&quot;&gt;a + (b+c) = (a+b) + c&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;Es conmutativa: &lt;script type=&quot;math/tex&quot;&gt;a + b = b + a&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;Existe un elemento llamado cero (0) que actúa como elemento neutro para la suma, esto quiere decir que &lt;script type=&quot;math/tex&quot;&gt;0+a=a&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;Para cada elemento &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; en &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; existe una &lt;em&gt;inversa aditiva&lt;/em&gt; llamada &lt;script type=&quot;math/tex&quot;&gt;-a&lt;/script&gt;, tal que &lt;script type=&quot;math/tex&quot;&gt;a + (-a) = 0&lt;/script&gt;.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; esta cerrado por la multiplicación, esto quiere decir, como antes, que si multiplicamos dos elementos del anillo, el producto segirá estando en el anillo. El producto también tiene las siguientes propiedades:
+    &lt;ol&gt;
+      &lt;li&gt;&lt;em&gt;Conmutativo&lt;/em&gt;. Como hemos dicho en la definición, esto no forma parte de la definición normal de anillo, pero, como &lt;strong&gt;no queremos&lt;/strong&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; meternos en anillos no conmutativos, asumiremos que la multiplicación es conmutativa.&lt;/li&gt;
+      &lt;li&gt;Es asociativa: &lt;script type=&quot;math/tex&quot;&gt;a\cdot (b\cdot c) = (a\cdot b)\cdot c&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;Existe un elemento llamado uno (1) que actúa como identidad para la multiplicación, es decir &lt;script type=&quot;math/tex&quot;&gt;1\cdot a = a&lt;/script&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ambas son asociativas entre sí: &lt;script type=&quot;math/tex&quot;&gt;a(b + c) = ab + ac&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Puede que estés pensando “&lt;em&gt;Espera un segundo, ¡todos los conjuntos de números que conozco siguen esta definición!&lt;/em&gt;”&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, estás en lo cierto en su mayor parte, por eso mismo usamos esta definición en álgebra.&lt;/p&gt;
+
+&lt;p&gt;Digamos ahora, que tienes el conjunto de todos los enteros&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbb{Z}=
+\lbrace
+\cdots, -4,-3,-2,-1,
+0,
+1,2,3,4,\cdots
+\rbrace&lt;/script&gt;
+
+&lt;p&gt;¿Qué pasaría si quisiésemos multiplicar todos los elementos por, que se yo, tres? Esto se escribiría como sigue:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;3\mathbb{Z} = 
+\lbrace
+\cdots, -12,-9,-6,-3,
+0,
+3,6,9,12,\cdots
+\rbrace&lt;/script&gt;
+
+&lt;p&gt;Y ahora, ¿y si queremos todos los &lt;strong&gt;posibles restos de dividir entre tres&lt;/strong&gt;? Esto es lo que llamamos anillos modulares, y se definen con una relación que veremos en un momento, por ahora:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbb{Z}_3 = \mathbb{Z}/{3\mathbb{Z}} = \lbrace
+\bar{0}, \bar{1}, \bar{2}
+\rbrace&lt;/script&gt;
+
+&lt;p&gt;La notación con la barra vendrá muy bien más adelante.&lt;/p&gt;
+
+&lt;p&gt;Está claro que los únicos posibles restos de dividir entre tres son 0, 1 y dos. Determinamos cual es el resto de un número usando el &lt;em&gt;Algoritmo Euclídeo&lt;/em&gt; de división, también llamado &lt;em&gt;división con caja&lt;/em&gt;, lo cual nos da, para un entero cualquiera &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;m = 3\cdot k + r&lt;/script&gt;
+
+&lt;p&gt;Donde &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; es el cociente, y &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt; nuestro resto. Lo que hace el anillo de arriba es “&lt;em&gt;comprimir&lt;/em&gt;” todos los elementos de &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}&lt;/script&gt; en su &lt;em&gt;clase modular&lt;/em&gt;, o, el resto que dan al dividir entre tres, en general escrito con la barra, entonces &lt;script type=&quot;math/tex&quot;&gt;\bar{2}&lt;/script&gt; representará cualquier número que de un resto de 2 cuando dividamos entre tres.&lt;/p&gt;
+
+&lt;p&gt;Este anillo es lo que se llama un “anillo cíclico”, porque está claro que si sumamos &lt;script type=&quot;math/tex&quot;&gt;\bar{2}+\bar{1}=\bar{0}&lt;/script&gt;, ¿por qué? Porque sumar un número que de resto 1 y un número que de resto 2 (dividiendo entre tres) siempre dará un número divisible entre tres.&lt;/p&gt;
+
+&lt;p&gt;Este anillo está cerrado y tiene buenas propiedades (al ser 3 un número primo) pero, ¿a qué va todo esto? Porque tenemos una manera de incrustar nuestro números en decimal aquí, es el operador módulo, y tiene una notacción &lt;em&gt;horrorosa&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;Diremos que &lt;script type=&quot;math/tex&quot;&gt;x \equiv 2 \mod 3&lt;/script&gt; o &lt;script type=&quot;math/tex&quot;&gt;x\equiv \bar{2}&lt;/script&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; si el resto al dividir entre tres es dos. Esta operación, tal y como está definida, tiene la buena propiedad de poder meterla a través de paréntesis como consecuencia de que &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_3&lt;/script&gt; es un anillo cíclico, Esto significa, y perdón por la notación pero no la he inventado yo, que:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(a+b)\mod 3 = \left[ 
+a \mod 3 + b \mod 3
+\right]\mod 3&lt;/script&gt;
+
+&lt;p&gt;Lo cual es la razón por la que prefiero usar las barras y fingir que todo lo que pasa debajo está en un anillo modular.&lt;/p&gt;
+
+&lt;p&gt;Volvemos a la regla del tres:&lt;/p&gt;
+
+&lt;h2 id=&quot;una-demostración-de-la-regla-del-tres&quot;&gt;Una demostración de la Regla del Tres&lt;/h2&gt;
+
+&lt;p&gt;Imaginemos que nos dan un número &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; en &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}&lt;/script&gt;, este número tendrá una serie de dígitos en decimal, nos referiremos a estos dígitos como &lt;script type=&quot;math/tex&quot;&gt;x_n,\dots,x_2,x_1,x_0&lt;/script&gt; tal que:
+&lt;script type=&quot;math/tex&quot;&gt;x = x_n10^n + \cdots + x_1 10 + x_010^0&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;(recordamos que &lt;script type=&quot;math/tex&quot;&gt;10^0 = 0&lt;/script&gt;)&lt;/p&gt;
+
+&lt;p&gt;Ahora, queremos demostrar que, si &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; es divisible entre 3, es decir, si &lt;script type=&quot;math/tex&quot;&gt;x\equiv 0\mod 3&lt;/script&gt; o &lt;script type=&quot;math/tex&quot;&gt;x\equiv\bar{0}&lt;/script&gt;, la suma de sus dígitos también lo es.&lt;/p&gt;
+
+&lt;p&gt;Comenzamos tomando el módulo de &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;, asumiremos que &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; es divisible entre tres para así demostrar la afirmación:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_1 10 + x_010^0) \mod 3 &amp;\equiv&amp; 0 \\
+(x_n10^n\mod 3) + \cdots + (x_1 10\mod 3) + (x_010^0\mod 3) &amp;\equiv&amp; 0
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Ahora, pasamos el módulo dentro de los productos y hacemos un cambio de notación para trasladarnos a &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_3&lt;/script&gt;, aquí, como es un anillo:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\overline{x_n10^n}=\overline{x_n}\cdot\overline{10^n}&lt;/script&gt;
+
+&lt;p&gt;Ahora, podemos reescribir la ecuación de arriba como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\overline{x_n}\cdot\overline{10^n} 
++ \cdots + 
+\overline{x_1}\cdot\overline{10^1} + 
+\overline{x_0}\cdot\overline{1} \equiv \bar{0}&lt;/script&gt;
+
+&lt;p&gt;Ahora, es fácil ver que todas las potencias de diez serán equivalentes a 1 mod 3:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+10 = 3\cdot 3 + 1\therefore \overline{10}&amp;\equiv&amp;\bar{1}\\
+\overline{10^2} = \overline{10}\cdot\overline{10}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+\overline{10^3} = \overline{10}\cdot\overline{10^2}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+&amp;\vdots&amp;\\
+\overline{10^n} = \overline{10}\cdot\overline{10^{n-1}}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Ahora, reescribiendo de nuevo la ecuación de arriba:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\overline{x_n}\cdot\overline{1} 
++ \cdots + 
+\overline{x_1}\cdot\overline{1} + 
+\overline{x_0}\cdot\overline{1} \equiv \bar{0}&lt;/script&gt;
+
+&lt;p&gt;Y, usando la propiedad asociativa:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\overline{x_n}\cdot
++ \cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\overline{1} \equiv \bar{0}&lt;/script&gt;
+
+&lt;p&gt;Y ahora, tenemos dos cosas, y su producto es cero, como &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_3&lt;/script&gt; &lt;em&gt;se porta bien&lt;/em&gt; (véase: no tiene  &lt;a href=&quot;https://es.wikipedia.org/wiki/Divisor_de_cero&quot;&gt;divisores del cero&lt;/a&gt;), tendremos que asumir que, o bien $$(\overline{x_n}\cdot&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;\cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\equiv 0&lt;script type=&quot;math/tex&quot;&gt;o&lt;/script&gt;\bar{1}\equiv\bar{0}$$ y lo segundo es imposible, así que tendremos:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\overline{x_n}\cdot
++ \cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\equiv 0&lt;/script&gt;
+
+&lt;p&gt;Lo que significará que la suma de los dígitos es divisible entre tres.&lt;/p&gt;
+
+&lt;p&gt;$$\hspace{25cm}\blacksquare&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;créeme, &lt;strong&gt;no queremos&lt;/strong&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Si no estás pensando eso, hola colega matemático/físico &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Usamos la segunda cuando no haga falta especificar el número entre el cual dividimos &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Two very interesting Series</title>
@@ -137,8 +530,7 @@ r&lt;1 %]]&gt;&lt;/script&gt; we have a chance that it is convergent:&lt;/p&gt;
 \rbrace_{i\in \mathbb{N}}\qquad\text{where }
 a_i = {1\over i}&lt;/script&gt;
 
-&lt;p&gt;And, it would make sense for it to converge, right?[^2] To see that it does not, we will check if we can find a “&lt;em&gt;smaller&lt;/em&gt;” series that does not converge either:
-[^2]: Clue: it does not&lt;/p&gt;
+&lt;p&gt;And, it would make sense for it to converge, right?&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; To see that it does not, we will check if we can find a “&lt;em&gt;smaller&lt;/em&gt;” series that does not converge either:&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{eqnarray}
  1 + {1\over2} + {1\over3} + {1\over4} + {1\over5} +{1\over6}+{1\over7}+{1\over8}+{1\over9}+{1\over10}+ \cdots \ge\\
@@ -170,10 +562,15 @@ a_i = {1\over i}&lt;/script&gt;
 &lt;p&gt;Which trivially shows that the sum goes to infinity (because it is “&lt;em&gt;greater than infinity&lt;/em&gt;”)&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\hspace{25cm}\blacksquare&lt;/script&gt;
+
+&lt;hr /&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;Read &lt;script type=&quot;math/tex&quot;&gt;\vert&lt;/script&gt; as “&lt;em&gt;such that&lt;/em&gt;” &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Clue: it does not &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
