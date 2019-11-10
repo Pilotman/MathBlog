@@ -1,4 +1,692 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://github.com/Pilotman/MathBlog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/Pilotman/MathBlog/" rel="alternate" type="text/html" /><updated>2019-11-05T19:20:43+00:00</updated><id>https://github.com/Pilotman/MathBlog/feed.xml</id><title type="html">MathBlog</title><subtitle>Blog about mainly Math.</subtitle><author><name>Diego Pirx</name></author><entry><title type="html">Regla del tres, demostración enrevesada</title><link href="https://github.com/Pilotman/MathBlog/2019/11/05/Rule-of-3.es/" rel="alternate" type="text/html" title="Regla del tres, demostración enrevesada" /><published>2019-11-05T00:00:00+00:00</published><updated>2019-11-05T00:00:00+00:00</updated><id>https://github.com/Pilotman/MathBlog/2019/11/05/Rule-of-3.es</id><content type="html" xml:base="https://github.com/Pilotman/MathBlog/2019/11/05/Rule-of-3.es/">&lt;p&gt;&lt;a href=&quot;/MathBlog/2019/11/05/Rule-of-3&quot;&gt;Read in English&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://github.com/Pilotman/MathBlog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/Pilotman/MathBlog/" rel="alternate" type="text/html" /><updated>2019-11-10T13:51:26+00:00</updated><id>https://github.com/Pilotman/MathBlog/feed.xml</id><title type="html">MathBlog</title><subtitle>Blog about mainly Math.</subtitle><author><name>Diego Pirx</name></author><entry><title type="html">Teoría de Conjuntos Básica</title><link href="https://github.com/Pilotman/MathBlog/2019/11/10/T-De-Conjuntos-B%C3%A1sica/" rel="alternate" type="text/html" title="Teoría de Conjuntos Básica" /><published>2019-11-10T00:00:00+00:00</published><updated>2019-11-10T00:00:00+00:00</updated><id>https://github.com/Pilotman/MathBlog/2019/11/10/T-De-Conjuntos-B%C3%A1sica</id><content type="html" xml:base="https://github.com/Pilotman/MathBlog/2019/11/10/T-De-Conjuntos-B%C3%A1sica/">&lt;blockquote&gt;
+  &lt;h2 id=&quot;índice&quot;&gt;Índice&lt;/h2&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#índice&quot; id=&quot;markdown-toc-índice&quot;&gt;Índice&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#1-conceptos-fundamentales&quot; id=&quot;markdown-toc-1-conceptos-fundamentales&quot;&gt;§1	Conceptos Fundamentales&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#notación-básica&quot; id=&quot;markdown-toc-notación-básica&quot;&gt;Notación básica&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#unión-de-conjuntos-y-o-lógico&quot; id=&quot;markdown-toc-unión-de-conjuntos-y-o-lógico&quot;&gt;Unión de conjuntos y “o” lógico&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces&quot; id=&quot;markdown-toc-intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces&quot;&gt;Intersección de conjuntos, el Conjunto Vacío y el significado de “&lt;em&gt;si… entonces&lt;/em&gt;”&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#contrapositivo-y-converso&quot; id=&quot;markdown-toc-contrapositivo-y-converso&quot;&gt;Contrapositivo y converso&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#diferencia-de-dos-conjuntos&quot; id=&quot;markdown-toc-diferencia-de-dos-conjuntos&quot;&gt;Diferencia de dos conjuntos&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#reglas-de-la-teoría-de-conjuntos&quot; id=&quot;markdown-toc-reglas-de-la-teoría-de-conjuntos&quot;&gt;Reglas de la teoría de conjuntos&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#familias-de-conjuntos&quot; id=&quot;markdown-toc-familias-de-conjuntos&quot;&gt;Familias de Conjuntos&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#uniones-e-intersecciones-arbitrarias&quot; id=&quot;markdown-toc-uniones-e-intersecciones-arbitrarias&quot;&gt;Uniones e intersecciones arbitrarias&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#producto-cartesiano&quot; id=&quot;markdown-toc-producto-cartesiano&quot;&gt;Producto cartesiano&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#2-funciones&quot; id=&quot;markdown-toc-2-funciones&quot;&gt;§2	Funciones&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#3-relaciones&quot; id=&quot;markdown-toc-3-relaciones&quot;&gt;§3	Relaciones&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#relaciones-de-equivalencia-y-particiones&quot; id=&quot;markdown-toc-relaciones-de-equivalencia-y-particiones&quot;&gt;Relaciones de equivalencia y particiones&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#relaciones-de-orden&quot; id=&quot;markdown-toc-relaciones-de-orden&quot;&gt;Relaciones de orden&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#4-los-enteros-y-los-reales&quot; id=&quot;markdown-toc-4-los-enteros-y-los-reales&quot;&gt;§4	Los enteros y los reales&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#los-reales&quot; id=&quot;markdown-toc-los-reales&quot;&gt;Los reales&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#los-enteros&quot; id=&quot;markdown-toc-los-enteros&quot;&gt;Los enteros&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#5-productos-cartesianos&quot; id=&quot;markdown-toc-5-productos-cartesianos&quot;&gt;§5 Productos Cartesianos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#6-conjuntos-finitos&quot; id=&quot;markdown-toc-6-conjuntos-finitos&quot;&gt;§6 Conjuntos Finitos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#7-conjuntos-contables-e-incontables&quot; id=&quot;markdown-toc-7-conjuntos-contables-e-incontables&quot;&gt;§7 Conjuntos contables e incontables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#8-el-principio-de-definición-recursiva&quot; id=&quot;markdown-toc-8-el-principio-de-definición-recursiva&quot;&gt;§8 El Principio de Definición Recursiva&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#9-conjuntos-infinitos-y-el-axioma-de-elección&quot; id=&quot;markdown-toc-9-conjuntos-infinitos-y-el-axioma-de-elección&quot;&gt;§9 Conjuntos Infinitos y el Axioma de Elección&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#10-conjuntos-bien-ordenados&quot; id=&quot;markdown-toc-10-conjuntos-bien-ordenados&quot;&gt;§10 Conjuntos Bien Ordenados&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#11-principio-maximal-de-hausdorff&quot; id=&quot;markdown-toc-11-principio-maximal-de-hausdorff&quot;&gt;§11 Principio Maximal (de Hausdorff)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;1-conceptos-fundamentales&quot;&gt;§1	Conceptos Fundamentales&lt;/h2&gt;
+
+&lt;h3 id=&quot;notación-básica&quot;&gt;Notación básica&lt;/h3&gt;
+
+&lt;p&gt;Comunmente usaremos letras mayúsculas &lt;script type=&quot;math/tex&quot;&gt;A, B, \dots&lt;/script&gt;  para denotar conjuntos y minúsculas &lt;script type=&quot;math/tex&quot;&gt;a,b,\dots&lt;/script&gt; para denotar sus &lt;strong&gt;objetos&lt;/strong&gt; o &lt;strong&gt;elementos&lt;/strong&gt;. Denotamos que un objeto pertenece a &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\in A&lt;/script&gt;
+
+&lt;p&gt;Si el elemento no pertenece a &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; lo denotaremos como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\notin A&lt;/script&gt;
+
+&lt;p&gt;Si escribimos &lt;script type=&quot;math/tex&quot;&gt;a=b&lt;/script&gt; nos referimos a &lt;strong&gt;igualdad lógica&lt;/strong&gt; es decir, &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt; son símbolos para el mismo elemento. De manera similar, podemos escribir &lt;script type=&quot;math/tex&quot;&gt;A=B&lt;/script&gt; cuando dos conjuntos son iguales.&lt;/p&gt;
+
+&lt;p&gt;Decimos que &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es un &lt;strong&gt;subconjunto&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; si cada elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es también un elemento de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;, denotaremos esto como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A\subset B&lt;/script&gt;
+
+&lt;p&gt;Decimos que &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es un &lt;strong&gt;subconjunto propio&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; si no son iguales, y se escribe:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A \subsetneq B&lt;/script&gt;
+
+&lt;p&gt;Los conjuntos se pueden especificar como una colección de elementos discretos o como elementos de otro conjunto que comparten una propiedad. Por ejemplo:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A = \lbrace a,b,c \rbrace&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;B = \left\lbrace x \mid x \text{ es un entero par } \right\rbrace&lt;/script&gt;
+
+&lt;h3 id=&quot;unión-de-conjuntos-y-o-lógico&quot;&gt;Unión de conjuntos y “o” lógico&lt;/h3&gt;
+
+&lt;p&gt;Dados dos conjuntos &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;, podemos generar un conjunto que consista de todos los elementos de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y los de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;. Llamaremos a este conjunto la &lt;strong&gt;unión&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;, denotado como &lt;script type=&quot;math/tex&quot;&gt;A \cup B&lt;/script&gt;. Formalmente lo definiremos como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A\cup B = \left\lbrace x\mid x\in A \text{ ó }x\in B \right\rbrace&lt;/script&gt;
+
+&lt;p&gt;En matemáticas, como no se puede tolerar la ambigüedad, cuando decimos “ó” queremos decir “&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt; o ambos”.&lt;/p&gt;
+
+&lt;h3 id=&quot;intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces&quot;&gt;Intersección de conjuntos, el Conjunto Vacío y el significado de “&lt;em&gt;si… entonces&lt;/em&gt;”&lt;/h3&gt;
+
+&lt;p&gt;Dados los conjuntos &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;, otra forma de construir otro conjunto es tomando las partes comunes de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;. Este conjunto se llama la &lt;strong&gt;intersección&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; y se denota como &lt;script type=&quot;math/tex&quot;&gt;A\cap B&lt;/script&gt;. Formalmente la definimos como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A\cap B = \left\lbrace x\mid x\in A \text{ and }x\in B \right\rbrace&lt;/script&gt;
+
+&lt;p&gt;¿Qué pasa cuando no tienen elementos en común? Para encargarnos de esta eventualidad, introducimos el concepto del &lt;strong&gt;conjunto vacío&lt;/strong&gt;, denotado &lt;script type=&quot;math/tex&quot;&gt;\emptyset&lt;/script&gt;, del cual podemos pensar como “un conjunto sin elementos”.&lt;/p&gt;
+
+&lt;p&gt;Usando este convenio, podemos expresar el caso en el que &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; no tienen elementos en común:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A\cap B=\emptyset&lt;/script&gt;
+
+&lt;p&gt;También podemos expresar esto diciendo que &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; son &lt;strong&gt;disjuntos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Como el concepto de &lt;script type=&quot;math/tex&quot;&gt;\emptyset&lt;/script&gt; es un convenio, se han de clarificar algunos aspectos. Es claro por la definición de el conjunto vacío que &lt;script type=&quot;math/tex&quot;&gt;\forall x, x\notin \emptyset&lt;/script&gt;. De manera similar, por las definiciones de unión e intersección tendremos:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A\cup \emptyset = A\qquad \text{and}\qquad A\cap \emptyset =\emptyset&lt;/script&gt;
+
+&lt;p&gt;La relación de inclusión tiene un poco más de truco. Dado un conjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, ¿debemos decir que &lt;script type=&quot;math/tex&quot;&gt;\emptyset \subset A&lt;/script&gt;? Esa expresión significa “Todo elemento que pertenece al conjunto vacío pertenece a &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;”, o de otro modo, “Para todo objeto &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;, si &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; pertenece al conjunto vacío, entonces también pertenece a &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;”.&lt;/p&gt;
+
+&lt;p&gt;¿Es esta afirmación correcta o no? La frase de la forma &lt;em&gt;si x entonces y&lt;/em&gt; tiene ambigüedad en el lenguaje cotidiano, esta duda es inadmisible en matemáticas, por eso &lt;em&gt;si &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; entonces &lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt;&lt;/em&gt; significa que, si &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; es cierto, &lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt; también lo es, pero que si &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; no es cierto, no podemos discernir nada sobre la veracidad de &lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Para visualizar el ejemplo sobre el conjunto vacío, tomemos un ejemplo más simple sobre los números reales:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\text{Si }x^2 &lt;0\text{, then }x=23 %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Podemos decir que esta afirmación es correcta, ya que nunca tendremos el caso en el que &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+x^2 &lt;0 %]]&gt;&lt;/script&gt;, en este caso, podemos decir que la afirmación es &lt;strong&gt;vacuamente cierta&lt;/strong&gt;. De este modo, podemos decir que el que &lt;script type=&quot;math/tex&quot;&gt;\emptyset \subset A&lt;/script&gt; es vacuamente cierto.&lt;/p&gt;
+
+&lt;h3 id=&quot;contrapositivo-y-converso&quot;&gt;Contrapositivo y converso&lt;/h3&gt;
+
+&lt;p&gt;La discusión sobre el significado de “si,… entonces”, nos lleva a considerar otro tema en lógica elemental que a veces causa dificultades, la relación entre una &lt;em&gt;afirmación&lt;/em&gt;, su &lt;em&gt;contrapositiva&lt;/em&gt;, y su &lt;em&gt;conversa&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dada una afirmación de la forma “&lt;em&gt;Si &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt;&lt;/em&gt;”, su &lt;strong&gt;contrapositiva&lt;/strong&gt; se define como la afirmación “&lt;em&gt;Si &lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt; no es cierto, entonces &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; no es cierto&lt;/em&gt;”. Si tenemos una afirmación de la forma:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P\Rightarrow Q&lt;/script&gt;
+
+&lt;p&gt;que se lee &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; implica &lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt; se sigue que:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(¬\ Q)\Rightarrow(¬\ P)&lt;/script&gt;
+
+&lt;p&gt;Hay otra afirmación que se puede formar desde la afirmación &lt;script type=&quot;math/tex&quot;&gt;P\Rightarrow Q&lt;/script&gt;, y es&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Q\Rightarrow P&lt;/script&gt;
+
+&lt;p&gt;La cual es la &lt;strong&gt;conversa&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;P\Rightarrow Q&lt;/script&gt;. Debemos tener cuidado entre la conversa y la contrapositiva de una afirmación. Mientras que una afirmación y su contrapositiva son lógicamente equivalentes, una afirmación y su conversa no dicen nada la una sobre la otra.&lt;/p&gt;
+
+&lt;p&gt;Si tenemos un caso en el que tanto una afirmación como su conversa son ciertas, lo expresaremos:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P\Leftrightarrow Q&lt;/script&gt;
+
+&lt;p&gt;Lo que se lee como “&lt;em&gt;&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; es cierto si y solo si &lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt; es cierto&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;h3 id=&quot;diferencia-de-dos-conjuntos&quot;&gt;Diferencia de dos conjuntos&lt;/h3&gt;
+
+&lt;p&gt;La última operación útil entre conjuntos será la &lt;strong&gt;diferencia&lt;/strong&gt; de dos conjuntos, denotada &lt;script type=&quot;math/tex&quot;&gt;A-B&lt;/script&gt;, y definida como el conjunto que contiene todos los elementos de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; que no están en &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;, formalmente:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A-B= \left\lbrace x\mid x\in A \text{ and }x\notin B \right\rbrace&lt;/script&gt;
+
+&lt;h3 id=&quot;reglas-de-la-teoría-de-conjuntos&quot;&gt;Reglas de la teoría de conjuntos&lt;/h3&gt;
+
+&lt;p&gt;Dados varios conjuntos, se pueden formar nuevos conjuntos aplicando las operaciones vistas a ellos, como en álgebra, usaremos paréntesis para indicar el orden de operaciones, tenemos varias propiedades para estas operaciones:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Primera distributiva:&lt;/em&gt; &lt;script type=&quot;math/tex&quot;&gt;A\cap (B\cup C)=(A\cap B)\cup (A\cap C)&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Segunda distributiva:&lt;/em&gt; &lt;script type=&quot;math/tex&quot;&gt;A\cup(B\cap C)=(A\cup B)\cap(A\cup C)&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Primera ley de DeMorgan:&lt;/em&gt; &lt;script type=&quot;math/tex&quot;&gt;A-(B\cup C)=(A-B)\cap(A-C)&lt;/script&gt;&lt;/p&gt;
+
+    &lt;p&gt;Ó, “&lt;em&gt;El complementario de la unión es la intersección de complementarios&lt;/em&gt;”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Segunda ley de DeMorgan:&lt;/em&gt; &lt;script type=&quot;math/tex&quot;&gt;A-(B\cap C)=(A-B)\cup(A-C)&lt;/script&gt;&lt;/p&gt;
+
+    &lt;p&gt;Ó, “&lt;em&gt;El complementario de la intersección es la unión de complementarios&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;familias-de-conjuntos&quot;&gt;Familias de Conjuntos&lt;/h3&gt;
+
+&lt;p&gt;Podemos considerar conjuntos cuyos elementos sean de cualquier naturaleza, incluso conjuntos de &lt;em&gt;conjuntos&lt;/em&gt;. En particular, es útil considerar el &lt;em&gt;conjunto de todos los posibles subconjuntos de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/em&gt;, denotaremos este conjunto &lt;script type=&quot;math/tex&quot;&gt;\mathcal{P}(A)&lt;/script&gt; y lo llamaremos &lt;strong&gt;conjunto potencia&lt;/strong&gt; o &lt;strong&gt;partes de&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cuando tenemos un conjunto cuyos elementos son conjuntos, solemos llamarlo &lt;strong&gt;familia&lt;/strong&gt; y lo denotamos con tipografía caligráfica como &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt;, o &lt;script type=&quot;math/tex&quot;&gt;\mathcal{B}&lt;/script&gt;, aquí necesitamos tener cuidado con la tipografía, ya que tenemos que distinguir entre &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; como &lt;em&gt;elemento&lt;/em&gt;, del conjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, y el conjunto de un elemento &lt;script type=&quot;math/tex&quot;&gt;\lbrace a \rbrace&lt;/script&gt; que es un &lt;em&gt;subconjunto&lt;/em&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;. Para ilustrar, sea &lt;script type=&quot;math/tex&quot;&gt;A=\lbrace a,b,c\rbrace&lt;/script&gt;, entonces:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\in A,\qquad 
+\lbrace a\rbrace \subset A,\text{ and } \qquad
+\lbrace a \rbrace \in \mathcal{P}(A)&lt;/script&gt;
+
+&lt;h3 id=&quot;uniones-e-intersecciones-arbitrarias&quot;&gt;Uniones e intersecciones arbitrarias&lt;/h3&gt;
+
+&lt;p&gt;Dada una familia &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt;, la &lt;strong&gt;unión&lt;/strong&gt; de los elementos de &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; se define como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bigcup_{A\in \mathcal{A}} A=\left\lbrace x\mid x\in A \text{ para al menos un }A\in \mathcal{A} \right\rbrace&lt;/script&gt;
+
+&lt;p&gt;Y la &lt;strong&gt;intersección&lt;/strong&gt; de elementos de &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; se define como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bigcap_{A\in \mathcal{A}} A=\left\lbrace x\mid x\in A\ \forall A\in\mathcal{A}
+\right\rbrace&lt;/script&gt;
+
+&lt;p&gt;Para evitar confusiones, &lt;em&gt;no definimos la intersección cuando &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; sea vacío&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;producto-cartesiano&quot;&gt;Producto cartesiano&lt;/h3&gt;
+
+&lt;p&gt;Dados dos conjuntos &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;, definimos su &lt;strong&gt;producto cartesiano&lt;/strong&gt; como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A \times B=\left\lbrace \left(a,b\right) 
+\mid a\in A, b\in B
+\right\rbrace&lt;/script&gt;
+
+&lt;p&gt;También podemos denotar &lt;script type=&quot;math/tex&quot;&gt;(a,b)&lt;/script&gt; como &lt;script type=&quot;math/tex&quot;&gt;a\times b&lt;/script&gt; ó &lt;script type=&quot;math/tex&quot;&gt;\lbrace a\rbrace \times \lbrace b\rbrace&lt;/script&gt; para evitar confusiones con los intervalos abiertos en &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-funciones&quot;&gt;§2	Funciones&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición.&lt;/strong&gt; &lt;em&gt;Una &lt;strong&gt;regla de asignación&lt;/strong&gt; es un subconjunto &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt; del producto cartesiano &lt;script type=&quot;math/tex&quot;&gt;C\times D&lt;/script&gt; de dos conjuntos, con la propiedad de que cada elemento de &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; aparece en la primera coordenada de &lt;strong&gt;como mucho una&lt;/strong&gt; pareja ordenada que pertenezca a &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, un subconjunto &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt; de &lt;script type=&quot;math/tex&quot;&gt;C\times D&lt;/script&gt; es una regla de asignación si:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left[
+(c,d)\in r \text{ y } (c,d^\prime)\in r
+\right] \Rightarrow
+[d=d^\prime]&lt;/script&gt;
+
+&lt;p&gt;Dada una regla de asignación &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;, su &lt;strong&gt;dominio&lt;/strong&gt; es el subconjunto &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; que contiene todas las primeras coordenadas de los elementos de &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;, y la &lt;strong&gt;imagen&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt; será el conjunto &lt;script type=&quot;math/tex&quot;&gt;D&lt;/script&gt; que tiene todas lass segundas coordenadas. Formalmente:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{dominio }r= \left\lbrace 
+ c\mid \exists d\in D \text{ tq } (c,d)\in r
+\right\rbrace
+\\
+\text{imagen }r= \left\lbrace 
+ d\mid \exists c\in C \text{ tq } (c,d)\in r
+\right\rbrace&lt;/script&gt;
+
+&lt;p&gt;Dada una regla de asignación, su dominio e imagen están completamente definidas. Ahora podemos ver lo que es una función:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; &lt;em&gt;Una &lt;strong&gt;función&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; es una regla de asignación &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;, junto a un conjunto &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; que contiene la imagen de &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;. El dominio &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; de la regla &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt; también se llama el &lt;strong&gt;dominio&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;; el conjunto imagen de &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt; también se llamará la &lt;strong&gt;imagen&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; será el &lt;strong&gt;rango&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Podremos expresar que &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; es una función de dominio &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; (o con soporte en &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;) y rango &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; de la siguiente forma:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:A\longrightarrow B&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;f:A\to B&lt;/script&gt; un a función y sea &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; un subconjunto de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, definimos la &lt;strong&gt;restricción&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; a &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; como la función que asigna &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; a &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; con regla:&lt;/em&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\lbrace
+ \left(a,f(a)\right) \mid a \in A_0
+\right\rbrace&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;y se denota como &lt;script type=&quot;math/tex&quot;&gt;f\mid _{A_0}&lt;/script&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; &lt;em&gt;Dadas dos funciones &lt;script type=&quot;math/tex&quot;&gt;f:A\to B&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;g:B\to C&lt;/script&gt;, definimos la &lt;strong&gt;composición&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;g\circ f&lt;/script&gt; de &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt; como la función &lt;script type=&quot;math/tex&quot;&gt;g\circ f:A\to C&lt;/script&gt; definida como &lt;script type=&quot;math/tex&quot;&gt;(g\circ f)(a)=g(f(a))&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Podemos clasificar funciones de acuerdo con tres categorías:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Inyectiva:&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;f(a)=f(a^\prime)\Longrightarrow a=a^\prime&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sobre ó supreyectiva:&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;\forall b\in B\ \exists a\in A&lt;/script&gt; tq &lt;script type=&quot;math/tex&quot;&gt;b=f(a)&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Biyectiva:&lt;/strong&gt; si es tanto Inyectiva como Sobre.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La inyectividad depende de la regla, mientras que la suprayectividad depende del rango. Se sigue facilmente que la composición de dos aplicaciones biyectivas será biyectiva.&lt;/p&gt;
+
+&lt;p&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; biyectiva, eso quiere decir que existe una función de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; a &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; llamada la &lt;strong&gt;inversa&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;. Se denota como &lt;script type=&quot;math/tex&quot;&gt;f^{-1}&lt;/script&gt; y se define haciendo que &lt;script type=&quot;math/tex&quot;&gt;f^{-1}(b)&lt;/script&gt; sea el único elemento &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; para el cual &lt;script type=&quot;math/tex&quot;&gt;f(a)=b&lt;/script&gt;. Dado &lt;script type=&quot;math/tex&quot;&gt;b\in B&lt;/script&gt;, al ser la función sobre, existe tal elemento &lt;script type=&quot;math/tex&quot;&gt;a\in A&lt;/script&gt;; el hecho de que sea inyectiva quiere decir que existe &lt;em&gt;solo uno&lt;/em&gt;. Es fácil ver que, siendo &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; biyectiva, &lt;script type=&quot;math/tex&quot;&gt;f^{-1}&lt;/script&gt; también lo será.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lema:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;f:A\to B&lt;/script&gt;. Si existen dos funciones &lt;script type=&quot;math/tex&quot;&gt;g:B\to A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;h:B \to A&lt;/script&gt; tales que &lt;script type=&quot;math/tex&quot;&gt;g(f(a))=a\ \forall a \in A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;f(h(b))=b\ \forall b\in B&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; es biyectiva y &lt;script type=&quot;math/tex&quot;&gt;h=g=f^{-1}&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;f:A\to B&lt;/script&gt;. Sea &lt;script type=&quot;math/tex&quot;&gt;A_0 \subset A&lt;/script&gt;, denotamos &lt;script type=&quot;math/tex&quot;&gt;f(A_0)&lt;/script&gt; al conjunto de todas las imagenes de puntos en &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; bajo &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;; llamaremos a este conjunto la &lt;strong&gt;imagen&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; bajo &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;. Formalmente:&lt;/em&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(A_0)=\left\lbrace
+ b\mid b=f(a)\text{ para al menos un }a\in A_0
+\right\rbrace&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;Por otro lado, si &lt;script type=&quot;math/tex&quot;&gt;B_0&lt;/script&gt; es un subconjunto de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;, denotamos como &lt;script type=&quot;math/tex&quot;&gt;f^{-1}(B_0)&lt;/script&gt; al conjunto de elementos de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; cuyas imágenes bajo &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; yacen en &lt;script type=&quot;math/tex&quot;&gt;B_0&lt;/script&gt;; lo llamamos la &lt;strong&gt;antiimagen&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;B_0&lt;/script&gt; bajo &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;. Formalmente:&lt;/em&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f^{-1}(B_0)=\left\lbrace
+ a\mid f(a)\in B_0
+\right\rbrace&lt;/script&gt;
+
+&lt;p&gt;Debemos notar aquí que la inversa de una función tiene mejor comportamiento que la función en si. La inversa conserva inclusión, unión e intersección, mientras que la función solo conserva unión e inclusión. También cabe mencionar lo siguiente:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A_0 \subset f^{-1}(f(A_0))
+ \qquad\text{y}\qquad
+ f(f^{-1}(B_0))\subset B_0&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Pero no son igualdades&lt;/strong&gt;. La primera inclusión será una igualdad si &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; es inyectiva, y la segunda si es sobre.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-relaciones&quot;&gt;§3	Relaciones&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Una &lt;strong&gt;relación&lt;/strong&gt; sobre un conjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es un subconjunto &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; del producto cartesiano &lt;script type=&quot;math/tex&quot;&gt;A\times A&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Usamos la notación &lt;script type=&quot;math/tex&quot;&gt;xCy&lt;/script&gt; para referirnos a lo mismo que &lt;script type=&quot;math/tex&quot;&gt;(x,y)\in C&lt;/script&gt;, el que “&lt;em&gt;&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; están relacionados por &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;h3 id=&quot;relaciones-de-equivalencia-y-particiones&quot;&gt;Relaciones de equivalencia y particiones&lt;/h3&gt;
+
+&lt;p&gt;Una &lt;strong&gt;relación de equivalencia&lt;/strong&gt; sobre &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es una relación &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; en &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; que cumple las siguientes tres propiedades:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Reflexividad:&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;xCx\ \ \forall x\in A&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;**Simetría: **&lt;script type=&quot;math/tex&quot;&gt;xCy\Rightarrow yCx&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;**Transitividad: **&lt;script type=&quot;math/tex&quot;&gt;xCy,yCz\Rightarrow xCz&lt;/script&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Frecuentemente se usa el símbolo &lt;script type=&quot;math/tex&quot;&gt;\sim&lt;/script&gt; para denotar una relación de equivalencia (pero para JL, mejor &lt;script type=&quot;math/tex&quot;&gt;\mathfrak{R}&lt;/script&gt;)&lt;/p&gt;
+
+&lt;p&gt;Dada una relación de equivalencia &lt;script type=&quot;math/tex&quot;&gt;\sim&lt;/script&gt; en un conjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y un elemento &lt;script type=&quot;math/tex&quot;&gt;x\in A&lt;/script&gt;, definimos un cierto subconjunto &lt;script type=&quot;math/tex&quot;&gt;E\subset A&lt;/script&gt;, llamado la &lt;strong&gt;clase de equivalencia&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;, como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E=\lbrace y\mid y\sim x\rbrace&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Lema:&lt;/strong&gt; &lt;em&gt;Dos clases de equivalencia &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;E^\prime&lt;/script&gt; son o bien disjuntas o iguales&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Dada una relación de equivalencia sobre &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, denotamos por &lt;script type=&quot;math/tex&quot;&gt;\mathscr{E}&lt;/script&gt; la familia de todas las clases de equivalencia determinadas por esta relación&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Una &lt;strong&gt;partición&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es una familia de subconjuntos no vacíos y disjuntos de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, cuya unión es todo &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dada una partición &lt;script type=&quot;math/tex&quot;&gt;\mathcal{D}&lt;/script&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; hay &lt;strong&gt;exactamente una&lt;/strong&gt; relación de equivalencia definida en &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; que genera tal partición.&lt;/p&gt;
+
+&lt;h3 id=&quot;relaciones-de-orden&quot;&gt;Relaciones de orden&lt;/h3&gt;
+
+&lt;p&gt;Una relación &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; en un conjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; se dice &lt;strong&gt;de orden&lt;/strong&gt;, si es:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Comparable:&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;\forall x,y\in A&lt;/script&gt; tq &lt;script type=&quot;math/tex&quot;&gt;x\neq y&lt;/script&gt; entonces, o bien &lt;script type=&quot;math/tex&quot;&gt;xCy&lt;/script&gt; o &lt;script type=&quot;math/tex&quot;&gt;yCx&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;No reflexiva:&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;\nexists x\in A&lt;/script&gt; tq &lt;script type=&quot;math/tex&quot;&gt;xCx&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Transitiva:&lt;/strong&gt; Si &lt;script type=&quot;math/tex&quot;&gt;xCy&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;yCz&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;xCz&lt;/script&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Notar que las tres propiedades &lt;em&gt;juntas&lt;/em&gt; implican que para ninguna pareja &lt;script type=&quot;math/tex&quot;&gt;x,y\in A&lt;/script&gt; se pueden cumplir &lt;script type=&quot;math/tex&quot;&gt;xCy&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;yCx&lt;/script&gt; simultáneamente.&lt;/p&gt;
+
+&lt;p&gt;Se usa el símbolo &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt; %]]&gt;&lt;/script&gt; para las relaciones de orden.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Sea &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; un conjunto y &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt; %]]&gt;&lt;/script&gt; una relación de orden en &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;, si &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+a&lt;b %]]&gt;&lt;/script&gt;, podemos usar la notación &lt;script type=&quot;math/tex&quot;&gt;(a,b)&lt;/script&gt; para denotar el conjunto:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\left\lbrace
+ x\mid a&lt;x&lt;b
+\right\rbrace %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;que se llamará un &lt;strong&gt;intervalo abierto&lt;/strong&gt; en &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;. Si el conjunto es vacío, &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; se dirá el &lt;strong&gt;predecesor inmediato&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;, y &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt; será el &lt;strong&gt;sucesor inmediato&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Supongamos que &lt;script type=&quot;math/tex&quot;&gt;A, B&lt;/script&gt; son conjuntos con relaciones de orden &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt;_A , &lt;_B %]]&gt;&lt;/script&gt;. Decimos que &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; tienen el mismo &lt;strong&gt;tipo de orden&lt;/strong&gt; si existe una biyección entre ellos que preserve el orden, es decir &lt;script type=&quot;math/tex&quot;&gt;\exists f:A\to B&lt;/script&gt; tq:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+a_1 &lt;_A a_2 \Rightarrow f(a_1)&lt;_B f(a_2) %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Sean &lt;script type=&quot;math/tex&quot;&gt;A,B&lt;/script&gt; dos conjuntos con relaciones de orden &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt;_A , &lt;_B %]]&gt;&lt;/script&gt; respectivamente. Definimos una relación de orden en &lt;script type=&quot;math/tex&quot;&gt;A\times B&lt;/script&gt; definiendo:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+a_1 \times b_1 &lt; a_2 \times b_2 %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;si &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+a_1 &lt;_A a_2 %]]&gt;&lt;/script&gt;, o si &lt;script type=&quot;math/tex&quot;&gt;a_1 = a_2&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+b_1 &lt;_B b_2 %]]&gt;&lt;/script&gt;. Se llama &lt;strong&gt;Relación de orden de diccionario&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto con una relación de orden &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt; %]]&gt;&lt;/script&gt;. Sea &lt;script type=&quot;math/tex&quot;&gt;A_0 \subset A&lt;/script&gt;. Decimos que un elemento &lt;script type=&quot;math/tex&quot;&gt;b\in A_0&lt;/script&gt; es el &lt;strong&gt;mayor elemento (máximo)&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; si &lt;script type=&quot;math/tex&quot;&gt;b\in A_0&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;x \le b\ \ \forall x\in A_0&lt;/script&gt;. Definimos de manera análoga el &lt;strong&gt;menor elemento (mínimo)&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Decimos que el subconjunto &lt;script type=&quot;math/tex&quot;&gt;A_0 \subset A&lt;/script&gt; está &lt;strong&gt;acotado por arriba&lt;/strong&gt; si &lt;script type=&quot;math/tex&quot;&gt;\exists b\in A&lt;/script&gt; tq &lt;script type=&quot;math/tex&quot;&gt;x\le b\ \ \forall x\in A_0&lt;/script&gt;, llamaremos a &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt; una &lt;strong&gt;cota superior&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt;. Si el conjunto de todas las cotas superiores de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; tiene un mínimo, ese elemento se llamará la &lt;strong&gt;menor cota superior&lt;/strong&gt; o &lt;strong&gt;supremo&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; (&lt;script type=&quot;math/tex&quot;&gt;\sup A_0&lt;/script&gt;).&lt;/p&gt;
+
+&lt;p&gt;Similarmente, diremos que el subconjunto &lt;script type=&quot;math/tex&quot;&gt;A_0 \subset A&lt;/script&gt; está &lt;strong&gt;acotado por abajo&lt;/strong&gt; si &lt;script type=&quot;math/tex&quot;&gt;\exists b\in A&lt;/script&gt; tq &lt;script type=&quot;math/tex&quot;&gt;x\ge b\ \ \forall x\in A_0&lt;/script&gt;, llamaremos a &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt; una &lt;strong&gt;cota inferior&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt;. Si el conjunto de todas las cotas superiores de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; tiene un máximo, ese elemento se llamará la &lt;strong&gt;mayor cota inferior&lt;/strong&gt; o &lt;strong&gt;ínfimo&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A_0&lt;/script&gt; (&lt;script type=&quot;math/tex&quot;&gt;\inf A_0&lt;/script&gt;).&lt;/p&gt;
+
+&lt;p&gt;El supremo e ínfimo de un conjunto &lt;em&gt;pueden no estar&lt;/em&gt; dentro del propio conjunto, en el caso de que estén, coincidirán siempre con el mínimo y máximo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Un conjunto ordenado &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; se dice tiene la &lt;strong&gt;propiedad de mínima cota superior&lt;/strong&gt; si todo subconjunto &lt;script type=&quot;math/tex&quot;&gt;\emptyset \neq A_0 \subset A&lt;/script&gt; acotado por arriba tiene al menos una cota superior. De forma análoga, diremos que tiene la propiedad de &lt;strong&gt;máxima cota inferior&lt;/strong&gt; si todo subconjunto no vacío acotado por abajo tiene al menos una cota inferior.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; tiene la propiedad de mínima cota superior &lt;script type=&quot;math/tex&quot;&gt;\iff&lt;/script&gt; tiene la propiedad de máxima cota inferior.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-los-enteros-y-los-reales&quot;&gt;§4	Los enteros y los reales&lt;/h2&gt;
+
+&lt;h3 id=&quot;los-reales&quot;&gt;Los reales&lt;/h3&gt;
+
+&lt;p&gt;Asumimos que existe un conjunto &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt;, llamado &lt;strong&gt;los números reales&lt;/strong&gt;, con dos operaciones binarias &lt;script type=&quot;math/tex&quot;&gt;+&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;\cdot&lt;/script&gt; sobre &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; llamadas adición y producto, y una relación de orden &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt; %]]&gt;&lt;/script&gt; en &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt;, tal que se cumplen las siguientes propiedades:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Propiedades algebraicas:&lt;/em&gt;&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;(x+y)+z=x+(y+z) \\ (x\cdot y)\cdot z=x\cdot (y\cdot z), \forall x,y,z\in\mathbb{R}&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;x+y=y+x \\ x\cdot y=y\cdot x, \forall x,y\in \mathbb{R}&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Existe un único elemento en &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; llamado &lt;strong&gt;cero&lt;/strong&gt;, denotado 0, tal que &lt;script type=&quot;math/tex&quot;&gt;x+0=x,\forall x\in\mathbb{R}&lt;/script&gt;&lt;/p&gt;
+
+        &lt;p&gt;Existe un único elemento en &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; llamado &lt;strong&gt;uno&lt;/strong&gt;, distinto de 0 y denotado 1, tal que &lt;script type=&quot;math/tex&quot;&gt;x\cdot 1=x,\forall x\in \mathbb{R}&lt;/script&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Para cada &lt;script type=&quot;math/tex&quot;&gt;x\in\mathbb{R}&lt;/script&gt; existe un único &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; tal que &lt;script type=&quot;math/tex&quot;&gt;x+y=0&lt;/script&gt;&lt;/p&gt;
+
+        &lt;p&gt;Para cada &lt;script type=&quot;math/tex&quot;&gt;x\in\mathbb{R}&lt;/script&gt; existe un único &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; tal que &lt;script type=&quot;math/tex&quot;&gt;x\cdot y=1&lt;/script&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;x\cdot (y+z)=(x\cdot y)+(x\cdot z),\forall x,y,z\in\mathbb{R}&lt;/script&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Propiedades mixtas algebraicas y de orden:&lt;/em&gt;&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;Si &lt;script type=&quot;math/tex&quot;&gt;x&gt;y&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;x+z&gt;y+z&lt;/script&gt;&lt;/p&gt;
+
+        &lt;p&gt;Si &lt;script type=&quot;math/tex&quot;&gt;x&gt;y,z&gt;0&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;x\cdot z&gt;y\cdot z&lt;/script&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Propiedades de orden:&lt;/em&gt;&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;La relación de orden &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt; %]]&gt;&lt;/script&gt; tiene la propiedad de mínima cota superior.&lt;/li&gt;
+      &lt;li&gt;Si &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+x&lt;y %]]&gt;&lt;/script&gt;, existe un elemento &lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt; tal que &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+x&lt;z %]]&gt;&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+z&lt;y %]]&gt;&lt;/script&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Las propiedades (1) a (5) definen en álgebra un &lt;strong&gt;campo&lt;/strong&gt;, añadiendo la propiedad (6) tenemos un &lt;strong&gt;campo ordenado&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Las propiedades (7) y (8) definen en topología un &lt;strong&gt;continuo lineal&lt;/strong&gt;. En general las propiedades (1) a (7) se toman como axiomas, mientras que la propiedad (8) se ve como un teorema, ya que es consecuencia de las otras.&lt;/p&gt;
+
+&lt;h3 id=&quot;los-enteros&quot;&gt;Los enteros&lt;/h3&gt;
+
+&lt;p&gt;S pueden definir usando las propiedades (1) a (6).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Un subconjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; de los reales se dice &lt;strong&gt;inductivo&lt;/strong&gt; si contiene al número 1 y, para cada &lt;script type=&quot;math/tex&quot;&gt;x\in A&lt;/script&gt;, el número &lt;script type=&quot;math/tex&quot;&gt;x+1&lt;/script&gt; también está en &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;. Sea &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; una familia de todos los subconjuntos de &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt;. Entonces el conjunto &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_+&lt;/script&gt; de los &lt;strong&gt;enteros positivos&lt;/strong&gt; se define como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbb{Z}_+ = \bigcap_{A\in\mathcal{A}} A&lt;/script&gt;
+
+&lt;p&gt;El conjunto de los enteros positivos tiene dos propiedades que se infieren de la definición:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_+&lt;/script&gt; es inductivo&lt;/li&gt;
+  &lt;li&gt;(&lt;em&gt;Principio de inducción&lt;/em&gt;). Si &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es un conjunto inductivo de enteros positivos, entonces &lt;script type=&quot;math/tex&quot;&gt;A=\mathbb{Z}_+&lt;/script&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}&lt;/script&gt; se definirá como el conjunto de los enteros positivos junto con el 0 y todos los recíprocos aditivos de los positivos. Así mismo, los &lt;strong&gt;racionales&lt;/strong&gt; (&lt;script type=&quot;math/tex&quot;&gt;\mathbb{Q}&lt;/script&gt;) se definirán como cocientes de enteros.&lt;/p&gt;
+
+&lt;p&gt;Se puede demostrar que, dado un entero &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, no existe un entero &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;, tq &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+n&lt;a&lt;n+1 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; un entero positivo, usamos el símbolo &lt;script type=&quot;math/tex&quot;&gt;S_n&lt;/script&gt; para denotar el conjunto de todos los enteros positivos menores que &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;; llamaremos a esto una &lt;strong&gt;sección&lt;a name=&quot;seccion&quot;&gt;&lt;/a&gt;&lt;/strong&gt; de los enteros positivos. El conjunto &lt;script type=&quot;math/tex&quot;&gt;S_1&lt;/script&gt; es vacío.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 4.1: (Principio del buen orden).&lt;/strong&gt; &lt;em&gt;Todo subconjunto de &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_+&lt;/script&gt; tiene un elemento mínimo&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 4.2: (Principio de inducción fuerte.&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto de enteros positivos. Supongamos que para cada entero positivo &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, la afirmación &lt;script type=&quot;math/tex&quot;&gt;S_n \subset A&lt;/script&gt; implica &lt;script type=&quot;math/tex&quot;&gt;n\in A&lt;/script&gt;. Entonces &lt;script type=&quot;math/tex&quot;&gt;A=\mathbb{Z}_+&lt;/script&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hasta ahora nos bastaba con los axiomas (1) a (6) de los reales, pero necesitamos el (7) para una cosa:&lt;/p&gt;
+
+&lt;p&gt;**Axioma de ordenación de Arquímedes: ** El conjunto de los enteros positivos no tiene cota superior en los reales.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-productos-cartesianos&quot;&gt;§5 Productos Cartesianos&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Sea &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; una familia no vacía de conjuntos. Una &lt;strong&gt;función índice&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; es una función sobre &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; sobre un conjunto &lt;script type=&quot;math/tex&quot;&gt;J&lt;/script&gt;, llamado el &lt;strong&gt;conjunto índice&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt;. La familia &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; junto con la función índice &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; se llama &lt;strong&gt;familia indexada&lt;/strong&gt;. Dado &lt;script type=&quot;math/tex&quot;&gt;\alpha\in J&lt;/script&gt;, denotaremos el conjunto &lt;script type=&quot;math/tex&quot;&gt;f(\alpha)&lt;/script&gt; como &lt;script type=&quot;math/tex&quot;&gt;A_\alpha&lt;/script&gt;. Y denotaremos la familia indexada como:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\lbrace
+ A_\alpha
+\right\rbrace_{\alpha\in J}&lt;/script&gt;
+
+&lt;p&gt;Cabe notar que la función no tiene que ser &lt;em&gt;inyectiva&lt;/em&gt;, por lo cual puede darse el caso de que &lt;script type=&quot;math/tex&quot;&gt;A_\alpha = A_\beta&lt;/script&gt; si &lt;script type=&quot;math/tex&quot;&gt;\alpha\neq\beta&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Sea &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; un entero positivo. Dado un conjunto &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;, definimos una &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt;&lt;strong&gt;-tupla&lt;/strong&gt; de elementos de &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; como una función:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bar{x}:\lbrace 1,\dots,m \rbrace \to X&lt;/script&gt;
+
+&lt;p&gt;Si &lt;script type=&quot;math/tex&quot;&gt;\bar{x}&lt;/script&gt; es una &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt;-tupla, solemos denotar el valor de &lt;script type=&quot;math/tex&quot;&gt;\bar{x}&lt;/script&gt; en &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt; como &lt;script type=&quot;math/tex&quot;&gt;x_i&lt;/script&gt; en vez de &lt;script type=&quot;math/tex&quot;&gt;\bar{x}(i)&lt;/script&gt;, y llamaremos a este valor la &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;-ésima &lt;strong&gt;coordenada&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;\bar{x}&lt;/script&gt;. También solemos representar la función misma con el símbolo:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left(
+ x_1,x_2,\dots,x_m
+\right)&lt;/script&gt;
+
+&lt;p&gt;Sea ahora la familia &lt;script type=&quot;math/tex&quot;&gt;\left\lbrace A_1 ,\cdots,A_m \right\rbrace&lt;/script&gt; de conjuntos indexada por el conjunto &lt;script type=&quot;math/tex&quot;&gt;\lbrace 1,\cdots, m\rbrace&lt;/script&gt;. Sea &lt;script type=&quot;math/tex&quot;&gt;X=A_1 \cup \cdots\cup A_m&lt;/script&gt;. Definimos el &lt;strong&gt;producto cartesiano&lt;/strong&gt; de esta familia indexada, denotado por:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\prod_{i=1}^m A_i 
+\qquad\text{ó}\qquad
+ A_1 \times\cdots\times A_m&lt;/script&gt;
+
+&lt;p&gt;Será el conjunto de todas las &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt;-tuplas &lt;script type=&quot;math/tex&quot;&gt;(x_1 ,\dots,x_m)&lt;/script&gt; de elementos de &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; tales que &lt;script type=&quot;math/tex&quot;&gt;x_i \in A_i&lt;/script&gt; para cada &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Dado un conjunto &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; definimos una &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;&lt;strong&gt;-tupla&lt;/strong&gt; de elementos de &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; como una función:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bar{x}:\mathbb{Z}_+ \to X&lt;/script&gt;
+
+&lt;p&gt;También decimos que esta función es una &lt;strong&gt;secuencia&lt;/strong&gt; o una &lt;strong&gt;secuencia infinita&lt;/strong&gt; de elementos de &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ahora, sea &lt;script type=&quot;math/tex&quot;&gt;\lbrace A_1, A_2,\dots\rbrace&lt;/script&gt; una familia de conjuntos, indexada por los enteros positivos; sea &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; la unión de todos los conjuntos de esta familia. El &lt;strong&gt;producto cartesiano&lt;/strong&gt; de esta familia indexada, denotado por:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\prod_{i\in \mathbb{Z}_+}A_i \quad\text{ó}\quad A_1 \times A_2 \times\cdots&lt;/script&gt;
+
+&lt;p&gt;se define como el conjunto de todas las &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;-tuplas &lt;script type=&quot;math/tex&quot;&gt;(x_1 , x_2 ,\cdots)&lt;/script&gt; de elementos de &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; tales que &lt;script type=&quot;math/tex&quot;&gt;x_i \in A_i&lt;/script&gt; para cada &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si todos los &lt;script type=&quot;math/tex&quot;&gt;A_i&lt;/script&gt;’s son iguales e iguales a &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;, el producto cartesiano &lt;script type=&quot;math/tex&quot;&gt;X\times\overbrace{\cdots}^{m}\times X&lt;/script&gt; se denotará &lt;script type=&quot;math/tex&quot;&gt;X^m&lt;/script&gt; mientras que el producto cartesiano &lt;script type=&quot;math/tex&quot;&gt;X\times X\times\cdots&lt;/script&gt; se denotará &lt;script type=&quot;math/tex&quot;&gt;X^\omega&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;6-conjuntos-finitos&quot;&gt;§6 Conjuntos Finitos&lt;/h2&gt;
+
+&lt;p&gt;Usaremos los conjuntos definidos antes como &lt;a href=&quot;#seccion&quot;&gt;sección&lt;/a&gt; como prototipo de conjunto finito.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Diremos que un conjunto es &lt;strong&gt;finito&lt;/strong&gt; si hay una correspondencia biyectiva entre &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y una sección de los enteros positivos. Es decir, &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es finito si es vacío o existe una biyección:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:A\to \lbrace 1,\dots,n\rbrace&lt;/script&gt;
+
+&lt;p&gt;para algún entero positivo &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;. En el caso de &lt;script type=&quot;math/tex&quot;&gt;A=\emptyset&lt;/script&gt; diremos que &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; tiene &lt;strong&gt;cardinalidad&lt;/strong&gt; 0 (&lt;script type=&quot;math/tex&quot;&gt;\vert  A\vert  =0&lt;/script&gt;) en el otro caso, diremos que tiene &lt;strong&gt;cardinalidad&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; (&lt;script type=&quot;math/tex&quot;&gt;\vert  A\vert  =n&lt;/script&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lema 6.1:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; un entero positivo. Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto; sea &lt;script type=&quot;math/tex&quot;&gt;a_0&lt;/script&gt; un elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;. Entonces existe una correspondencia biyectiva &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; entre el conjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;\lbrace 1, \dots n+1\rbrace&lt;/script&gt; si y solo si existe una correspondencia biyectiva &lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt; del conjunto &lt;script type=&quot;math/tex&quot;&gt;A-\lbrace a_0\rbrace&lt;/script&gt; con el conjunto &lt;script type=&quot;math/tex&quot;&gt;\lbrace 1,\dots,n\rbrace&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 6.2:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto; suponemos que existe una biyección &lt;script type=&quot;math/tex&quot;&gt;f:A\to\lbrace 1,\dots,n\rbrace&lt;/script&gt; para algún &lt;script type=&quot;math/tex&quot;&gt;n\in\mathbb{Z}_+&lt;/script&gt;. Sea &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt; un subconjunto propio (&lt;script type=&quot;math/tex&quot;&gt;\subsetneq&lt;/script&gt;) de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;. Entonces no existe una biyección &lt;script type=&quot;math/tex&quot;&gt;g:B\to \lbrace 1,\dots,n\rbrace&lt;/script&gt;; pero (asumiendo &lt;script type=&quot;math/tex&quot;&gt;B\neq\emptyset&lt;/script&gt;) existe una biyección &lt;script type=&quot;math/tex&quot;&gt;g:B\to\lbrace 1,\dots,m\rbrace&lt;/script&gt; para algún &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+m&lt;n %]]&gt;&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario 6.3:&lt;/strong&gt; &lt;em&gt;Si &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es finito, no existe biyección entre &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; y un subconjunto propio suyo.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario 6.4:&lt;/strong&gt; &lt;em&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_+&lt;/script&gt; no es finito.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;Dem:&lt;/strong&gt; La función &lt;script type=&quot;math/tex&quot;&gt;f:\mathbb{Z}_+\to\mathbb{Z}_+ -\lbrace 1\rbrace&lt;/script&gt; dada por &lt;script type=&quot;math/tex&quot;&gt;f(n)=n+1&lt;/script&gt; es una biyección entre &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_+&lt;/script&gt; y él mismo.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hspace{20cm}\blacksquare&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario 6.5:&lt;/strong&gt; &lt;em&gt;La cardinalidad de un conjunto finito &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; está únicamente determinada por &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario 6.6:&lt;/strong&gt; &lt;em&gt;Si &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es un subconjunto del conjunto finito &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es infinito. Si &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es un subconjunto propio de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, entonces la cardinalidad de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es menor que la cardinalidad de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario 6.7:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; un conjunto no vacío. Entonces las afirmaciones siguientes son equivalentes:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;&lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es finito&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Hay una función sobre de una sección de los enteros positivos a &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Hay una función inyectiva de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; a una sección de los enteros positivos&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario 6.8:&lt;/strong&gt; &lt;em&gt;Las uniones finitas y productos cartesianos finitos de conjuntos finitos son finitas.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7-conjuntos-contables-e-incontables&quot;&gt;§7 Conjuntos contables e incontables&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; un conjunto se dice &lt;strong&gt;infinito&lt;/strong&gt; si no es finito. Se dice &lt;strong&gt;contablemente infinito&lt;/strong&gt; si existe una correspondencia biyectiva:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:A\to\mathbb{Z}_+&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; un conjunto se dice &lt;strong&gt;contable&lt;/strong&gt; si es finito o contablemente infinito. Un conjunto que no es contable se dice &lt;strong&gt;incontable&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Solemos expresar contable como &lt;script type=&quot;math/tex&quot;&gt;\vert  A\vert  \le\aleph_0&lt;/script&gt;, e incontable como &lt;script type=&quot;math/tex&quot;&gt;\vert  A\vert  &gt;\aleph_0&lt;/script&gt;. &lt;script type=&quot;math/tex&quot;&gt;\aleph_0&lt;/script&gt; se toma para representar la cardinalidad de los enteros positivos.&lt;/p&gt;
+
+&lt;p&gt;Existe un sencillo criterio para discernir si un conjunto es contable:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 7.1:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; un conjunto no vacío. Entonces las siguientes afirmaciones son equivalentes:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;&lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es contable&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Hay una función sobre &lt;script type=&quot;math/tex&quot;&gt;f:\mathbb{Z}_+\to B&lt;/script&gt;&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;*Hay una función inyectiva &lt;script type=&quot;math/tex&quot;&gt;g:B\to \mathbb{Z}_+&lt;/script&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Lema 7.2:&lt;/strong&gt; &lt;em&gt;Si &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; es un subconjunto infinito de &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_0&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; es contablemente finito&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A veces, para demostrar algo (como el lema de arriba[^nota dems]), necesitamos “definir algo por inducción”, es decir, definir algo recursivamente, para esto necesitamos el &lt;strong&gt;principio de definición recursiva&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dado el subconjunto infinito &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; de &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_+&lt;/script&gt;, hay una única función &lt;script type=&quot;math/tex&quot;&gt;h:\mathbb{Z}_+\to C&lt;/script&gt; satisfaciendo la formula:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+(*)\qquad\begin{eqnarray}
+h(1)&amp;=&amp;\text{ elemento más pequeño de }C\\
+h(i)&amp;=&amp;\text{ elemento más pequeño de }[C-h(\lbrace 1,\dots,i-1\rbrace)]\ \forall i&gt;1
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;La fórmula (&lt;script type=&quot;math/tex&quot;&gt;*&lt;/script&gt;) se llama &lt;strong&gt;fórmula de recursión&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt;; define la función &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt;, &lt;em&gt;con respecto a si misma&lt;/em&gt;. Una definición dada de esta manera se llamará &lt;strong&gt;definición recursiva&lt;/strong&gt;. Las definiciones recursivas pueden llevarnos a problemas:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Dado que el barbero de Sevilla afeita a todo hombre que no se afeite a si mismo.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;¿Quién afeitará al barbero de Sevilla?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Algunas fórmulas recursivas tienen sentido. En concreto, se tiene el siguiente principio:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Principio de definición recursiva:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto. Dada una fórmula que define &lt;script type=&quot;math/tex&quot;&gt;h(1)&lt;/script&gt; como un único elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, y para todo &lt;script type=&quot;math/tex&quot;&gt;i&gt;1&lt;/script&gt;, define &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt; de manera única como elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; en términos de valores de &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt; para enteros positivos menores que &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;, esta fórmula determina una única función &lt;script type=&quot;math/tex&quot;&gt;h:\mathbb{Z}_+\to A&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario 7.3:&lt;/strong&gt; &lt;em&gt;Un subconjunto de un conjunto contable es contable.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario 7.4:&lt;/strong&gt; &lt;em&gt;El conjunto &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_+ \times \mathbb{Z_+}&lt;/script&gt; es contablemente infinito&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Por este corolario podemos ver que &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Q}_+&lt;/script&gt; es contablemente infinito, ya que podemos definir la suprayección:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+g:\mathbb{Z}_+\times\mathbb{Z}_+&amp;\to&amp;\mathbb{Q}\\
+(n,m)&amp;\mapsto&amp; m/n
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 7.5:&lt;/strong&gt; &lt;em&gt;La unión contable de conjuntos contables es contable.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 7.6:&lt;/strong&gt; &lt;em&gt;El producto contable de conjuntos contables es contable.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 7.8:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;X=\lbrace 0,1\rbrace&lt;/script&gt;. Entonces el conjunto &lt;script type=&quot;math/tex&quot;&gt;X^\omega&lt;/script&gt; es incontable.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;El producto cartesiano &lt;script type=&quot;math/tex&quot;&gt;\lbrace 0,1\rbrace^\omega&lt;/script&gt; es un ejemplo de conjunto incontable, otro ejemplo será &lt;script type=&quot;math/tex&quot;&gt;\mathcal{P}(\mathbb{Z}_+)&lt;/script&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 7.9:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto. No existe aplicación inyectiva &lt;script type=&quot;math/tex&quot;&gt;f:\mathcal{P}(A)\to A&lt;/script&gt;, y tampoco existe aplicación sobre &lt;script type=&quot;math/tex&quot;&gt;g:A\to\mathcal{P}(A)&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;8-el-principio-de-definición-recursiva&quot;&gt;§8 El Principio de Definición Recursiva&lt;/h2&gt;
+
+&lt;p&gt;(En el libro de Munkres esto va mucho más gradual, yo voy a la versión general)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema (Principio de definición recursiva):&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto; sea &lt;script type=&quot;math/tex&quot;&gt;a_0&lt;/script&gt; un elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;. Suponemos que &lt;script type=&quot;math/tex&quot;&gt;\rho&lt;/script&gt; es una función que asigna, a cada función &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; que aplica una sección no vacía de los enteros positivos a &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, un elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;. Entonces existe una única función&lt;/em&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\mathbb{Z}_+\to A&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;tal que&lt;/em&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+(*)\qquad\begin{eqnarray*}
+h(1)&amp;=&amp;a_0,\\
+h(i)&amp;=&amp;\rho(h\mid\lbrace 1,\dots,i-1\rbrace)\quad\text{para }i&gt;1
+\end{eqnarray*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;La fórmula (&lt;script type=&quot;math/tex&quot;&gt;*&lt;/script&gt;) se llamará &lt;strong&gt;fórmula de recursión&lt;/strong&gt; para &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt;. Especifica &lt;script type=&quot;math/tex&quot;&gt;h(1)&lt;/script&gt;, y expresa el valor de &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt; en &lt;script type=&quot;math/tex&quot;&gt;i&gt;1&lt;/script&gt; en función de los valores de &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt; para enteros positivos menores de &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;9-conjuntos-infinitos-y-el-axioma-de-elección&quot;&gt;§9 Conjuntos Infinitos y el Axioma de Elección&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 9.1:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto. Las siguientes afirmaciones son equivalentes:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Existe una función inyectiva &lt;script type=&quot;math/tex&quot;&gt;f:\mathbb{Z}_+\to A&lt;/script&gt;&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Existe una biyección de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; con un subconjunto propio de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es infinito&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Al intentar demostrar este teorema[^nota dems], nos topamos con un problema similar al que nos llevó a las definiciones recursivas, ahora, lo que intentamos definir es:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+f(1) &amp;=&amp; a_1\\
+f(i) &amp;=&amp; \text{elemento arbitrario de }A-f(\lbrace 1,\dots,i-1\rbrace)\quad\text{para }i&gt;1
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Lo cual no es una definición por recursión aceptable, ya que no define de forma única &lt;script type=&quot;math/tex&quot;&gt;f(i)&lt;/script&gt; en función a &lt;script type=&quot;math/tex&quot;&gt;f\mid\lbrace 1,\dots, i-1\rbrace&lt;/script&gt;. Esto quiere decir que necesitamos una nueva manera de afirmar la existencia de un conjunto:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;El axioma de Elección:&lt;/strong&gt; &lt;em&gt;Dada una familia &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; de conjuntos no vacíos y disjuntos, existe un conjunto &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; que consiste exactamente de un elemento de cada miembro de &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt;; esto quiere decir, un conjunto &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; contenido en la unión de los elementos de &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt; y, para cada &lt;script type=&quot;math/tex&quot;&gt;A\in\mathcal{A}&lt;/script&gt;, el conjunto &lt;script type=&quot;math/tex&quot;&gt;C\cap A&lt;/script&gt; contiene un solo elemento.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Podemos considerar por tanto que el conjunto &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; está formado “eligiendo” un elemento de cada uno de los conjuntos en &lt;script type=&quot;math/tex&quot;&gt;\mathcal{A}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lema 9.2 (Existencia de una función de elección):&lt;/strong&gt; &lt;em&gt;Dada una familia &lt;script type=&quot;math/tex&quot;&gt;\mathcal{B}&lt;/script&gt; de conjuntos no vacíos (no necesariamente disjuntos), existe una función:&lt;/em&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c:\mathcal{B}\to\bigcup_{B\in\mathcal{B}}B&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;tal que &lt;script type=&quot;math/tex&quot;&gt;c(B)&lt;/script&gt; es un elemento de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;, para cada &lt;script type=&quot;math/tex&quot;&gt;B\in\mathcal{B}&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Esta función &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; se llamará &lt;strong&gt;función de elección&lt;/strong&gt; para la familia &lt;script type=&quot;math/tex&quot;&gt;\mathcal{B}&lt;/script&gt;. La diferencia entre este lema y el axioma de elección es que en este lema no necesitamos que los conjuntos sean disjuntos.&lt;/p&gt;
+
+&lt;h2 id=&quot;10-conjuntos-bien-ordenados&quot;&gt;§10 Conjuntos Bien Ordenados&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Un conjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; con una relación de orden &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt; %]]&gt;&lt;/script&gt; se dice &lt;strong&gt;bien ordenado&lt;/strong&gt; si todo subconjunto no vacío tiene un elemento mínimo.&lt;/p&gt;
+
+&lt;p&gt;Hay varias maneras de construir elementos bien ordenados, dos son las siguientes:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Si &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es un conjunto bien ordenado, entonces todo subconjunto de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; está bien ordenado con la restricción de la relación de orden.&lt;/li&gt;
+  &lt;li&gt;Si &lt;script type=&quot;math/tex&quot;&gt;A,B&lt;/script&gt; son conjuntos bien ordenados, entonces &lt;script type=&quot;math/tex&quot;&gt;A\times B&lt;/script&gt; está bien ordenado con el orden de diccionario.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Dado un conjunto sin relación de orden &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, podemos preguntarnos si puede admitir alguna relación que lo haga bien ordenado:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 10.1:&lt;/strong&gt; &lt;em&gt;Todo conjunto finito, no vacío y ordenado tiene el tipo de orden de una sección &lt;script type=&quot;math/tex&quot;&gt;\lbrace1,\dots,n\rbrace&lt;/script&gt; de &lt;script type=&quot;math/tex&quot;&gt;\mathbb{Z}_+&lt;/script&gt; y por tanto está bien ordenado.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema (Teorema del buen orden):&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto, existe una relación de orden en &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; que lo hace bien ordenado.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corolario:&lt;/strong&gt; &lt;em&gt;Existe un conjunto bien ordenado incontable.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Sea &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; un conjunto bien ordenado. Dado &lt;script type=&quot;math/tex&quot;&gt;\alpha\in X&lt;/script&gt;, sea &lt;script type=&quot;math/tex&quot;&gt;S_\alpha&lt;/script&gt; el conjunto:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+S_\alpha = \lbrace
+ x\mid x\in X\text{ and }x&lt;\alpha
+ \rbrace %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;al cual llamaremos &lt;strong&gt;sección&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; por &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lema 10.2:&lt;/strong&gt; &lt;em&gt;Existe un conjunto bien ordenado &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; que tiene un elemento máximo &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;, tal que la sección &lt;script type=&quot;math/tex&quot;&gt;S_\Omega&lt;/script&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; por &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt; es incontable, pero todas las demás secciones de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; son contables.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Notamos que &lt;script type=&quot;math/tex&quot;&gt;S_\Omega&lt;/script&gt; es un conjunto bien ordenado del cual todas las secciones son finitas. Su tipo de orden está determinado únicamente por este hecho. Lo llamaremos &lt;strong&gt;primer conjunto bien ordenado incontable&lt;/strong&gt;. También denotaremos el conjunto bien ordenado &lt;script type=&quot;math/tex&quot;&gt;A=S_\Omega \cup \lbrace\Omega\rbrace&lt;/script&gt; como &lt;script type=&quot;math/tex&quot;&gt;\bar{S} _\Omega&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;La propiedad más útil de este conjunto es:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema 10.3:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un subconjunto contable d &lt;script type=&quot;math/tex&quot;&gt;S_\Omega&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; tiene una cota superior en &lt;script type=&quot;math/tex&quot;&gt;S_\Omega&lt;/script&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;11-principio-maximal-de-hausdorff&quot;&gt;§11 Principio Maximal (de Hausdorff)&lt;/h2&gt;
+
+&lt;p&gt;Dado un conjunto &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, una relación &lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt; se llamá &lt;strong&gt;orden parcial estricto&lt;/strong&gt; en &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; si cumple las siguientes propiedades:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;(&lt;em&gt;No-reflexividad&lt;/em&gt;) La relación &lt;script type=&quot;math/tex&quot;&gt;a\prec a&lt;/script&gt; nunca se cumple.&lt;/li&gt;
+  &lt;li&gt;(&lt;em&gt;Transitividad&lt;/em&gt;) Si &lt;script type=&quot;math/tex&quot;&gt;a\prec b&lt;/script&gt; y &lt;script type=&quot;math/tex&quot;&gt;b\prec c&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;a\prec c&lt;/script&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Siendo &lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt; un orden parcial estricto sobre &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, puede darse el caso de que algún subconjunto &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; esté simplemente ordenado por la relación; lo único que hace falta es que cualquier pareja de elementos sean comparables bajo &lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teorema (Principio Maximal de Hausdorff):&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto; sea &lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt; un orden parcial estricto sobre &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, entonces existe un subconjunto de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; simplemente ordenado.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definición: ** Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto y sea &lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt; un orden parcial estricto. Si &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es un subconjunto de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, una **cota superior&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es un elemento &lt;script type=&quot;math/tex&quot;&gt;c\in A&lt;/script&gt; tal que &lt;script type=&quot;math/tex&quot;&gt;\forall b \in B&lt;/script&gt;, o bien &lt;script type=&quot;math/tex&quot;&gt;b=c&lt;/script&gt; ó &lt;script type=&quot;math/tex&quot;&gt;b\prec c&lt;/script&gt;. Un &lt;strong&gt;elemento maximal&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es un elemento &lt;script type=&quot;math/tex&quot;&gt;m\in A&lt;/script&gt; tal que no existe ningún elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; para el cual se cumpla &lt;script type=&quot;math/tex&quot;&gt;m\prec a&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lema de Zorn:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto estrictamente parcialmente ordenado. Si cada subconjunto simplemente ordenado de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; tiene una cota superior en &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; tiene un elemento maximal&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A veces se usa el concepto de &lt;strong&gt;orden parcial&lt;/strong&gt; (no estricto). Esto se refiere a una relación &lt;script type=&quot;math/tex&quot;&gt;a\preceq b&lt;/script&gt; si &lt;script type=&quot;math/tex&quot;&gt;a=b&lt;/script&gt; ó &lt;script type=&quot;math/tex&quot;&gt;a\prec b&lt;/script&gt;.&lt;/p&gt;</content><author><name>Diego Pirx</name></author><category term="Español" /><category term="Set Theory" /><summary type="html">Índice Índice</summary></entry><entry><title type="html">Regla del tres, demostración enrevesada</title><link href="https://github.com/Pilotman/MathBlog/2019/11/05/Rule-of-3.es/" rel="alternate" type="text/html" title="Regla del tres, demostración enrevesada" /><published>2019-11-05T00:00:00+00:00</published><updated>2019-11-05T00:00:00+00:00</updated><id>https://github.com/Pilotman/MathBlog/2019/11/05/Rule-of-3.es</id><content type="html" xml:base="https://github.com/Pilotman/MathBlog/2019/11/05/Rule-of-3.es/">&lt;p&gt;&lt;a href=&quot;/MathBlog/2019/11/05/Rule-of-3&quot;&gt;Read in English&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Para esta entrada, me gustaría explorar una propiedad de los numeros naturales (o enteros en este caso) que se enseña en primaria, pero su demostración requiere una pequeña peculiaridad del sistema decimal.&lt;/p&gt;
 
