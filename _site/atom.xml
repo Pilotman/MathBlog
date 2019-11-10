@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>MathBlog</title>
- <link href="https://github.com/Pilotman/atom.xml" rel="self"/>
- <link href="https://github.com/Pilotman/"/>
- <updated>2019-11-10T13:51:26+00:00</updated>
- <id>https://github.com/Pilotman</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-11-10T17:54:20+00:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Diego Pirx</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Teoría de Conjuntos Básica</title>
-   <link href="https://github.com/Pilotman/2019/11/10/T-De-Conjuntos-B%C3%A1sica/"/>
+   <link href="http://localhost:4000/2019/11/10/T-De-Conjuntos-B%C3%A1sica/"/>
    <updated>2019-11-10T00:00:00+00:00</updated>
-   <id>https://github.com/Pilotman/2019/11/10/T-De-Conjuntos-Básica</id>
+   <id>http://localhost:4000/2019/11/10/T-De-Conjuntos-Básica</id>
    <content type="html">&lt;blockquote&gt;
   &lt;h2 id=&quot;índice&quot;&gt;Índice&lt;/h2&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
@@ -701,19 +701,21 @@ S_\alpha = \lbrace
 
 &lt;p&gt;&lt;strong&gt;Teorema (Principio Maximal de Hausdorff):&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto; sea &lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt; un orden parcial estricto sobre &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, entonces existe un subconjunto de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; simplemente ordenado.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Definición: ** Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto y sea &lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt; un orden parcial estricto. Si &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es un subconjunto de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, una **cota superior&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es un elemento &lt;script type=&quot;math/tex&quot;&gt;c\in A&lt;/script&gt; tal que &lt;script type=&quot;math/tex&quot;&gt;\forall b \in B&lt;/script&gt;, o bien &lt;script type=&quot;math/tex&quot;&gt;b=c&lt;/script&gt; ó &lt;script type=&quot;math/tex&quot;&gt;b\prec c&lt;/script&gt;. Un &lt;strong&gt;elemento maximal&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es un elemento &lt;script type=&quot;math/tex&quot;&gt;m\in A&lt;/script&gt; tal que no existe ningún elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; para el cual se cumpla &lt;script type=&quot;math/tex&quot;&gt;m\prec a&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto y sea &lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt; un orden parcial estricto. Si &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es un subconjunto de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, una &lt;strong&gt;cota superior&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; es un elemento &lt;script type=&quot;math/tex&quot;&gt;c\in A&lt;/script&gt; tal que &lt;script type=&quot;math/tex&quot;&gt;\forall b \in B&lt;/script&gt;, o bien &lt;script type=&quot;math/tex&quot;&gt;b=c&lt;/script&gt; ó &lt;script type=&quot;math/tex&quot;&gt;b\prec c&lt;/script&gt;. Un &lt;strong&gt;elemento maximal&lt;/strong&gt; de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; es un elemento &lt;script type=&quot;math/tex&quot;&gt;m\in A&lt;/script&gt; tal que no existe ningún elemento de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; para el cual se cumpla &lt;script type=&quot;math/tex&quot;&gt;m\prec a&lt;/script&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Lema de Zorn:&lt;/strong&gt; &lt;em&gt;Sea &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; un conjunto estrictamente parcialmente ordenado. Si cada subconjunto simplemente ordenado de &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; tiene una cota superior en &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, entonces &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; tiene un elemento maximal&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;A veces se usa el concepto de &lt;strong&gt;orden parcial&lt;/strong&gt; (no estricto). Esto se refiere a una relación &lt;script type=&quot;math/tex&quot;&gt;a\preceq b&lt;/script&gt; si &lt;script type=&quot;math/tex&quot;&gt;a=b&lt;/script&gt; ó &lt;script type=&quot;math/tex&quot;&gt;a\prec b&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fuente: &lt;a href=&quot;https://www.allbookstores.com/Topologh-2nd-Edition-James-Munkres/9780131816299&quot;&gt;&lt;em&gt;Topology Second Edition&lt;/em&gt;, James R. Munkres&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Rule of threes, twisted proof</title>
-   <link href="https://github.com/Pilotman/2019/11/05/Rule-of-3/"/>
+   <link href="http://localhost:4000/2019/11/05/Rule-of-3/"/>
    <updated>2019-11-05T00:00:00+00:00</updated>
-   <id>https://github.com/Pilotman/2019/11/05/Rule-of-3</id>
+   <id>http://localhost:4000/2019/11/05/Rule-of-3</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/MathBlog/2019/11/05/Rule-of-3.es&quot;&gt;Leer en Español&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For this post, I want to explore a property of the natural numbers (or integers in this case) that is taught at a very young age and whose proof relies on a weird quirk of the decimal system.&lt;/p&gt;
@@ -908,9 +910,9 @@ x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_
  
  <entry>
    <title>Regla del tres, demostración enrevesada</title>
-   <link href="https://github.com/Pilotman/2019/11/05/Rule-of-3.es/"/>
+   <link href="http://localhost:4000/2019/11/05/Rule-of-3.es/"/>
    <updated>2019-11-05T00:00:00+00:00</updated>
-   <id>https://github.com/Pilotman/2019/11/05/Rule-of-3.es</id>
+   <id>http://localhost:4000/2019/11/05/Rule-of-3.es</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/MathBlog/2019/11/05/Rule-of-3&quot;&gt;Read in English&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Para esta entrada, me gustaría explorar una propiedad de los numeros naturales (o enteros en este caso) que se enseña en primaria, pero su demostración requiere una pequeña peculiaridad del sistema decimal.&lt;/p&gt;
@@ -1104,9 +1106,9 @@ x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_
  
  <entry>
    <title>Two very interesting Series</title>
-   <link href="https://github.com/Pilotman/2019/11/04/Series/"/>
+   <link href="http://localhost:4000/2019/11/04/Series/"/>
    <updated>2019-11-04T00:00:00+00:00</updated>
-   <id>https://github.com/Pilotman/2019/11/04/Series</id>
+   <id>http://localhost:4000/2019/11/04/Series</id>
    <content type="html">&lt;blockquote&gt;
   &lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;

@@ -684,8 +684,10 @@ Siendo $$\prec$$ un orden parcial estricto sobre $$A$$, puede darse el caso de q
 
 **Teorema (Principio Maximal de Hausdorff):** *Sea $$A$$ un conjunto; sea $$\prec$$ un orden parcial estricto sobre $$A$$, entonces existe un subconjunto de $$A$$ simplemente ordenado.*
 
-**Definición: ** Sea $$A$$ un conjunto y sea $$\prec$$ un orden parcial estricto. Si $$B$$ es un subconjunto de $$A$$, una **cota superior** de $$B$$ es un elemento $$c\in A$$ tal que $$\forall b \in B$$, o bien $$b=c$$ ó $$b\prec c$$. Un **elemento maximal** de $$A$$ es un elemento $$m\in A$$ tal que no existe ningún elemento de $$A$$ para el cual se cumpla $$m\prec a$$.
+**Definición:** Sea $$A$$ un conjunto y sea $$\prec$$ un orden parcial estricto. Si $$B$$ es un subconjunto de $$A$$, una **cota superior** de $$B$$ es un elemento $$c\in A$$ tal que $$\forall b \in B$$, o bien $$b=c$$ ó $$b\prec c$$. Un **elemento maximal** de $$A$$ es un elemento $$m\in A$$ tal que no existe ningún elemento de $$A$$ para el cual se cumpla $$m\prec a$$.
 
 **Lema de Zorn:** *Sea $$A$$ un conjunto estrictamente parcialmente ordenado. Si cada subconjunto simplemente ordenado de $$A$$ tiene una cota superior en $$A$$, entonces $$A$$ tiene un elemento maximal*
 
 A veces se usa el concepto de **orden parcial** (no estricto). Esto se refiere a una relación $$a\preceq b$$ si $$a=b$$ ó $$a\prec b$$.
+
+Fuente: [*Topology Second Edition*, James R. Munkres](https://www.allbookstores.com/Topologh-2nd-Edition-James-Munkres/9780131816299)

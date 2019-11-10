@@ -1,4 +1,4 @@
-I"'�<blockquote>
+I"��<blockquote>
   <h2 id="índice">Índice</h2>
 <ul id="markdown-toc">
   <li><a href="#índice" id="markdown-toc-índice">Índice</a></li>
@@ -687,4 +687,6 @@ S_\alpha = \lbrace
 <p><strong>Lema de Zorn:</strong> <em>Sea <script type="math/tex">A</script> un conjunto estrictamente parcialmente ordenado. Si cada subconjunto simplemente ordenado de <script type="math/tex">A</script> tiene una cota superior en <script type="math/tex">A</script>, entonces <script type="math/tex">A</script> tiene un elemento maximal</em></p>
 
 <p>A veces se usa el concepto de <strong>orden parcial</strong> (no estricto). Esto se refiere a una relación <script type="math/tex">a\preceq b</script> si <script type="math/tex">a=b</script> ó <script type="math/tex">a\prec b</script>.</p>
+
+<p>Fuente: <a href="https://www.allbookstores.com/Topologh-2nd-Edition-James-Munkres/9780131816299"><em>Topology Second Edition</em>, James R. Munkres</a></p>
 :ET
