@@ -8,7 +8,7 @@ tags:
 
 >## Índice
 >* Table of Contents
->{:toc}
+{:toc}
 
 
 ## &sect;1	Conceptos Fundamentales
@@ -290,10 +290,10 @@ Usamos la notación $$xCy$$ para referirnos a lo mismo que $$(x,y)\in C$$, el qu
 Una **relación de equivalencia** sobre $$A$$ es una relación $$C$$ en $$A$$ que cumple las siguientes tres propiedades:
 
 1. **Reflexividad:** $$xCx\ \ \forall x\in A$$ 
-2. **Simetría: **$$xCy\Rightarrow yCx$$
-3. **Transitividad: **$$xCy,yCz\Rightarrow xCz$$ 
+2. **Simetría:** $$xCy\Rightarrow yCx$$
+3. **Transitividad:** $$xCy,yCz\Rightarrow xCz$$ 
 
-Frecuentemente se usa el símbolo $$\sim$$ para denotar una relación de equivalencia (pero para JL, mejor $$\mathfrak{R}$$)
+Frecuentemente se usa el símbolo $$\sim$$ para denotar una relación de equivalencia (también $$\mathfrak{R}$$)
 
 Dada una relación de equivalencia $$\sim$$ en un conjunto $$A$$ y un elemento $$x\in A$$, definimos un cierto subconjunto $$E\subset A$$, llamado la **clase de equivalencia** de $$x$$, como:
 
@@ -533,7 +533,7 @@ Existe un sencillo criterio para discernir si un conjunto es contable:
 
 1. *$$B$$ es contable*
 2. *Hay una función sobre $$f:\mathbb{Z}_+\to B$$*
-3. *Hay una función inyectiva $$g:B\to \mathbb{Z}_+$$
+3. *Hay una función inyectiva $$g:B\to \mathbb{Z}_+$$*
 
 **Lema 7.2:** *Si $$C$$ es un subconjunto infinito de $$\mathbb{Z}_0$$, entonces $$C$$ es contablemente finito*
 
