@@ -1,7 +1,7 @@
-I"��<blockquote>
-  <h2 id="índice">Índice</h2>
+I"�<blockquote>
+  <h2 id="table-of-contents">Table of contents</h2>
 <ul id="markdown-toc">
-  <li><a href="#índice" id="markdown-toc-índice">Índice</a></li>
+  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents</a></li>
   <li><a href="#1-conceptos-fundamentales" id="markdown-toc-1-conceptos-fundamentales">§1	Conceptos Fundamentales</a>    <ul>
       <li><a href="#notación-básica" id="markdown-toc-notación-básica">Notación básica</a></li>
       <li><a href="#unión-de-conjuntos-y-o-lógico" id="markdown-toc-unión-de-conjuntos-y-o-lógico">Unión de conjuntos y “o” lógico</a></li>
@@ -272,11 +272,11 @@ x^2 <0 %]]></script>, en este caso, podemos decir que la afirmación es <strong>
 
 <ol>
   <li><strong>Reflexividad:</strong> <script type="math/tex">xCx\ \ \forall x\in A</script></li>
-  <li>**Simetría: **<script type="math/tex">xCy\Rightarrow yCx</script></li>
-  <li>**Transitividad: **<script type="math/tex">xCy,yCz\Rightarrow xCz</script></li>
+  <li><strong>Simetría:</strong> <script type="math/tex">xCy\Rightarrow yCx</script></li>
+  <li><strong>Transitividad:</strong> <script type="math/tex">xCy,yCz\Rightarrow xCz</script></li>
 </ol>
 
-<p>Frecuentemente se usa el símbolo <script type="math/tex">\sim</script> para denotar una relación de equivalencia (pero para JL, mejor <script type="math/tex">\mathfrak{R}</script>)</p>
+<p>Frecuentemente se usa el símbolo <script type="math/tex">\sim</script> para denotar una relación de equivalencia (también <script type="math/tex">\mathfrak{R}</script>)</p>
 
 <p>Dada una relación de equivalencia <script type="math/tex">\sim</script> en un conjunto <script type="math/tex">A</script> y un elemento <script type="math/tex">x\in A</script>, definimos un cierto subconjunto <script type="math/tex">E\subset A</script>, llamado la <strong>clase de equivalencia</strong> de <script type="math/tex">x</script>, como:</p>
 
@@ -533,7 +533,7 @@ m<n %]]></script>.</em></p>
 <ol>
   <li><em><script type="math/tex">B</script> es contable</em></li>
   <li><em>Hay una función sobre <script type="math/tex">f:\mathbb{Z}_+\to B</script></em></li>
-  <li>*Hay una función inyectiva <script type="math/tex">g:B\to \mathbb{Z}_+</script></li>
+  <li><em>Hay una función inyectiva <script type="math/tex">g:B\to \mathbb{Z}_+</script></em></li>
 </ol>
 
 <p><strong>Lema 7.2:</strong> <em>Si <script type="math/tex">C</script> es un subconjunto infinito de <script type="math/tex">\mathbb{Z}_0</script>, entonces <script type="math/tex">C</script> es contablemente finito</em></p>
@@ -682,7 +682,7 @@ S_\alpha = \lbrace
 
 <p><strong>Teorema (Principio Maximal de Hausdorff):</strong> <em>Sea <script type="math/tex">A</script> un conjunto; sea <script type="math/tex">\prec</script> un orden parcial estricto sobre <script type="math/tex">A</script>, entonces existe un subconjunto de <script type="math/tex">A</script> simplemente ordenado.</em></p>
 
-<p><strong>Definición: ** Sea <script type="math/tex">A</script> un conjunto y sea <script type="math/tex">\prec</script> un orden parcial estricto. Si <script type="math/tex">B</script> es un subconjunto de <script type="math/tex">A</script>, una **cota superior</strong> de <script type="math/tex">B</script> es un elemento <script type="math/tex">c\in A</script> tal que <script type="math/tex">\forall b \in B</script>, o bien <script type="math/tex">b=c</script> ó <script type="math/tex">b\prec c</script>. Un <strong>elemento maximal</strong> de <script type="math/tex">A</script> es un elemento <script type="math/tex">m\in A</script> tal que no existe ningún elemento de <script type="math/tex">A</script> para el cual se cumpla <script type="math/tex">m\prec a</script>.</p>
+<p><strong>Definición:</strong> Sea <script type="math/tex">A</script> un conjunto y sea <script type="math/tex">\prec</script> un orden parcial estricto. Si <script type="math/tex">B</script> es un subconjunto de <script type="math/tex">A</script>, una <strong>cota superior</strong> de <script type="math/tex">B</script> es un elemento <script type="math/tex">c\in A</script> tal que <script type="math/tex">\forall b \in B</script>, o bien <script type="math/tex">b=c</script> ó <script type="math/tex">b\prec c</script>. Un <strong>elemento maximal</strong> de <script type="math/tex">A</script> es un elemento <script type="math/tex">m\in A</script> tal que no existe ningún elemento de <script type="math/tex">A</script> para el cual se cumpla <script type="math/tex">m\prec a</script>.</p>
 
 <p><strong>Lema de Zorn:</strong> <em>Sea <script type="math/tex">A</script> un conjunto estrictamente parcialmente ordenado. Si cada subconjunto simplemente ordenado de <script type="math/tex">A</script> tiene una cota superior en <script type="math/tex">A</script>, entonces <script type="math/tex">A</script> tiene un elemento maximal</em></p>
 
