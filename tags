@@ -1,0 +1,870 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+&sect;10 Conjuntos Bien Ordenados	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;10 Conjuntos Bien Ordenados$/;"	s
+&sect;11 Principio Maximal (de Hausdorff)	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;11 Principio Maximal (de Hausdorff)$/;"	s
+&sect;1\tConceptos Fundamentales	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;1	Conceptos Fundamentales$/;"	s
+&sect;2\tFunciones	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;2	Funciones$/;"	s
+&sect;3\tRelaciones	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;3	Relaciones$/;"	s
+&sect;4\tLos enteros y los reales	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;4	Los enteros y los reales$/;"	s
+&sect;5 Productos Cartesianos	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;5 Productos Cartesianos$/;"	s
+&sect;6 Conjuntos Finitos	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;6 Conjuntos Finitos$/;"	s
+&sect;7 Conjuntos contables e incontables	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;7 Conjuntos contables e incontables$/;"	s
+&sect;8 El Principio de Definición Recursiva	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;8 El Principio de Definición Recursiva$/;"	s
+&sect;9 Conjuntos Infinitos y el Axioma de Elección	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^## &sect;9 Conjuntos Infinitos y el Axioma de Elección$/;"	s
+*	_site/public/css/poole.css	/^* {$/;"	s
+*	public/css/poole.css	/^* {$/;"	s
+- Abstract Algebra	_posts/2019-11-05-Rule-of-3.es.md	/^  - Abstract Algebra$/;"	s
+- Abstract Algebra	_posts/2019-11-05-Rule-of-3.md	/^  - Abstract Algebra$/;"	s
+- Series	_posts/2019-11-04-Series.md	/^  - Series$/;"	s
+- Set Theory	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^  - Set Theory$/;"	s
+.container	_site/public/css/poole.css	/^.container {$/;"	c
+.container	public/css/poole.css	/^.container {$/;"	c
+.content	_site/public/css/hyde.css	/^  .content {$/;"	c
+.content	_site/public/css/hyde.css	/^.content {$/;"	c
+.content	public/css/hyde.css	/^  .content {$/;"	c
+.content	public/css/hyde.css	/^.content {$/;"	c
+.css .nt + .nt	_site/public/css/syntax.css	/^.css .nt + .nt { color: #999; }$/;"	c
+.css .nt + .nt	public/css/syntax.css	/^.css .nt + .nt { color: #999; }$/;"	c
+.css .o	_site/public/css/syntax.css	/^.css .o,$/;"	c
+.css .o	public/css/syntax.css	/^.css .o,$/;"	c
+.css .o + .nt	_site/public/css/syntax.css	/^.css .o + .nt,$/;"	c
+.css .o + .nt	public/css/syntax.css	/^.css .o + .nt,$/;"	c
+.gist .gist-file	_site/public/css/poole.css	/^.gist .gist-file {$/;"	c
+.gist .gist-file	public/css/poole.css	/^.gist .gist-file {$/;"	c
+.gist .gist-file .gist-data	_site/public/css/poole.css	/^.gist .gist-file .gist-data {$/;"	c
+.gist .gist-file .gist-data	public/css/poole.css	/^.gist .gist-file .gist-data {$/;"	c
+.gist .markdown-body	_site/public/css/poole.css	/^.gist .markdown-body {$/;"	c
+.gist .markdown-body	public/css/poole.css	/^.gist .markdown-body {$/;"	c
+.gist code	_site/public/css/poole.css	/^.gist code {$/;"	s
+.gist code	public/css/poole.css	/^.gist code {$/;"	s
+.gist pre	_site/public/css/poole.css	/^.gist pre {$/;"	s
+.gist pre	public/css/poole.css	/^.gist pre {$/;"	s
+.highlight	_site/public/css/poole.css	/^.highlight {$/;"	c
+.highlight	public/css/poole.css	/^.highlight {$/;"	c
+.highlight .bp	_site/public/css/syntax.css	/^.highlight .bp { color: #366 } \/* Name.Builtin.Pseudo *\/$/;"	c
+.highlight .bp	public/css/syntax.css	/^.highlight .bp { color: #366 } \/* Name.Builtin.Pseudo *\/$/;"	c
+.highlight .c	_site/public/css/syntax.css	/^.highlight .c { color: #999; } \/* Comment *\/$/;"	c
+.highlight .c	public/css/syntax.css	/^.highlight .c { color: #999; } \/* Comment *\/$/;"	c
+.highlight .c1	_site/public/css/syntax.css	/^.highlight .c1 { color: #999; } \/* Comment.Single *\/$/;"	c
+.highlight .c1	public/css/syntax.css	/^.highlight .c1 { color: #999; } \/* Comment.Single *\/$/;"	c
+.highlight .cm	_site/public/css/syntax.css	/^.highlight .cm { color: #09f; font-style: italic } \/* Comment.Multiline *\/$/;"	c
+.highlight .cm	public/css/syntax.css	/^.highlight .cm { color: #09f; font-style: italic } \/* Comment.Multiline *\/$/;"	c
+.highlight .cp	_site/public/css/syntax.css	/^.highlight .cp { color: #099 } \/* Comment.Preproc *\/$/;"	c
+.highlight .cp	public/css/syntax.css	/^.highlight .cp { color: #099 } \/* Comment.Preproc *\/$/;"	c
+.highlight .cs	_site/public/css/syntax.css	/^.highlight .cs { color: #999; } \/* Comment.Special *\/$/;"	c
+.highlight .cs	public/css/syntax.css	/^.highlight .cs { color: #999; } \/* Comment.Special *\/$/;"	c
+.highlight .err	_site/public/css/syntax.css	/^.highlight .err { color: #a00; background-color: #faa } \/* Error *\/$/;"	c
+.highlight .err	public/css/syntax.css	/^.highlight .err { color: #a00; background-color: #faa } \/* Error *\/$/;"	c
+.highlight .gd	_site/public/css/syntax.css	/^.highlight .gd { background-color: #fcc; border: 1px solid #c00 } \/* Generic.Deleted *\/$/;"	c
+.highlight .gd	public/css/syntax.css	/^.highlight .gd { background-color: #fcc; border: 1px solid #c00 } \/* Generic.Deleted *\/$/;"	c
+.highlight .ge	_site/public/css/syntax.css	/^.highlight .ge { font-style: italic } \/* Generic.Emph *\/$/;"	c
+.highlight .ge	public/css/syntax.css	/^.highlight .ge { font-style: italic } \/* Generic.Emph *\/$/;"	c
+.highlight .gh	_site/public/css/syntax.css	/^.highlight .gh { color: #030; } \/* Generic.Heading *\/$/;"	c
+.highlight .gh	public/css/syntax.css	/^.highlight .gh { color: #030; } \/* Generic.Heading *\/$/;"	c
+.highlight .gi	_site/public/css/syntax.css	/^.highlight .gi { background-color: #cfc; border: 1px solid #0c0 } \/* Generic.Inserted *\/$/;"	c
+.highlight .gi	public/css/syntax.css	/^.highlight .gi { background-color: #cfc; border: 1px solid #0c0 } \/* Generic.Inserted *\/$/;"	c
+.highlight .go	_site/public/css/syntax.css	/^.highlight .go { color: #aaa } \/* Generic.Output *\/$/;"	c
+.highlight .go	public/css/syntax.css	/^.highlight .go { color: #aaa } \/* Generic.Output *\/$/;"	c
+.highlight .gp	_site/public/css/syntax.css	/^.highlight .gp { color: #009; } \/* Generic.Prompt *\/$/;"	c
+.highlight .gp	public/css/syntax.css	/^.highlight .gp { color: #009; } \/* Generic.Prompt *\/$/;"	c
+.highlight .gr	_site/public/css/syntax.css	/^.highlight .gr { color: #f00 } \/* Generic.Error *\/$/;"	c
+.highlight .gr	public/css/syntax.css	/^.highlight .gr { color: #f00 } \/* Generic.Error *\/$/;"	c
+.highlight .gs	_site/public/css/syntax.css	/^.highlight .gs { } \/* Generic.Strong *\/$/;"	c
+.highlight .gs	public/css/syntax.css	/^.highlight .gs { } \/* Generic.Strong *\/$/;"	c
+.highlight .gt	_site/public/css/syntax.css	/^.highlight .gt { color: #9c6 } \/* Generic.Traceback *\/$/;"	c
+.highlight .gt	public/css/syntax.css	/^.highlight .gt { color: #9c6 } \/* Generic.Traceback *\/$/;"	c
+.highlight .gu	_site/public/css/syntax.css	/^.highlight .gu { color: #030; } \/* Generic.Subheading *\/$/;"	c
+.highlight .gu	public/css/syntax.css	/^.highlight .gu { color: #030; } \/* Generic.Subheading *\/$/;"	c
+.highlight .hll	_site/public/css/syntax.css	/^.highlight .hll { background-color: #ffc; }$/;"	c
+.highlight .hll	public/css/syntax.css	/^.highlight .hll { background-color: #ffc; }$/;"	c
+.highlight .il	_site/public/css/syntax.css	/^.highlight .il { color: #f60 } \/* Literal.Number.Integer.Long *\/$/;"	c
+.highlight .il	public/css/syntax.css	/^.highlight .il { color: #f60 } \/* Literal.Number.Integer.Long *\/$/;"	c
+.highlight .k	_site/public/css/syntax.css	/^.highlight .k { color: #069; } \/* Keyword *\/$/;"	c
+.highlight .k	public/css/syntax.css	/^.highlight .k { color: #069; } \/* Keyword *\/$/;"	c
+.highlight .kc	_site/public/css/syntax.css	/^.highlight .kc { color: #069; } \/* Keyword.Constant *\/$/;"	c
+.highlight .kc	public/css/syntax.css	/^.highlight .kc { color: #069; } \/* Keyword.Constant *\/$/;"	c
+.highlight .kd	_site/public/css/syntax.css	/^.highlight .kd { color: #069; } \/* Keyword.Declaration *\/$/;"	c
+.highlight .kd	public/css/syntax.css	/^.highlight .kd { color: #069; } \/* Keyword.Declaration *\/$/;"	c
+.highlight .kn	_site/public/css/syntax.css	/^.highlight .kn { color: #069; } \/* Keyword.Namespace *\/$/;"	c
+.highlight .kn	public/css/syntax.css	/^.highlight .kn { color: #069; } \/* Keyword.Namespace *\/$/;"	c
+.highlight .kp	_site/public/css/syntax.css	/^.highlight .kp { color: #069 } \/* Keyword.Pseudo *\/$/;"	c
+.highlight .kp	public/css/syntax.css	/^.highlight .kp { color: #069 } \/* Keyword.Pseudo *\/$/;"	c
+.highlight .kr	_site/public/css/syntax.css	/^.highlight .kr { color: #069; } \/* Keyword.Reserved *\/$/;"	c
+.highlight .kr	public/css/syntax.css	/^.highlight .kr { color: #069; } \/* Keyword.Reserved *\/$/;"	c
+.highlight .kt	_site/public/css/syntax.css	/^.highlight .kt { color: #078; } \/* Keyword.Type *\/$/;"	c
+.highlight .kt	public/css/syntax.css	/^.highlight .kt { color: #078; } \/* Keyword.Type *\/$/;"	c
+.highlight .m	_site/public/css/syntax.css	/^.highlight .m { color: #f60 } \/* Literal.Number *\/$/;"	c
+.highlight .m	public/css/syntax.css	/^.highlight .m { color: #f60 } \/* Literal.Number *\/$/;"	c
+.highlight .mf	_site/public/css/syntax.css	/^.highlight .mf { color: #f60 } \/* Literal.Number.Float *\/$/;"	c
+.highlight .mf	public/css/syntax.css	/^.highlight .mf { color: #f60 } \/* Literal.Number.Float *\/$/;"	c
+.highlight .mh	_site/public/css/syntax.css	/^.highlight .mh { color: #f60 } \/* Literal.Number.Hex *\/$/;"	c
+.highlight .mh	public/css/syntax.css	/^.highlight .mh { color: #f60 } \/* Literal.Number.Hex *\/$/;"	c
+.highlight .mi	_site/public/css/syntax.css	/^.highlight .mi { color: #f60 } \/* Literal.Number.Integer *\/$/;"	c
+.highlight .mi	public/css/syntax.css	/^.highlight .mi { color: #f60 } \/* Literal.Number.Integer *\/$/;"	c
+.highlight .mo	_site/public/css/syntax.css	/^.highlight .mo { color: #f60 } \/* Literal.Number.Oct *\/$/;"	c
+.highlight .mo	public/css/syntax.css	/^.highlight .mo { color: #f60 } \/* Literal.Number.Oct *\/$/;"	c
+.highlight .na	_site/public/css/syntax.css	/^.highlight .na { color: #4f9fcf } \/* Name.Attribute *\/$/;"	c
+.highlight .na	public/css/syntax.css	/^.highlight .na { color: #4f9fcf } \/* Name.Attribute *\/$/;"	c
+.highlight .nb	_site/public/css/syntax.css	/^.highlight .nb { color: #366 } \/* Name.Builtin *\/$/;"	c
+.highlight .nb	public/css/syntax.css	/^.highlight .nb { color: #366 } \/* Name.Builtin *\/$/;"	c
+.highlight .nc	_site/public/css/syntax.css	/^.highlight .nc { color: #0a8; } \/* Name.Class *\/$/;"	c
+.highlight .nc	public/css/syntax.css	/^.highlight .nc { color: #0a8; } \/* Name.Class *\/$/;"	c
+.highlight .nd	_site/public/css/syntax.css	/^.highlight .nd { color: #99f } \/* Name.Decorator *\/$/;"	c
+.highlight .nd	public/css/syntax.css	/^.highlight .nd { color: #99f } \/* Name.Decorator *\/$/;"	c
+.highlight .ne	_site/public/css/syntax.css	/^.highlight .ne { color: #c00; } \/* Name.Exception *\/$/;"	c
+.highlight .ne	public/css/syntax.css	/^.highlight .ne { color: #c00; } \/* Name.Exception *\/$/;"	c
+.highlight .nf	_site/public/css/syntax.css	/^.highlight .nf { color: #c0f } \/* Name.Function *\/$/;"	c
+.highlight .nf	public/css/syntax.css	/^.highlight .nf { color: #c0f } \/* Name.Function *\/$/;"	c
+.highlight .ni	_site/public/css/syntax.css	/^.highlight .ni { color: #999; } \/* Name.Entity *\/$/;"	c
+.highlight .ni	public/css/syntax.css	/^.highlight .ni { color: #999; } \/* Name.Entity *\/$/;"	c
+.highlight .nl	_site/public/css/syntax.css	/^.highlight .nl { color: #99f } \/* Name.Label *\/$/;"	c
+.highlight .nl	public/css/syntax.css	/^.highlight .nl { color: #99f } \/* Name.Label *\/$/;"	c
+.highlight .nn	_site/public/css/syntax.css	/^.highlight .nn { color: #0cf; } \/* Name.Namespace *\/$/;"	c
+.highlight .nn	public/css/syntax.css	/^.highlight .nn { color: #0cf; } \/* Name.Namespace *\/$/;"	c
+.highlight .no	_site/public/css/syntax.css	/^.highlight .no { color: #360 } \/* Name.Constant *\/$/;"	c
+.highlight .no	public/css/syntax.css	/^.highlight .no { color: #360 } \/* Name.Constant *\/$/;"	c
+.highlight .nt	_site/public/css/syntax.css	/^.highlight .nt { color: #2f6f9f; } \/* Name.Tag *\/$/;"	c
+.highlight .nt	public/css/syntax.css	/^.highlight .nt { color: #2f6f9f; } \/* Name.Tag *\/$/;"	c
+.highlight .nv	_site/public/css/syntax.css	/^.highlight .nv { color: #033 } \/* Name.Variable *\/$/;"	c
+.highlight .nv	public/css/syntax.css	/^.highlight .nv { color: #033 } \/* Name.Variable *\/$/;"	c
+.highlight .o	_site/public/css/syntax.css	/^.highlight .o { color: #555 } \/* Operator *\/$/;"	c
+.highlight .o	public/css/syntax.css	/^.highlight .o { color: #555 } \/* Operator *\/$/;"	c
+.highlight .ow	_site/public/css/syntax.css	/^.highlight .ow { color: #000; } \/* Operator.Word *\/$/;"	c
+.highlight .ow	public/css/syntax.css	/^.highlight .ow { color: #000; } \/* Operator.Word *\/$/;"	c
+.highlight .s	_site/public/css/syntax.css	/^.highlight .s { color: #d44950 } \/* Literal.String *\/$/;"	c
+.highlight .s	public/css/syntax.css	/^.highlight .s { color: #d44950 } \/* Literal.String *\/$/;"	c
+.highlight .s1	_site/public/css/syntax.css	/^.highlight .s1 { color: #c30 } \/* Literal.String.Single *\/$/;"	c
+.highlight .s1	public/css/syntax.css	/^.highlight .s1 { color: #c30 } \/* Literal.String.Single *\/$/;"	c
+.highlight .s2	_site/public/css/syntax.css	/^.highlight .s2 { color: #c30 } \/* Literal.String.Double *\/$/;"	c
+.highlight .s2	public/css/syntax.css	/^.highlight .s2 { color: #c30 } \/* Literal.String.Double *\/$/;"	c
+.highlight .sb	_site/public/css/syntax.css	/^.highlight .sb { color: #c30 } \/* Literal.String.Backtick *\/$/;"	c
+.highlight .sb	public/css/syntax.css	/^.highlight .sb { color: #c30 } \/* Literal.String.Backtick *\/$/;"	c
+.highlight .sc	_site/public/css/syntax.css	/^.highlight .sc { color: #c30 } \/* Literal.String.Char *\/$/;"	c
+.highlight .sc	public/css/syntax.css	/^.highlight .sc { color: #c30 } \/* Literal.String.Char *\/$/;"	c
+.highlight .sd	_site/public/css/syntax.css	/^.highlight .sd { color: #c30; font-style: italic } \/* Literal.String.Doc *\/$/;"	c
+.highlight .sd	public/css/syntax.css	/^.highlight .sd { color: #c30; font-style: italic } \/* Literal.String.Doc *\/$/;"	c
+.highlight .se	_site/public/css/syntax.css	/^.highlight .se { color: #c30; } \/* Literal.String.Escape *\/$/;"	c
+.highlight .se	public/css/syntax.css	/^.highlight .se { color: #c30; } \/* Literal.String.Escape *\/$/;"	c
+.highlight .sh	_site/public/css/syntax.css	/^.highlight .sh { color: #c30 } \/* Literal.String.Heredoc *\/$/;"	c
+.highlight .sh	public/css/syntax.css	/^.highlight .sh { color: #c30 } \/* Literal.String.Heredoc *\/$/;"	c
+.highlight .si	_site/public/css/syntax.css	/^.highlight .si { color: #a00 } \/* Literal.String.Interpol *\/$/;"	c
+.highlight .si	public/css/syntax.css	/^.highlight .si { color: #a00 } \/* Literal.String.Interpol *\/$/;"	c
+.highlight .sr	_site/public/css/syntax.css	/^.highlight .sr { color: #3aa } \/* Literal.String.Regex *\/$/;"	c
+.highlight .sr	public/css/syntax.css	/^.highlight .sr { color: #3aa } \/* Literal.String.Regex *\/$/;"	c
+.highlight .ss	_site/public/css/syntax.css	/^.highlight .ss { color: #fc3 } \/* Literal.String.Symbol *\/$/;"	c
+.highlight .ss	public/css/syntax.css	/^.highlight .ss { color: #fc3 } \/* Literal.String.Symbol *\/$/;"	c
+.highlight .sx	_site/public/css/syntax.css	/^.highlight .sx { color: #c30 } \/* Literal.String.Other *\/$/;"	c
+.highlight .sx	public/css/syntax.css	/^.highlight .sx { color: #c30 } \/* Literal.String.Other *\/$/;"	c
+.highlight .vc	_site/public/css/syntax.css	/^.highlight .vc { color: #033 } \/* Name.Variable.Class *\/$/;"	c
+.highlight .vc	public/css/syntax.css	/^.highlight .vc { color: #033 } \/* Name.Variable.Class *\/$/;"	c
+.highlight .vg	_site/public/css/syntax.css	/^.highlight .vg { color: #033 } \/* Name.Variable.Global *\/$/;"	c
+.highlight .vg	public/css/syntax.css	/^.highlight .vg { color: #033 } \/* Name.Variable.Global *\/$/;"	c
+.highlight .vi	_site/public/css/syntax.css	/^.highlight .vi { color: #033 } \/* Name.Variable.Instance *\/$/;"	c
+.highlight .vi	public/css/syntax.css	/^.highlight .vi { color: #033 } \/* Name.Variable.Instance *\/$/;"	c
+.highlight .w	_site/public/css/syntax.css	/^.highlight .w { color: #bbb } \/* Text.Whitespace *\/$/;"	c
+.highlight .w	public/css/syntax.css	/^.highlight .w { color: #bbb } \/* Text.Whitespace *\/$/;"	c
+.highlight pre	_site/public/css/poole.css	/^.highlight pre {$/;"	s
+.highlight pre	public/css/poole.css	/^.highlight pre {$/;"	s
+.layout-reverse .content	_site/public/css/hyde.css	/^  .layout-reverse .content {$/;"	c
+.layout-reverse .content	public/css/hyde.css	/^  .layout-reverse .content {$/;"	c
+.layout-reverse .sidebar	_site/public/css/hyde.css	/^  .layout-reverse .sidebar {$/;"	c
+.layout-reverse .sidebar	public/css/hyde.css	/^  .layout-reverse .sidebar {$/;"	c
+.lead	_site/public/css/poole.css	/^.lead {$/;"	c
+.lead	public/css/poole.css	/^.lead {$/;"	c
+.masthead	_site/public/css/poole.css	/^.masthead {$/;"	c
+.masthead	public/css/poole.css	/^.masthead {$/;"	c
+.masthead-title	_site/public/css/poole.css	/^.masthead-title {$/;"	c
+.masthead-title	public/css/poole.css	/^.masthead-title {$/;"	c
+.masthead-title a	_site/public/css/poole.css	/^.masthead-title a {$/;"	s
+.masthead-title a	public/css/poole.css	/^.masthead-title a {$/;"	s
+.masthead-title small	_site/public/css/poole.css	/^.masthead-title small {$/;"	s
+.masthead-title small	public/css/poole.css	/^.masthead-title small {$/;"	s
+.message	_site/public/css/poole.css	/^.message {$/;"	c
+.message	public/css/poole.css	/^.message {$/;"	c
+.page	_site/public/css/poole.css	/^.page,$/;"	c
+.page	public/css/poole.css	/^.page,$/;"	c
+.page-title	_site/public/css/poole.css	/^.page-title,$/;"	c
+.page-title	public/css/poole.css	/^.page-title,$/;"	c
+.pagination	_site/public/css/poole.css	/^  .pagination {$/;"	c
+.pagination	_site/public/css/poole.css	/^.pagination {$/;"	c
+.pagination	public/css/poole.css	/^  .pagination {$/;"	c
+.pagination	public/css/poole.css	/^.pagination {$/;"	c
+.pagination-item	_site/public/css/poole.css	/^  .pagination-item {$/;"	c
+.pagination-item	_site/public/css/poole.css	/^.pagination-item {$/;"	c
+.pagination-item	public/css/poole.css	/^  .pagination-item {$/;"	c
+.pagination-item	public/css/poole.css	/^.pagination-item {$/;"	c
+.pagination-item:first-child	_site/public/css/poole.css	/^  .pagination-item:first-child {$/;"	c
+.pagination-item:first-child	_site/public/css/poole.css	/^.pagination-item:first-child {$/;"	c
+.pagination-item:first-child	public/css/poole.css	/^  .pagination-item:first-child {$/;"	c
+.pagination-item:first-child	public/css/poole.css	/^.pagination-item:first-child {$/;"	c
+.pagination-item:last-child	_site/public/css/poole.css	/^  .pagination-item:last-child {$/;"	c
+.pagination-item:last-child	public/css/poole.css	/^  .pagination-item:last-child {$/;"	c
+.post	_site/public/css/poole.css	/^.post {$/;"	c
+.post	public/css/poole.css	/^.post {$/;"	c
+.post-date	_site/public/css/poole.css	/^.post-date {$/;"	c
+.post-date	public/css/poole.css	/^.post-date {$/;"	c
+.post-title	_site/public/css/poole.css	/^.post-title {$/;"	c
+.post-title	_site/public/css/poole.css	/^.post-title,$/;"	c
+.post-title	public/css/poole.css	/^.post-title {$/;"	c
+.post-title	public/css/poole.css	/^.post-title,$/;"	c
+.post-title a	_site/public/css/poole.css	/^.post-title a {$/;"	s
+.post-title a	public/css/poole.css	/^.post-title a {$/;"	s
+.related	_site/public/css/poole.css	/^.related {$/;"	c
+.related	public/css/poole.css	/^.related {$/;"	c
+.related-posts	_site/public/css/poole.css	/^.related-posts {$/;"	c
+.related-posts	public/css/poole.css	/^.related-posts {$/;"	c
+.related-posts h3	_site/public/css/poole.css	/^.related-posts h3 {$/;"	s
+.related-posts h3	public/css/poole.css	/^.related-posts h3 {$/;"	s
+.related-posts li a:hover	_site/public/css/poole.css	/^.related-posts li a:hover {$/;"	s
+.related-posts li a:hover	public/css/poole.css	/^.related-posts li a:hover {$/;"	s
+.related-posts li a:hover small	_site/public/css/poole.css	/^.related-posts li a:hover small {$/;"	s
+.related-posts li a:hover small	public/css/poole.css	/^.related-posts li a:hover small {$/;"	s
+.related-posts li small	_site/public/css/poole.css	/^.related-posts li small {$/;"	s
+.related-posts li small	public/css/poole.css	/^.related-posts li small {$/;"	s
+.sidebar	_site/public/css/hyde.css	/^  .sidebar {$/;"	c
+.sidebar	_site/public/css/hyde.css	/^.sidebar {$/;"	c
+.sidebar	public/css/hyde.css	/^  .sidebar {$/;"	c
+.sidebar	public/css/hyde.css	/^.sidebar {$/;"	c
+.sidebar a	_site/public/css/hyde.css	/^.sidebar a {$/;"	s
+.sidebar a	public/css/hyde.css	/^.sidebar a {$/;"	s
+.sidebar-about h1	_site/public/css/hyde.css	/^.sidebar-about h1 {$/;"	s
+.sidebar-about h1	public/css/hyde.css	/^.sidebar-about h1 {$/;"	s
+.sidebar-nav	_site/public/css/hyde.css	/^.sidebar-nav {$/;"	c
+.sidebar-nav	public/css/hyde.css	/^.sidebar-nav {$/;"	c
+.sidebar-nav-item	_site/public/css/hyde.css	/^.sidebar-nav-item {$/;"	c
+.sidebar-nav-item	public/css/hyde.css	/^.sidebar-nav-item {$/;"	c
+.sidebar-nav-item.active	_site/public/css/hyde.css	/^.sidebar-nav-item.active {$/;"	c
+.sidebar-nav-item.active	public/css/hyde.css	/^.sidebar-nav-item.active {$/;"	c
+.sidebar-sticky	_site/public/css/hyde.css	/^  .sidebar-sticky {$/;"	c
+.sidebar-sticky	public/css/hyde.css	/^  .sidebar-sticky {$/;"	c
+.theme-base-08 .content a	_site/public/css/hyde.css	/^.theme-base-08 .content a,$/;"	s
+.theme-base-08 .content a	public/css/hyde.css	/^.theme-base-08 .content a,$/;"	s
+.theme-base-08 .related-posts li a:hover	_site/public/css/hyde.css	/^.theme-base-08 .related-posts li a:hover {$/;"	s
+.theme-base-08 .related-posts li a:hover	public/css/hyde.css	/^.theme-base-08 .related-posts li a:hover {$/;"	s
+.theme-base-08 .sidebar	_site/public/css/hyde.css	/^.theme-base-08 .sidebar {$/;"	c
+.theme-base-08 .sidebar	public/css/hyde.css	/^.theme-base-08 .sidebar {$/;"	c
+.theme-base-09 .content a	_site/public/css/hyde.css	/^.theme-base-09 .content a,$/;"	s
+.theme-base-09 .content a	public/css/hyde.css	/^.theme-base-09 .content a,$/;"	s
+.theme-base-09 .related-posts li a:hover	_site/public/css/hyde.css	/^.theme-base-09 .related-posts li a:hover {$/;"	s
+.theme-base-09 .related-posts li a:hover	public/css/hyde.css	/^.theme-base-09 .related-posts li a:hover {$/;"	s
+.theme-base-09 .sidebar	_site/public/css/hyde.css	/^.theme-base-09 .sidebar {$/;"	c
+.theme-base-09 .sidebar	public/css/hyde.css	/^.theme-base-09 .sidebar {$/;"	c
+.theme-base-0a .content a	_site/public/css/hyde.css	/^.theme-base-0a .content a,$/;"	s
+.theme-base-0a .content a	public/css/hyde.css	/^.theme-base-0a .content a,$/;"	s
+.theme-base-0a .related-posts li a:hover	_site/public/css/hyde.css	/^.theme-base-0a .related-posts li a:hover {$/;"	s
+.theme-base-0a .related-posts li a:hover	public/css/hyde.css	/^.theme-base-0a .related-posts li a:hover {$/;"	s
+.theme-base-0a .sidebar	_site/public/css/hyde.css	/^.theme-base-0a .sidebar {$/;"	c
+.theme-base-0a .sidebar	public/css/hyde.css	/^.theme-base-0a .sidebar {$/;"	c
+.theme-base-0b .content a	_site/public/css/hyde.css	/^.theme-base-0b .content a,$/;"	s
+.theme-base-0b .content a	public/css/hyde.css	/^.theme-base-0b .content a,$/;"	s
+.theme-base-0b .related-posts li a:hover	_site/public/css/hyde.css	/^.theme-base-0b .related-posts li a:hover {$/;"	s
+.theme-base-0b .related-posts li a:hover	public/css/hyde.css	/^.theme-base-0b .related-posts li a:hover {$/;"	s
+.theme-base-0b .sidebar	_site/public/css/hyde.css	/^.theme-base-0b .sidebar {$/;"	c
+.theme-base-0b .sidebar	public/css/hyde.css	/^.theme-base-0b .sidebar {$/;"	c
+.theme-base-0c .content a	_site/public/css/hyde.css	/^.theme-base-0c .content a,$/;"	s
+.theme-base-0c .content a	public/css/hyde.css	/^.theme-base-0c .content a,$/;"	s
+.theme-base-0c .related-posts li a:hover	_site/public/css/hyde.css	/^.theme-base-0c .related-posts li a:hover {$/;"	s
+.theme-base-0c .related-posts li a:hover	public/css/hyde.css	/^.theme-base-0c .related-posts li a:hover {$/;"	s
+.theme-base-0c .sidebar	_site/public/css/hyde.css	/^.theme-base-0c .sidebar {$/;"	c
+.theme-base-0c .sidebar	public/css/hyde.css	/^.theme-base-0c .sidebar {$/;"	c
+.theme-base-0d .content a	_site/public/css/hyde.css	/^.theme-base-0d .content a,$/;"	s
+.theme-base-0d .content a	public/css/hyde.css	/^.theme-base-0d .content a,$/;"	s
+.theme-base-0d .related-posts li a:hover	_site/public/css/hyde.css	/^.theme-base-0d .related-posts li a:hover {$/;"	s
+.theme-base-0d .related-posts li a:hover	public/css/hyde.css	/^.theme-base-0d .related-posts li a:hover {$/;"	s
+.theme-base-0d .sidebar	_site/public/css/hyde.css	/^.theme-base-0d .sidebar {$/;"	c
+.theme-base-0d .sidebar	public/css/hyde.css	/^.theme-base-0d .sidebar {$/;"	c
+.theme-base-0e .content a	_site/public/css/hyde.css	/^.theme-base-0e .content a,$/;"	s
+.theme-base-0e .content a	public/css/hyde.css	/^.theme-base-0e .content a,$/;"	s
+.theme-base-0e .related-posts li a:hover	_site/public/css/hyde.css	/^.theme-base-0e .related-posts li a:hover {$/;"	s
+.theme-base-0e .related-posts li a:hover	public/css/hyde.css	/^.theme-base-0e .related-posts li a:hover {$/;"	s
+.theme-base-0e .sidebar	_site/public/css/hyde.css	/^.theme-base-0e .sidebar {$/;"	c
+.theme-base-0e .sidebar	public/css/hyde.css	/^.theme-base-0e .sidebar {$/;"	c
+.theme-base-0f .content a	_site/public/css/hyde.css	/^.theme-base-0f .content a,$/;"	s
+.theme-base-0f .content a	public/css/hyde.css	/^.theme-base-0f .content a,$/;"	s
+.theme-base-0f .related-posts li a:hover	_site/public/css/hyde.css	/^.theme-base-0f .related-posts li a:hover {$/;"	s
+.theme-base-0f .related-posts li a:hover	public/css/hyde.css	/^.theme-base-0f .related-posts li a:hover {$/;"	s
+.theme-base-0f .sidebar	_site/public/css/hyde.css	/^.theme-base-0f .sidebar {$/;"	c
+.theme-base-0f .sidebar	public/css/hyde.css	/^.theme-base-0f .sidebar {$/;"	c
+1-conceptos-fundamentales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="1-conceptos-fundamentales">§1	Conceptos Fundamentales<\/h2>$/;"	I
+1-conceptos-fundamentales	_site/index.html	/^<h2 id="1-conceptos-fundamentales">§1	Conceptos Fundamentales<\/h2>$/;"	I
+10-conjuntos-bien-ordenados	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="10-conjuntos-bien-ordenados">§10 Conjuntos Bien Ordenados<\/h2>$/;"	I
+10-conjuntos-bien-ordenados	_site/index.html	/^<h2 id="10-conjuntos-bien-ordenados">§10 Conjuntos Bien Ordenados<\/h2>$/;"	I
+11-principio-maximal-de-hausdorff	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="11-principio-maximal-de-hausdorff">§11 Principio Maximal (de Hausdorff)<\/h2>$/;"	I
+11-principio-maximal-de-hausdorff	_site/index.html	/^<h2 id="11-principio-maximal-de-hausdorff">§11 Principio Maximal (de Hausdorff)<\/h2>$/;"	I
+2-funciones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="2-funciones">§2	Funciones<\/h2>$/;"	I
+2-funciones	_site/index.html	/^<h2 id="2-funciones">§2	Funciones<\/h2>$/;"	I
+3-relaciones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="3-relaciones">§3	Relaciones<\/h2>$/;"	I
+3-relaciones	_site/index.html	/^<h2 id="3-relaciones">§3	Relaciones<\/h2>$/;"	I
+4-los-enteros-y-los-reales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="4-los-enteros-y-los-reales">§4	Los enteros y los reales<\/h2>$/;"	I
+4-los-enteros-y-los-reales	_site/index.html	/^<h2 id="4-los-enteros-y-los-reales">§4	Los enteros y los reales<\/h2>$/;"	I
+404: Page not found	404.html	/^  <h1 class="page-title">404: Page not found<\/h1>$/;"	h
+404: Page not found	_site/404.html	/^  <h1 class="page-title">404: Page not found<\/h1>$/;"	h
+5-productos-cartesianos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="5-productos-cartesianos">§5 Productos Cartesianos<\/h2>$/;"	I
+5-productos-cartesianos	_site/index.html	/^<h2 id="5-productos-cartesianos">§5 Productos Cartesianos<\/h2>$/;"	I
+6-conjuntos-finitos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="6-conjuntos-finitos">§6 Conjuntos Finitos<\/h2>$/;"	I
+6-conjuntos-finitos	_site/index.html	/^<h2 id="6-conjuntos-finitos">§6 Conjuntos Finitos<\/h2>$/;"	I
+7-conjuntos-contables-e-incontables	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="7-conjuntos-contables-e-incontables">§7 Conjuntos contables e incontables<\/h2>$/;"	I
+7-conjuntos-contables-e-incontables	_site/index.html	/^<h2 id="7-conjuntos-contables-e-incontables">§7 Conjuntos contables e incontables<\/h2>$/;"	I
+8-el-principio-de-definición-recursiva	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="8-el-principio-de-definición-recursiva">§8 El Principio de Definición Recursiva<\/h2>$/;"	I
+8-el-principio-de-definición-recursiva	_site/index.html	/^<h2 id="8-el-principio-de-definición-recursiva">§8 El Principio de Definición Recursiva<\/h2>$/;"	I
+9-conjuntos-infinitos-y-el-axioma-de-elección	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="9-conjuntos-infinitos-y-el-axioma-de-elección">§9 Conjuntos Infinitos y el Axioma de E/;"	I
+9-conjuntos-infinitos-y-el-axioma-de-elección	_site/index.html	/^<h2 id="9-conjuntos-infinitos-y-el-axioma-de-elección">§9 Conjuntos Infinitos y el Axioma de E/;"	I
+A proof of the rule of threes	_posts/2019-11-05-Rule-of-3.md	/^## A proof of the rule of threes$/;"	s
+A proof of the rule of threes	_site/2019/11/05/Rule-of-3/index.html	/^<h2 id="a-proof-of-the-rule-of-threes">A proof of the rule of threes<\/h2>$/;"	i
+A proof of the rule of threes	_site/index.html	/^<h2 id="a-proof-of-the-rule-of-threes">A proof of the rule of threes<\/h2>$/;"	i
+About	_site/about/index.html	/^  <h1 class="page-title">About<\/h1>$/;"	h
+Abstract Algebra	_site/taglist/index.html	/^    <h2>Abstract Algebra<\/h2>$/;"	i
+Algebraic Structures	_site/taglist/index.html	/^    <h2>Algebraic Structures<\/h2>$/;"	i
+Contact	_site/about/index.html	/^<h2 id="contact">Contact<\/h2>$/;"	i
+Contact	about.md	/^## Contact$/;"	s
+Contrapositivo y converso	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Contrapositivo y converso$/;"	S
+Contrapositivo y converso	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="contrapositivo-y-converso">Contrapositivo y converso<\/h3>$/;"	j
+Contrapositivo y converso	_site/index.html	/^<h3 id="contrapositivo-y-converso">Contrapositivo y converso<\/h3>$/;"	j
+Definiciones	_posts/2019-11-05-Rule-of-3.es.md	/^## Definiciones$/;"	s
+Definiciones	_site/2019/11/05/Rule-of-3.es/index.html	/^<h2 id="definiciones">Definiciones<\/h2>$/;"	i
+Definiciones	_site/index.html	/^<h2 id="definiciones">Definiciones<\/h2>$/;"	i
+Definitions	_posts/2019-11-04-Series.md	/^## Definitions$/;"	s
+Definitions	_posts/2019-11-05-Rule-of-3.md	/^## Definitions$/;"	s
+Definitions	_site/2019/11/04/Series/index.html	/^<h2 id="definitions">Definitions<\/h2>$/;"	i
+Definitions	_site/2019/11/05/Rule-of-3/index.html	/^<h2 id="definitions">Definitions<\/h2>$/;"	i
+Definitions	_site/index.html	/^<h2 id="definitions">Definitions<\/h2>$/;"	i
+Diego Viver Rodrigo	_site/about/index.html	/^  <h1 id="diego-viver-rodrigo">Diego Viver Rodrigo<\/h1>$/;"	h
+Diego Viver Rodrigo	about.md	/^# Diego Viver Rodrigo$/;"	c
+Diferencia de dos conjuntos	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Diferencia de dos conjuntos$/;"	S
+Diferencia de dos conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="diferencia-de-dos-conjuntos">Diferencia de dos conjuntos<\/h3>$/;"	j
+Diferencia de dos conjuntos	_site/index.html	/^<h3 id="diferencia-de-dos-conjuntos">Diferencia de dos conjuntos<\/h3>$/;"	j
+English	_site/taglist/index.html	/^    <h2>English<\/h2>$/;"	i
+Español	_site/taglist/index.html	/^    <h2>Español<\/h2>$/;"	i
+Familias de Conjuntos	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Familias de Conjuntos$/;"	S
+Familias de Conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="familias-de-conjuntos">Familias de Conjuntos<\/h3>$/;"	j
+Familias de Conjuntos	_site/index.html	/^<h3 id="familias-de-conjuntos">Familias de Conjuntos<\/h3>$/;"	j
+Info	_site/about/index.html	/^<h2 id="info">Info<\/h2>$/;"	i
+Info	about.md	/^## Info$/;"	s
+Info (ES)	_site/about/index.html	/^<h2 id="info-es">Info (ES)<\/h2>$/;"	i
+Info (ES)	about.md	/^## Info (ES)$/;"	s
+Intersección de conjuntos, el Conjunto Vacío y el significado de "*si... entonces*"	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Intersección de conjuntos, el Conjunto Vacío y el significado de "*si... entonces*"$/;"	S
+Intersección de conjuntos, el Conjunto Vacío y el significado de “si… entonces”	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces">Intersecc/;"	j
+Intersección de conjuntos, el Conjunto Vacío y el significado de “si… entonces”	_site/index.html	/^<h3 id="intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces">Intersecc/;"	j
+Jekyll	_plugins/_tag_gen.rb	/^module Jekyll$/;"	m
+La regla del tres	_posts/2019-11-05-Rule-of-3.es.md	/^## La regla del tres$/;"	s
+La regla del tres	_site/2019/11/05/Rule-of-3.es/index.html	/^<h2 id="la-regla-del-tres">La regla del tres<\/h2>$/;"	i
+La regla del tres	_site/index.html	/^<h2 id="la-regla-del-tres">La regla del tres<\/h2>$/;"	i
+Los enteros	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Los enteros$/;"	S
+Los enteros	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="los-enteros">Los enteros<\/h3>$/;"	j
+Los enteros	_site/index.html	/^<h3 id="los-enteros">Los enteros<\/h3>$/;"	j
+Los reales	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Los reales$/;"	S
+Los reales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="los-reales">Los reales<\/h3>$/;"	j
+Los reales	_site/index.html	/^<h3 id="los-reales">Los reales<\/h3>$/;"	j
+MathBlog	_site/2019/11/04/Series/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/2019/11/05/Rule-of-3.es/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/2019/11/05/Rule-of-3/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/404.html	/^      <\/h2>$/;"	i
+MathBlog	_site/about/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/tag/Abstract Algebra/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/tag/Algebraic Structures/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/tag/English/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/tag/Español/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/tag/Number Theory/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/tag/Series/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/tag/Set Theory/index.html	/^      <\/h2>$/;"	i
+MathBlog	_site/taglist/index.html	/^      <\/h2>$/;"	i
+Notación básica	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Notación básica$/;"	S
+Notación básica	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="notación-básica">Notación básica<\/h3>$/;"	j
+Notación básica	_site/index.html	/^<h3 id="notación-básica">Notación básica<\/h3>$/;"	j
+Number Theory	_site/taglist/index.html	/^    <h2>Number Theory<\/h2>$/;"	i
+Posts tagged Abstract Algebra	_site/tag/Abstract Algebra/index.html	/^      <h2 class="post_title">Posts tagged Abstract Algebra<\/h2>$/;"	i
+Posts tagged Algebraic Structures	_site/tag/Algebraic Structures/index.html	/^      <h2 class="post_title">Posts tagged Algebraic Structures<\/h2>$/;"	i
+Posts tagged English	_site/tag/English/index.html	/^      <h2 class="post_title">Posts tagged English<\/h2>$/;"	i
+Posts tagged Español	_site/tag/Español/index.html	/^      <h2 class="post_title">Posts tagged Español<\/h2>$/;"	i
+Posts tagged Number Theory	_site/tag/Number Theory/index.html	/^      <h2 class="post_title">Posts tagged Number Theory<\/h2>$/;"	i
+Posts tagged Series	_site/tag/Series/index.html	/^      <h2 class="post_title">Posts tagged Series<\/h2>$/;"	i
+Posts tagged Set Theory	_site/tag/Set Theory/index.html	/^      <h2 class="post_title">Posts tagged Set Theory<\/h2>$/;"	i
+Posts tagged {{ page.tag }}	_layouts/tag_index.html	/^<h2 class="post_title">Posts tagged {{ page.tag }}<\/h2>$/;"	i
+Producto cartesiano	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Producto cartesiano$/;"	S
+Producto cartesiano	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="producto-cartesiano">Producto cartesiano<\/h3>$/;"	j
+Producto cartesiano	_site/index.html	/^<h3 id="producto-cartesiano">Producto cartesiano<\/h3>$/;"	j
+Regla del tres, demostración enrevesada	_site/2019/11/05/Rule-of-3.es/index.html	/^  <h1 class="post-title">Regla del tres, demostración enrevesada<\/h1>$/;"	h
+Regla del tres, demostración enrevesada	_site/index.html	/^    <\/h1>$/;"	h
+Regla del tres, demostración enrevesada	_site/tag/Abstract Algebra/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-05 00:00:00 +0000<\/time> <h3></;"	j
+Regla del tres, demostración enrevesada	_site/tag/Algebraic Structures/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-05 00:00:00 +0000<\/time> <h3></;"	j
+Regla del tres, demostración enrevesada	_site/tag/Español/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-05 00:00:00 +0000<\/time> <h3></;"	j
+Regla del tres, demostración enrevesada	_site/tag/Number Theory/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-05 00:00:00 +0000<\/time> <h3></;"	j
+Regla del tres, demostración enrevesada	_site/taglist/index.html	/^    <li><h3><a class="archive_list_article_link" href="\/MathBlog\/\/\/2019\/11\/05\/Rule-of-3.e/;"	j
+Regla del tres, demostración enrevesada 05 Nov 2019	_site/2019/11/04/Series/index.html	/^        <\/h3>$/;"	j
+Regla del tres, demostración enrevesada 05 Nov 2019	_site/2019/11/05/Rule-of-3/index.html	/^        <\/h3>$/;"	j
+Regla del tres, demostración enrevesada 05 Nov 2019	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^        <\/h3>$/;"	j
+Reglas de la teoría de conjuntos	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Reglas de la teoría de conjuntos$/;"	S
+Reglas de la teoría de conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="reglas-de-la-teoría-de-conjuntos">Reglas de la teoría de conjuntos<\/h3>$/;"	j
+Reglas de la teoría de conjuntos	_site/index.html	/^<h3 id="reglas-de-la-teoría-de-conjuntos">Reglas de la teoría de conjuntos<\/h3>$/;"	j
+Relaciones de equivalencia y particiones	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Relaciones de equivalencia y particiones$/;"	S
+Relaciones de equivalencia y particiones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="relaciones-de-equivalencia-y-particiones">Relaciones de equivalencia y particiones<\/h3>$/;"	j
+Relaciones de equivalencia y particiones	_site/index.html	/^<h3 id="relaciones-de-equivalencia-y-particiones">Relaciones de equivalencia y particiones<\/h3>$/;"	j
+Relaciones de orden	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Relaciones de orden$/;"	S
+Relaciones de orden	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="relaciones-de-orden">Relaciones de orden<\/h3>$/;"	j
+Relaciones de orden	_site/index.html	/^<h3 id="relaciones-de-orden">Relaciones de orden<\/h3>$/;"	j
+Related Posts	_layouts/post-es.html	/^  <h2>Related Posts<\/h2>$/;"	i
+Related Posts	_layouts/post.html	/^  <h2>Related Posts<\/h2>$/;"	i
+Related Posts	_site/2019/11/04/Series/index.html	/^  <h2>Related Posts<\/h2>$/;"	i
+Related Posts	_site/2019/11/05/Rule-of-3.es/index.html	/^  <h2>Related Posts<\/h2>$/;"	i
+Related Posts	_site/2019/11/05/Rule-of-3/index.html	/^  <h2>Related Posts<\/h2>$/;"	i
+Related Posts	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <h2>Related Posts<\/h2>$/;"	i
+Released under MIT License	LICENSE.md	/^# Released under MIT License$/;"	c
+Released under MIT License	_site/LICENSE.md	/^# Released under MIT License$/;"	c
+Rule of threes, twisted proof	_site/2019/11/05/Rule-of-3/index.html	/^  <h1 class="post-title">Rule of threes, twisted proof<\/h1>$/;"	h
+Rule of threes, twisted proof	_site/index.html	/^    <\/h1>$/;"	h
+Rule of threes, twisted proof	_site/tag/Abstract Algebra/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-05 00:00:00 +0000<\/time> <h3></;"	j
+Rule of threes, twisted proof	_site/tag/Algebraic Structures/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-05 00:00:00 +0000<\/time> <h3></;"	j
+Rule of threes, twisted proof	_site/tag/English/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-05 00:00:00 +0000<\/time> <h3></;"	j
+Rule of threes, twisted proof	_site/tag/Number Theory/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-05 00:00:00 +0000<\/time> <h3></;"	j
+Rule of threes, twisted proof	_site/taglist/index.html	/^    <li><h3><a class="archive_list_article_link" href="\/MathBlog\/\/\/2019\/11\/05\/Rule-of-3\//;"	j
+Rule of threes, twisted proof 05 Nov 2019	_site/2019/11/04/Series/index.html	/^        <\/h3>$/;"	j
+Rule of threes, twisted proof 05 Nov 2019	_site/2019/11/05/Rule-of-3.es/index.html	/^        <\/h3>$/;"	j
+Rule of threes, twisted proof 05 Nov 2019	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^        <\/h3>$/;"	j
+Series	_site/taglist/index.html	/^    <h2>Series<\/h2>$/;"	i
+Set Theory	_site/taglist/index.html	/^    <h2>Set Theory<\/h2>$/;"	i
+Table of contents	_site/2019/11/04/Series/index.html	/^  <h2 id="table-of-contents">Table of contents<\/h2>$/;"	i
+Table of contents	_site/2019/11/05/Rule-of-3/index.html	/^  <h2 id="table-of-contents">Table of contents<\/h2>$/;"	i
+Table of contents	_site/index.html	/^  <h2 id="table-of-contents">Table of contents<\/h2>$/;"	i
+Tag List	_site/taglist/index.html	/^  <h1 class="page-title">Tag List<\/h1>$/;"	h
+TagGenerator	_plugins/_tag_gen.rb	/^  class TagGenerator < Generator$/;"	c	module:Jekyll
+TagIndex	_plugins/_tag_gen.rb	/^  class TagIndex < Page$/;"	c	module:Jekyll
+Teoría de Conjuntos Básica	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <h1 class="post-title">Teoría de Conjuntos Básica<\/h1>$/;"	h
+Teoría de Conjuntos Básica	_site/index.html	/^    <\/h1>$/;"	h
+Teoría de Conjuntos Básica	_site/tag/Español/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-10 00:00:00 +0000<\/time> <h3></;"	j
+Teoría de Conjuntos Básica	_site/tag/Set Theory/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-10 00:00:00 +0000<\/time> <h3></;"	j
+Teoría de Conjuntos Básica	_site/taglist/index.html	/^    <li><h3><a class="archive_list_article_link" href="\/MathBlog\/\/\/2019\/11\/10\/T-De-Conjun/;"	j
+Teoría de Conjuntos Básica 10 Nov 2019	_site/2019/11/04/Series/index.html	/^        <\/h3>$/;"	j
+Teoría de Conjuntos Básica 10 Nov 2019	_site/2019/11/05/Rule-of-3.es/index.html	/^        <\/h3>$/;"	j
+Teoría de Conjuntos Básica 10 Nov 2019	_site/2019/11/05/Rule-of-3/index.html	/^        <\/h3>$/;"	j
+The Geometric Series	_posts/2019-11-04-Series.md	/^### The Geometric Series$/;"	S
+The Geometric Series	_site/2019/11/04/Series/index.html	/^<h3 id="the-geometric-series">The Geometric Series<\/h3>$/;"	j
+The Geometric Series	_site/index.html	/^<h3 id="the-geometric-series">The Geometric Series<\/h3>$/;"	j
+The Harmonic series	_posts/2019-11-04-Series.md	/^### The Harmonic series$/;"	S
+The Harmonic series	_site/2019/11/04/Series/index.html	/^<h3 id="the-harmonic-series">The Harmonic series<\/h3>$/;"	j
+The Harmonic series	_site/index.html	/^<h3 id="the-harmonic-series">The Harmonic series<\/h3>$/;"	j
+The rule of threes	_posts/2019-11-05-Rule-of-3.md	/^## The rule of threes$/;"	s
+The rule of threes	_site/2019/11/05/Rule-of-3/index.html	/^<h2 id="the-rule-of-threes">The rule of threes<\/h2>$/;"	i
+The rule of threes	_site/index.html	/^<h2 id="the-rule-of-threes">The rule of threes<\/h2>$/;"	i
+Two very interesting Series	_site/2019/11/04/Series/index.html	/^  <h1 class="post-title">Two very interesting Series<\/h1>$/;"	h
+Two very interesting Series	_site/index.html	/^    <\/h1>$/;"	h
+Two very interesting Series	_site/tag/English/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-04 00:00:00 +0000<\/time> <h3></;"	j
+Two very interesting Series	_site/tag/Number Theory/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-04 00:00:00 +0000<\/time> <h3></;"	j
+Two very interesting Series	_site/tag/Series/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-04 00:00:00 +0000<\/time> <h3></;"	j
+Two very interesting Series	_site/tag/Set Theory/index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>2019-11-04 00:00:00 +0000<\/time> <h3></;"	j
+Two very interesting Series	_site/taglist/index.html	/^    <li><h3><a class="archive_list_article_link" href="\/MathBlog\/\/\/2019\/11\/04\/Series\/">T/;"	j
+Two very interesting Series 04 Nov 2019	_site/2019/11/05/Rule-of-3.es/index.html	/^        <\/h3>$/;"	j
+Two very interesting Series 04 Nov 2019	_site/2019/11/05/Rule-of-3/index.html	/^        <\/h3>$/;"	j
+Two very interesting Series 04 Nov 2019	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^        <\/h3>$/;"	j
+Types of series	_posts/2019-11-04-Series.md	/^## Types of series$/;"	s
+Types of series	_site/2019/11/04/Series/index.html	/^<h2 id="types-of-series">Types of series<\/h2>$/;"	i
+Types of series	_site/index.html	/^<h2 id="types-of-series">Types of series<\/h2>$/;"	i
+Una demostración de la Regla del Tres	_posts/2019-11-05-Rule-of-3.es.md	/^## Una demostración de la Regla del Tres$/;"	s
+Una demostración de la Regla del Tres	_site/2019/11/05/Rule-of-3.es/index.html	/^<h2 id="una-demostración-de-la-regla-del-tres">Una demostración de la Regla del Tres<\/h2>$/;"	i
+Una demostración de la Regla del Tres	_site/index.html	/^<h2 id="una-demostración-de-la-regla-del-tres">Una demostración de la Regla del Tres<\/h2>$/;"	i
+Uniones e intersecciones arbitrarias	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Uniones e intersecciones arbitrarias$/;"	S
+Uniones e intersecciones arbitrarias	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="uniones-e-intersecciones-arbitrarias">Uniones e intersecciones arbitrarias<\/h3>$/;"	j
+Uniones e intersecciones arbitrarias	_site/index.html	/^<h3 id="uniones-e-intersecciones-arbitrarias">Uniones e intersecciones arbitrarias<\/h3>$/;"	j
+Unión de conjuntos y "o" lógico	_posts/2019-11-10-T-De-Conjuntos-Básica.md	/^### Unión de conjuntos y "o" lógico $/;"	S
+Unión de conjuntos y “o” lógico	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="unión-de-conjuntos-y-o-lógico">Unión de conjuntos y “o” lógico<\/h3>$/;"	j
+Unión de conjuntos y “o” lógico	_site/index.html	/^<h3 id="unión-de-conjuntos-y-o-lógico">Unión de conjuntos y “o” lógico<\/h3>$/;"	j
+a	_site/public/css/poole.css	/^a {$/;"	s
+a	public/css/poole.css	/^a {$/;"	s
+a strong	_site/public/css/poole.css	/^a strong {$/;"	s
+a strong	public/css/poole.css	/^a strong {$/;"	s
+a-proof-of-the-rule-of-threes	_site/2019/11/05/Rule-of-3/index.html	/^<h2 id="a-proof-of-the-rule-of-threes">A proof of the rule of threes<\/h2>$/;"	I
+a-proof-of-the-rule-of-threes	_site/index.html	/^<h2 id="a-proof-of-the-rule-of-threes">A proof of the rule of threes<\/h2>$/;"	I
+a.pagination-item:hover	_site/public/css/poole.css	/^a.pagination-item:hover {$/;"	c
+a.pagination-item:hover	public/css/poole.css	/^a.pagination-item:hover {$/;"	c
+a.sidebar-nav-item:focus	_site/public/css/hyde.css	/^a.sidebar-nav-item:focus {$/;"	c
+a.sidebar-nav-item:focus	public/css/hyde.css	/^a.sidebar-nav-item:focus {$/;"	c
+a.sidebar-nav-item:hover	_site/public/css/hyde.css	/^a.sidebar-nav-item:hover,$/;"	c
+a.sidebar-nav-item:hover	public/css/hyde.css	/^a.sidebar-nav-item:hover,$/;"	c
+a:focus	_site/public/css/poole.css	/^a:focus {$/;"	s
+a:focus	public/css/poole.css	/^a:focus {$/;"	s
+a:hover	_site/public/css/poole.css	/^a:hover,$/;"	s
+a:hover	public/css/poole.css	/^a:hover,$/;"	s
+abbr	_site/public/css/poole.css	/^abbr {$/;"	s
+abbr	public/css/poole.css	/^abbr {$/;"	s
+abbr[title]	_site/public/css/poole.css	/^abbr[title] {$/;"	s
+abbr[title]	public/css/poole.css	/^abbr[title] {$/;"	s
+blockquote	_site/public/css/poole.css	/^  blockquote {$/;"	s
+blockquote	_site/public/css/poole.css	/^blockquote {$/;"	s
+blockquote	public/css/poole.css	/^  blockquote {$/;"	s
+blockquote	public/css/poole.css	/^blockquote {$/;"	s
+blockquote p:last-child	_site/public/css/poole.css	/^blockquote p:last-child {$/;"	s
+blockquote p:last-child	public/css/poole.css	/^blockquote p:last-child {$/;"	s
+body	_site/public/css/poole.css	/^body {$/;"	s
+body	public/css/poole.css	/^body {$/;"	s
+code	_site/public/css/poole.css	/^code {$/;"	s
+code	_site/public/css/poole.css	/^code,$/;"	s
+code	public/css/poole.css	/^code {$/;"	s
+code	public/css/poole.css	/^code,$/;"	s
+contact	_site/about/index.html	/^<h2 id="contact">Contact<\/h2>$/;"	I
+contrapositivo-y-converso	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="contrapositivo-y-converso">Contrapositivo y converso<\/h3>$/;"	I
+contrapositivo-y-converso	_site/index.html	/^<h3 id="contrapositivo-y-converso">Contrapositivo y converso<\/h3>$/;"	I
+dd	_site/public/css/poole.css	/^dd {$/;"	s
+dd	public/css/poole.css	/^dd {$/;"	s
+definiciones	_site/2019/11/05/Rule-of-3.es/index.html	/^<h2 id="definiciones">Definiciones<\/h2>$/;"	I
+definiciones	_site/index.html	/^<h2 id="definiciones">Definiciones<\/h2>$/;"	I
+definitions	_site/2019/11/04/Series/index.html	/^<h2 id="definitions">Definitions<\/h2>$/;"	I
+definitions	_site/2019/11/05/Rule-of-3/index.html	/^<h2 id="definitions">Definitions<\/h2>$/;"	I
+definitions	_site/index.html	/^<h2 id="definitions">Definitions<\/h2>$/;"	I
+diego-viver-rodrigo	_site/about/index.html	/^  <h1 id="diego-viver-rodrigo">Diego Viver Rodrigo<\/h1>$/;"	I
+diferencia-de-dos-conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="diferencia-de-dos-conjuntos">Diferencia de dos conjuntos<\/h3>$/;"	I
+diferencia-de-dos-conjuntos	_site/index.html	/^<h3 id="diferencia-de-dos-conjuntos">Diferencia de dos conjuntos<\/h3>$/;"	I
+dl	_site/public/css/poole.css	/^ul, ol, dl {$/;"	s
+dl	public/css/poole.css	/^ul, ol, dl {$/;"	s
+dt	_site/public/css/poole.css	/^dt {$/;"	s
+dt	public/css/poole.css	/^dt {$/;"	s
+familias-de-conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="familias-de-conjuntos">Familias de Conjuntos<\/h3>$/;"	I
+familias-de-conjuntos	_site/index.html	/^<h3 id="familias-de-conjuntos">Familias de Conjuntos<\/h3>$/;"	I
+fn:1	_site/2019/11/04/Series/index.html	/^    <li id="fn:1">$/;"	I
+fn:1	_site/2019/11/05/Rule-of-3.es/index.html	/^    <li id="fn:1">$/;"	I
+fn:1	_site/2019/11/05/Rule-of-3/index.html	/^    <li id="fn:1">$/;"	I
+fn:1	_site/index.html	/^    <li id="fn:1">$/;"	I
+fn:2	_site/2019/11/04/Series/index.html	/^    <li id="fn:2">$/;"	I
+fn:2	_site/2019/11/05/Rule-of-3.es/index.html	/^    <li id="fn:2">$/;"	I
+fn:2	_site/2019/11/05/Rule-of-3/index.html	/^    <li id="fn:2">$/;"	I
+fn:2	_site/index.html	/^    <li id="fn:2">$/;"	I
+fn:3	_site/2019/11/05/Rule-of-3.es/index.html	/^    <li id="fn:3">$/;"	I
+fn:3	_site/2019/11/05/Rule-of-3/index.html	/^    <li id="fn:3">$/;"	I
+fn:3	_site/index.html	/^    <li id="fn:3">$/;"	I
+fnref:1	_site/2019/11/04/Series/index.html	/^<p>We call a set of numbers <script type="math\/tex">\\lbrace a_1, a_2, \\dots, a_n \\rbrace<\/s/;"	I
+fnref:1	_site/2019/11/05/Rule-of-3.es/index.html	/^      <li><em>Conmutativo<\/em>. Como hemos dicho en la definición, esto no forma parte de la d/;"	I
+fnref:1	_site/2019/11/05/Rule-of-3/index.html	/^      <li><em>Commutative<\/em>. As we stated in the definition, this is not part of the usual d/;"	I
+fnref:1	_site/index.html	/^      <li><em>Commutative<\/em>. As we stated in the definition, this is not part of the usual d/;"	I
+fnref:1	_site/index.html	/^      <li><em>Conmutativo<\/em>. Como hemos dicho en la definición, esto no forma parte de la d/;"	I
+fnref:1	_site/index.html	/^<p>We call a set of numbers <script type="math\/tex">\\lbrace a_1, a_2, \\dots, a_n \\rbrace<\/s/;"	I
+fnref:2	_site/2019/11/04/Series/index.html	/^<p>And, it would make sense for it to converge, right?<sup id="fnref:2"><a href="#fn:2" class="f/;"	I
+fnref:2	_site/2019/11/05/Rule-of-3.es/index.html	/^<p>Puede que estés pensando “<em>Espera un segundo, ¡todos los conjuntos de números que con/;"	I
+fnref:2	_site/2019/11/05/Rule-of-3/index.html	/^<p>You might think “<em>Hang on, every set of numbers I know follows this!<\/em>”<sup id="fn/;"	I
+fnref:2	_site/index.html	/^<p>And, it would make sense for it to converge, right?<sup id="fnref:2"><a href="#fn:2" class="f/;"	I
+fnref:2	_site/index.html	/^<p>Puede que estés pensando “<em>Espera un segundo, ¡todos los conjuntos de números que con/;"	I
+fnref:2	_site/index.html	/^<p>You might think “<em>Hang on, every set of numbers I know follows this!<\/em>”<sup id="fn/;"	I
+fnref:3	_site/2019/11/05/Rule-of-3.es/index.html	/^<p>Diremos que <script type="math\/tex">x \\equiv 2 \\mod 3<\/script> o <script type="math\/tex"/;"	I
+fnref:3	_site/2019/11/05/Rule-of-3/index.html	/^<p>We will say that <script type="math\/tex">x \\equiv 2 \\mod 3<\/script> or <script type="math/;"	I
+fnref:3	_site/index.html	/^<p>Diremos que <script type="math\/tex">x \\equiv 2 \\mod 3<\/script> o <script type="math\/tex"/;"	I
+fnref:3	_site/index.html	/^<p>We will say that <script type="math\/tex">x \\equiv 2 \\mod 3<\/script> or <script type="math/;"	I
+generate	_plugins/_tag_gen.rb	/^    def generate(site)$/;"	f	class:Jekyll.TagGenerator
+h1	_site/public/css/poole.css	/^h1 {$/;"	s
+h1	_site/public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h1	public/css/poole.css	/^h1 {$/;"	s
+h1	public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h2	_site/public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h2	_site/public/css/poole.css	/^h2 {$/;"	s
+h2	public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h2	public/css/poole.css	/^h2 {$/;"	s
+h3	_site/public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h3	_site/public/css/poole.css	/^h3 {$/;"	s
+h3	public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h3	public/css/poole.css	/^h3 {$/;"	s
+h4	_site/public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h4	_site/public/css/poole.css	/^h4, h5, h6 {$/;"	s
+h4	public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h4	public/css/poole.css	/^h4, h5, h6 {$/;"	s
+h5	_site/public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h5	_site/public/css/poole.css	/^h4, h5, h6 {$/;"	s
+h5	public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h5	public/css/poole.css	/^h4, h5, h6 {$/;"	s
+h6	_site/public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h6	_site/public/css/poole.css	/^h4, h5, h6 {$/;"	s
+h6	public/css/poole.css	/^h1, h2, h3, h4, h5, h6 {$/;"	s
+h6	public/css/poole.css	/^h4, h5, h6 {$/;"	s
+hr	_site/public/css/poole.css	/^hr {$/;"	s
+hr	public/css/poole.css	/^hr {$/;"	s
+html	_site/public/css/hyde.css	/^  html {$/;"	s
+html	_site/public/css/hyde.css	/^html {$/;"	s
+html	_site/public/css/poole.css	/^  html {$/;"	s
+html	_site/public/css/poole.css	/^html {$/;"	s
+html	_site/public/css/poole.css	/^html,$/;"	s
+html	public/css/hyde.css	/^  html {$/;"	s
+html	public/css/hyde.css	/^html {$/;"	s
+html	public/css/poole.css	/^  html {$/;"	s
+html	public/css/poole.css	/^html {$/;"	s
+html	public/css/poole.css	/^html,$/;"	s
+img	_site/public/css/poole.css	/^img {$/;"	s
+img	public/css/poole.css	/^img {$/;"	s
+info	_site/about/index.html	/^<h2 id="info">Info<\/h2>$/;"	I
+info-es	_site/about/index.html	/^<h2 id="info-es">Info (ES)<\/h2>$/;"	I
+initialize	_plugins/_tag_gen.rb	/^    def initialize(site, base, dir, tag)$/;"	f	class:Jekyll.TagIndex
+intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces">Intersecc/;"	I
+intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces	_site/index.html	/^<h3 id="intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces">Intersecc/;"	I
+la-regla-del-tres	_site/2019/11/05/Rule-of-3.es/index.html	/^<h2 id="la-regla-del-tres">La regla del tres<\/h2>$/;"	I
+la-regla-del-tres	_site/index.html	/^<h2 id="la-regla-del-tres">La regla del tres<\/h2>$/;"	I
+los-enteros	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="los-enteros">Los enteros<\/h3>$/;"	I
+los-enteros	_site/index.html	/^<h3 id="los-enteros">Los enteros<\/h3>$/;"	I
+los-reales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="los-reales">Los reales<\/h3>$/;"	I
+los-reales	_site/index.html	/^<h3 id="los-reales">Los reales<\/h3>$/;"	I
+markdown-toc	_site/2019/11/04/Series/index.html	/^<ul id="markdown-toc">$/;"	I
+markdown-toc	_site/2019/11/05/Rule-of-3.es/index.html	/^<ul id="markdown-toc">$/;"	I
+markdown-toc	_site/2019/11/05/Rule-of-3/index.html	/^<ul id="markdown-toc">$/;"	I
+markdown-toc	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<ul id="markdown-toc">$/;"	I
+markdown-toc	_site/index.html	/^<ul id="markdown-toc">$/;"	I
+markdown-toc-1-conceptos-fundamentales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#1-conceptos-fundamentales" id="markdown-toc-1-conceptos-fundamentales">§1	Conce/;"	I
+markdown-toc-1-conceptos-fundamentales	_site/index.html	/^  <li><a href="#1-conceptos-fundamentales" id="markdown-toc-1-conceptos-fundamentales">§1	Conce/;"	I
+markdown-toc-10-conjuntos-bien-ordenados	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#10-conjuntos-bien-ordenados" id="markdown-toc-10-conjuntos-bien-ordenados">§10 /;"	I
+markdown-toc-10-conjuntos-bien-ordenados	_site/index.html	/^  <li><a href="#10-conjuntos-bien-ordenados" id="markdown-toc-10-conjuntos-bien-ordenados">§10 /;"	I
+markdown-toc-11-principio-maximal-de-hausdorff	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#11-principio-maximal-de-hausdorff" id="markdown-toc-11-principio-maximal-de-haus/;"	I
+markdown-toc-11-principio-maximal-de-hausdorff	_site/index.html	/^  <li><a href="#11-principio-maximal-de-hausdorff" id="markdown-toc-11-principio-maximal-de-haus/;"	I
+markdown-toc-2-funciones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#2-funciones" id="markdown-toc-2-funciones">§2	Funciones<\/a><\/li>$/;"	I
+markdown-toc-2-funciones	_site/index.html	/^  <li><a href="#2-funciones" id="markdown-toc-2-funciones">§2	Funciones<\/a><\/li>$/;"	I
+markdown-toc-3-relaciones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#3-relaciones" id="markdown-toc-3-relaciones">§3	Relaciones<\/a>    <ul>$/;"	I
+markdown-toc-3-relaciones	_site/index.html	/^  <li><a href="#3-relaciones" id="markdown-toc-3-relaciones">§3	Relaciones<\/a>    <ul>$/;"	I
+markdown-toc-4-los-enteros-y-los-reales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#4-los-enteros-y-los-reales" id="markdown-toc-4-los-enteros-y-los-reales">§4	Los/;"	I
+markdown-toc-4-los-enteros-y-los-reales	_site/index.html	/^  <li><a href="#4-los-enteros-y-los-reales" id="markdown-toc-4-los-enteros-y-los-reales">§4	Los/;"	I
+markdown-toc-5-productos-cartesianos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#5-productos-cartesianos" id="markdown-toc-5-productos-cartesianos">§5 Productos/;"	I
+markdown-toc-5-productos-cartesianos	_site/index.html	/^  <li><a href="#5-productos-cartesianos" id="markdown-toc-5-productos-cartesianos">§5 Productos/;"	I
+markdown-toc-6-conjuntos-finitos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#6-conjuntos-finitos" id="markdown-toc-6-conjuntos-finitos">§6 Conjuntos Finitos/;"	I
+markdown-toc-6-conjuntos-finitos	_site/index.html	/^  <li><a href="#6-conjuntos-finitos" id="markdown-toc-6-conjuntos-finitos">§6 Conjuntos Finitos/;"	I
+markdown-toc-7-conjuntos-contables-e-incontables	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#7-conjuntos-contables-e-incontables" id="markdown-toc-7-conjuntos-contables-e-in/;"	I
+markdown-toc-7-conjuntos-contables-e-incontables	_site/index.html	/^  <li><a href="#7-conjuntos-contables-e-incontables" id="markdown-toc-7-conjuntos-contables-e-in/;"	I
+markdown-toc-8-el-principio-de-definición-recursiva	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#8-el-principio-de-definición-recursiva" id="markdown-toc-8-el-principio-de-defi/;"	I
+markdown-toc-8-el-principio-de-definición-recursiva	_site/index.html	/^  <li><a href="#8-el-principio-de-definición-recursiva" id="markdown-toc-8-el-principio-de-defi/;"	I
+markdown-toc-9-conjuntos-infinitos-y-el-axioma-de-elección	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#9-conjuntos-infinitos-y-el-axioma-de-elección" id="markdown-toc-9-conjuntos-inf/;"	I
+markdown-toc-9-conjuntos-infinitos-y-el-axioma-de-elección	_site/index.html	/^  <li><a href="#9-conjuntos-infinitos-y-el-axioma-de-elección" id="markdown-toc-9-conjuntos-inf/;"	I
+markdown-toc-a-proof-of-the-rule-of-threes	_site/2019/11/05/Rule-of-3/index.html	/^  <li><a href="#a-proof-of-the-rule-of-threes" id="markdown-toc-a-proof-of-the-rule-of-threes">A/;"	I
+markdown-toc-a-proof-of-the-rule-of-threes	_site/index.html	/^  <li><a href="#a-proof-of-the-rule-of-threes" id="markdown-toc-a-proof-of-the-rule-of-threes">A/;"	I
+markdown-toc-contrapositivo-y-converso	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#contrapositivo-y-converso" id="markdown-toc-contrapositivo-y-converso">Contr/;"	I
+markdown-toc-contrapositivo-y-converso	_site/index.html	/^      <li><a href="#contrapositivo-y-converso" id="markdown-toc-contrapositivo-y-converso">Contr/;"	I
+markdown-toc-definiciones	_site/2019/11/05/Rule-of-3.es/index.html	/^  <li><a href="#definiciones" id="markdown-toc-definiciones">Definiciones<\/a><\/li>$/;"	I
+markdown-toc-definiciones	_site/index.html	/^  <li><a href="#definiciones" id="markdown-toc-definiciones">Definiciones<\/a><\/li>$/;"	I
+markdown-toc-definitions	_site/2019/11/04/Series/index.html	/^  <li><a href="#definitions" id="markdown-toc-definitions">Definitions<\/a><\/li>$/;"	I
+markdown-toc-definitions	_site/2019/11/05/Rule-of-3/index.html	/^  <li><a href="#definitions" id="markdown-toc-definitions">Definitions<\/a><\/li>$/;"	I
+markdown-toc-definitions	_site/index.html	/^  <li><a href="#definitions" id="markdown-toc-definitions">Definitions<\/a><\/li>$/;"	I
+markdown-toc-diferencia-de-dos-conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#diferencia-de-dos-conjuntos" id="markdown-toc-diferencia-de-dos-conjuntos">D/;"	I
+markdown-toc-diferencia-de-dos-conjuntos	_site/index.html	/^      <li><a href="#diferencia-de-dos-conjuntos" id="markdown-toc-diferencia-de-dos-conjuntos">D/;"	I
+markdown-toc-familias-de-conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#familias-de-conjuntos" id="markdown-toc-familias-de-conjuntos">Familias de C/;"	I
+markdown-toc-familias-de-conjuntos	_site/index.html	/^      <li><a href="#familias-de-conjuntos" id="markdown-toc-familias-de-conjuntos">Familias de C/;"	I
+markdown-toc-intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonce/;"	I
+markdown-toc-intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces	_site/index.html	/^      <li><a href="#intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonce/;"	I
+markdown-toc-la-regla-del-tres	_site/2019/11/05/Rule-of-3.es/index.html	/^  <li><a href="#la-regla-del-tres" id="markdown-toc-la-regla-del-tres">La regla del tres<\/a><\//;"	I
+markdown-toc-la-regla-del-tres	_site/index.html	/^  <li><a href="#la-regla-del-tres" id="markdown-toc-la-regla-del-tres">La regla del tres<\/a><\//;"	I
+markdown-toc-los-enteros	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#los-enteros" id="markdown-toc-los-enteros">Los enteros<\/a><\/li>$/;"	I
+markdown-toc-los-enteros	_site/index.html	/^      <li><a href="#los-enteros" id="markdown-toc-los-enteros">Los enteros<\/a><\/li>$/;"	I
+markdown-toc-los-reales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#los-reales" id="markdown-toc-los-reales">Los reales<\/a><\/li>$/;"	I
+markdown-toc-los-reales	_site/index.html	/^      <li><a href="#los-reales" id="markdown-toc-los-reales">Los reales<\/a><\/li>$/;"	I
+markdown-toc-notación-básica	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#notación-básica" id="markdown-toc-notación-básica">Notación básica<\/a/;"	I
+markdown-toc-notación-básica	_site/index.html	/^      <li><a href="#notación-básica" id="markdown-toc-notación-básica">Notación básica<\/a/;"	I
+markdown-toc-producto-cartesiano	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#producto-cartesiano" id="markdown-toc-producto-cartesiano">Producto cartesia/;"	I
+markdown-toc-producto-cartesiano	_site/index.html	/^      <li><a href="#producto-cartesiano" id="markdown-toc-producto-cartesiano">Producto cartesia/;"	I
+markdown-toc-reglas-de-la-teoría-de-conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#reglas-de-la-teoría-de-conjuntos" id="markdown-toc-reglas-de-la-teoría-de-/;"	I
+markdown-toc-reglas-de-la-teoría-de-conjuntos	_site/index.html	/^      <li><a href="#reglas-de-la-teoría-de-conjuntos" id="markdown-toc-reglas-de-la-teoría-de-/;"	I
+markdown-toc-relaciones-de-equivalencia-y-particiones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#relaciones-de-equivalencia-y-particiones" id="markdown-toc-relaciones-de-equ/;"	I
+markdown-toc-relaciones-de-equivalencia-y-particiones	_site/index.html	/^      <li><a href="#relaciones-de-equivalencia-y-particiones" id="markdown-toc-relaciones-de-equ/;"	I
+markdown-toc-relaciones-de-orden	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#relaciones-de-orden" id="markdown-toc-relaciones-de-orden">Relaciones de ord/;"	I
+markdown-toc-relaciones-de-orden	_site/index.html	/^      <li><a href="#relaciones-de-orden" id="markdown-toc-relaciones-de-orden">Relaciones de ord/;"	I
+markdown-toc-table-of-contents	_site/2019/11/04/Series/index.html	/^  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents<\/a><\//;"	I
+markdown-toc-table-of-contents	_site/2019/11/05/Rule-of-3/index.html	/^  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents<\/a><\//;"	I
+markdown-toc-table-of-contents	_site/index.html	/^  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents<\/a><\//;"	I
+markdown-toc-the-geometric-series	_site/2019/11/04/Series/index.html	/^      <li><a href="#the-geometric-series" id="markdown-toc-the-geometric-series">The Geometric S/;"	I
+markdown-toc-the-geometric-series	_site/index.html	/^      <li><a href="#the-geometric-series" id="markdown-toc-the-geometric-series">The Geometric S/;"	I
+markdown-toc-the-harmonic-series	_site/2019/11/04/Series/index.html	/^      <li><a href="#the-harmonic-series" id="markdown-toc-the-harmonic-series">The Harmonic seri/;"	I
+markdown-toc-the-harmonic-series	_site/index.html	/^      <li><a href="#the-harmonic-series" id="markdown-toc-the-harmonic-series">The Harmonic seri/;"	I
+markdown-toc-the-rule-of-threes	_site/2019/11/05/Rule-of-3/index.html	/^  <li><a href="#the-rule-of-threes" id="markdown-toc-the-rule-of-threes">The rule of threes<\/a>/;"	I
+markdown-toc-the-rule-of-threes	_site/index.html	/^  <li><a href="#the-rule-of-threes" id="markdown-toc-the-rule-of-threes">The rule of threes<\/a>/;"	I
+markdown-toc-types-of-series	_site/2019/11/04/Series/index.html	/^  <li><a href="#types-of-series" id="markdown-toc-types-of-series">Types of series<\/a>    <ul>$/;"	I
+markdown-toc-types-of-series	_site/index.html	/^  <li><a href="#types-of-series" id="markdown-toc-types-of-series">Types of series<\/a>    <ul>$/;"	I
+markdown-toc-una-demostración-de-la-regla-del-tres	_site/2019/11/05/Rule-of-3.es/index.html	/^  <li><a href="#una-demostración-de-la-regla-del-tres" id="markdown-toc-una-demostración-de-la/;"	I
+markdown-toc-una-demostración-de-la-regla-del-tres	_site/index.html	/^  <li><a href="#una-demostración-de-la-regla-del-tres" id="markdown-toc-una-demostración-de-la/;"	I
+markdown-toc-uniones-e-intersecciones-arbitrarias	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#uniones-e-intersecciones-arbitrarias" id="markdown-toc-uniones-e-interseccio/;"	I
+markdown-toc-uniones-e-intersecciones-arbitrarias	_site/index.html	/^      <li><a href="#uniones-e-intersecciones-arbitrarias" id="markdown-toc-uniones-e-interseccio/;"	I
+markdown-toc-unión-de-conjuntos-y-o-lógico	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^      <li><a href="#unión-de-conjuntos-y-o-lógico" id="markdown-toc-unión-de-conjuntos-y-o-ló/;"	I
+markdown-toc-unión-de-conjuntos-y-o-lógico	_site/index.html	/^      <li><a href="#unión-de-conjuntos-y-o-lógico" id="markdown-toc-unión-de-conjuntos-y-o-ló/;"	I
+markdown-toc-índice	_site/2019/11/05/Rule-of-3.es/index.html	/^  <li><a href="#índice" id="markdown-toc-índice">Índice<\/a><\/li>$/;"	I
+markdown-toc-índice	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <li><a href="#índice" id="markdown-toc-índice">Índice<\/a><\/li>$/;"	I
+markdown-toc-índice	_site/index.html	/^  <li><a href="#índice" id="markdown-toc-índice">Índice<\/a><\/li>$/;"	I
+notación-básica	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="notación-básica">Notación básica<\/h3>$/;"	I
+notación-básica	_site/index.html	/^<h3 id="notación-básica">Notación básica<\/h3>$/;"	I
+ns9ed594b80101	_site/atom.xml	/^<feed xmlns="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80201	_site/atom.xml	/^ <title>MathBlog<\/title>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80301	_site/atom.xml	/^ <link href="http:\/\/localhost:4000\/atom.xml" rel="self"\/>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80401	_site/atom.xml	/^ <link href="http:\/\/localhost:4000\/"\/>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80501	_site/atom.xml	/^ <updated>2019-11-10T17:54:20+00:00<\/updated>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80601	_site/atom.xml	/^ <id>http:\/\/localhost:4000<\/id>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80701	_site/atom.xml	/^ <author>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80801	_site/atom.xml	/^   <name>Diego Pirx<\/name>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80901	_site/atom.xml	/^   <email><\/email>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80a01	_site/atom.xml	/^ <entry>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80b01	_site/atom.xml	/^   <title>Teoría de Conjuntos Básica<\/title>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80c01	_site/atom.xml	/^   <link href="http:\/\/localhost:4000\/2019\/11\/10\/T-De-Conjuntos-B%C3%A1sica\/"\/>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80d01	_site/atom.xml	/^   <updated>2019-11-10T00:00:00+00:00<\/updated>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80e01	_site/atom.xml	/^   <id>http:\/\/localhost:4000\/2019\/11\/10\/T-De-Conjuntos-Básica<\/id>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b80f01	_site/atom.xml	/^   <content type="html">&lt;blockquote&gt;$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81001	_site/atom.xml	/^ <entry>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81101	_site/atom.xml	/^   <title>Rule of threes, twisted proof<\/title>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81201	_site/atom.xml	/^   <link href="http:\/\/localhost:4000\/2019\/11\/05\/Rule-of-3\/"\/>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81301	_site/atom.xml	/^   <updated>2019-11-05T00:00:00+00:00<\/updated>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81401	_site/atom.xml	/^   <id>http:\/\/localhost:4000\/2019\/11\/05\/Rule-of-3<\/id>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81501	_site/atom.xml	/^   <content type="html">&lt;p&gt;&lt;a href=&quot;\/MathBlog\/2019\/11\/05\/Rule-of-3.es&quot;&g/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81601	_site/atom.xml	/^ <entry>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81701	_site/atom.xml	/^   <title>Regla del tres, demostración enrevesada<\/title>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81801	_site/atom.xml	/^   <link href="http:\/\/localhost:4000\/2019\/11\/05\/Rule-of-3.es\/"\/>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81901	_site/atom.xml	/^   <updated>2019-11-05T00:00:00+00:00<\/updated>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81a01	_site/atom.xml	/^   <id>http:\/\/localhost:4000\/2019\/11\/05\/Rule-of-3.es<\/id>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81b01	_site/atom.xml	/^   <content type="html">&lt;p&gt;&lt;a href=&quot;\/MathBlog\/2019\/11\/05\/Rule-of-3&quot;&gt;R/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81c01	_site/atom.xml	/^ <entry>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81d01	_site/atom.xml	/^   <title>Two very interesting Series<\/title>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81e01	_site/atom.xml	/^   <link href="http:\/\/localhost:4000\/2019\/11\/04\/Series\/"\/>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b81f01	_site/atom.xml	/^   <updated>2019-11-04T00:00:00+00:00<\/updated>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b82001	_site/atom.xml	/^   <id>http:\/\/localhost:4000\/2019\/11\/04\/Series<\/id>$/;"	n	uri:http://www.w3.org/2005/Atom
+ns9ed594b82101	_site/atom.xml	/^   <content type="html">&lt;blockquote&gt;$/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0101	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0201	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0301	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0401	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0501	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0601	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0701	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0801	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0901	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0a01	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0b01	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0c01	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0d01	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0e01	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb0f01	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1001	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1101	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1201	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1301	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1401	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1501	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1601	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1701	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1801	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1901	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1a01	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1b01	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1c01	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1d01	_site/feed.xml	/^&lt;p&gt;Fuente: &lt;a href=&quot;https:\/\/www.allbookstores.com\/Topologh-2nd-Edition-James-Mu/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1e01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb1f01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2001	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2101	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2201	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2301	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2401	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2501	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2601	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2701	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2801	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2901	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2a01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2b01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="Español" \/></;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2c01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2d01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2e01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb2f01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3001	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3101	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3201	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3301	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3401	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3501	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3601	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3701	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3801	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3901	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3a01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3b01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3c01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3d01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3e01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb3f01	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+nsa17ebafb4001	_site/feed.xml	/^&lt;\/div&gt;<\/content><author><name>Diego Pirx<\/name><\/author><category term="English" \/><c/;"	n	uri:http://www.w3.org/2005/Atom
+ol	_site/public/css/poole.css	/^ul, ol, dl {$/;"	s
+ol	public/css/poole.css	/^ul, ol, dl {$/;"	s
+p	_site/public/css/poole.css	/^p {$/;"	s
+p	public/css/poole.css	/^p {$/;"	s
+pre	_site/public/css/poole.css	/^pre {$/;"	s
+pre	public/css/poole.css	/^pre {$/;"	s
+pre code	_site/public/css/poole.css	/^pre code {$/;"	s
+pre code	public/css/poole.css	/^pre code {$/;"	s
+producto-cartesiano	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="producto-cartesiano">Producto cartesiano<\/h3>$/;"	I
+producto-cartesiano	_site/index.html	/^<h3 id="producto-cartesiano">Producto cartesiano<\/h3>$/;"	I
+reglas-de-la-teoría-de-conjuntos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="reglas-de-la-teoría-de-conjuntos">Reglas de la teoría de conjuntos<\/h3>$/;"	I
+reglas-de-la-teoría-de-conjuntos	_site/index.html	/^<h3 id="reglas-de-la-teoría-de-conjuntos">Reglas de la teoría de conjuntos<\/h3>$/;"	I
+relaciones-de-equivalencia-y-particiones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="relaciones-de-equivalencia-y-particiones">Relaciones de equivalencia y particiones<\/h3>$/;"	I
+relaciones-de-equivalencia-y-particiones	_site/index.html	/^<h3 id="relaciones-de-equivalencia-y-particiones">Relaciones de equivalencia y particiones<\/h3>$/;"	I
+relaciones-de-orden	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="relaciones-de-orden">Relaciones de orden<\/h3>$/;"	I
+relaciones-de-orden	_site/index.html	/^<h3 id="relaciones-de-orden">Relaciones de orden<\/h3>$/;"	I
+seccion	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<p>Sea <script type="math\/tex">n<\/script> un entero positivo, usamos el símbolo <script type=/;"	a
+seccion	_site/index.html	/^<p>Sea <script type="math\/tex">n<\/script> un entero positivo, usamos el símbolo <script type=/;"	a
+strong	_site/public/css/poole.css	/^strong {$/;"	s
+strong	public/css/poole.css	/^strong {$/;"	s
+table	_site/public/css/poole.css	/^table {$/;"	s
+table	public/css/poole.css	/^table {$/;"	s
+table-of-contents	_site/2019/11/04/Series/index.html	/^  <h2 id="table-of-contents">Table of contents<\/h2>$/;"	I
+table-of-contents	_site/2019/11/05/Rule-of-3/index.html	/^  <h2 id="table-of-contents">Table of contents<\/h2>$/;"	I
+table-of-contents	_site/index.html	/^  <h2 id="table-of-contents">Table of contents<\/h2>$/;"	I
+tbody tr:nth-child(odd) td	_site/public/css/poole.css	/^tbody tr:nth-child(odd) td,$/;"	s
+tbody tr:nth-child(odd) td	public/css/poole.css	/^tbody tr:nth-child(odd) td,$/;"	s
+tbody tr:nth-child(odd) th	_site/public/css/poole.css	/^tbody tr:nth-child(odd) th {$/;"	s
+tbody tr:nth-child(odd) th	public/css/poole.css	/^tbody tr:nth-child(odd) th {$/;"	s
+td	_site/public/css/poole.css	/^td,$/;"	s
+td	public/css/poole.css	/^td,$/;"	s
+th	_site/public/css/poole.css	/^th {$/;"	s
+th	public/css/poole.css	/^th {$/;"	s
+the-geometric-series	_site/2019/11/04/Series/index.html	/^<h3 id="the-geometric-series">The Geometric Series<\/h3>$/;"	I
+the-geometric-series	_site/index.html	/^<h3 id="the-geometric-series">The Geometric Series<\/h3>$/;"	I
+the-harmonic-series	_site/2019/11/04/Series/index.html	/^<h3 id="the-harmonic-series">The Harmonic series<\/h3>$/;"	I
+the-harmonic-series	_site/index.html	/^<h3 id="the-harmonic-series">The Harmonic series<\/h3>$/;"	I
+the-rule-of-threes	_site/2019/11/05/Rule-of-3/index.html	/^<h2 id="the-rule-of-threes">The rule of threes<\/h2>$/;"	I
+the-rule-of-threes	_site/index.html	/^<h2 id="the-rule-of-threes">The rule of threes<\/h2>$/;"	I
+title: "Tag List"	taglist.md	/^title: "Tag List"$/;"	s
+title: About	about.md	/^title: About$/;"	s
+types-of-series	_site/2019/11/04/Series/index.html	/^<h2 id="types-of-series">Types of series<\/h2>$/;"	I
+types-of-series	_site/index.html	/^<h2 id="types-of-series">Types of series<\/h2>$/;"	I
+ul	_site/public/css/poole.css	/^ul, ol, dl {$/;"	s
+ul	public/css/poole.css	/^ul, ol, dl {$/;"	s
+una-demostración-de-la-regla-del-tres	_site/2019/11/05/Rule-of-3.es/index.html	/^<h2 id="una-demostración-de-la-regla-del-tres">Una demostración de la Regla del Tres<\/h2>$/;"	I
+una-demostración-de-la-regla-del-tres	_site/index.html	/^<h2 id="una-demostración-de-la-regla-del-tres">Una demostración de la Regla del Tres<\/h2>$/;"	I
+uniones-e-intersecciones-arbitrarias	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="uniones-e-intersecciones-arbitrarias">Uniones e intersecciones arbitrarias<\/h3>$/;"	I
+uniones-e-intersecciones-arbitrarias	_site/index.html	/^<h3 id="uniones-e-intersecciones-arbitrarias">Uniones e intersecciones arbitrarias<\/h3>$/;"	I
+unión-de-conjuntos-y-o-lógico	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h3 id="unión-de-conjuntos-y-o-lógico">Unión de conjuntos y “o” lógico<\/h3>$/;"	I
+unión-de-conjuntos-y-o-lógico	_site/index.html	/^<h3 id="unión-de-conjuntos-y-o-lógico">Unión de conjuntos y “o” lógico<\/h3>$/;"	I
+write_tag_index	_plugins/_tag_gen.rb	/^    def write_tag_index(site, dir, tag)$/;"	f	class:Jekyll.TagGenerator
+{{ page.title }}	_layouts/page.html	/^  <h1 class="page-title">{{ page.title }}<\/h1>$/;"	h
+{{ page.title }}	_layouts/post-es.html	/^  <h1 class="post-title">{{ page.title }}<\/h1>$/;"	h
+{{ page.title }}	_layouts/post.html	/^  <h1 class="post-title">{{ page.title }}<\/h1>$/;"	h
+{{ post.title }}	_layouts/tag_index.html	/^    <time style="color:#666;font-size:16px;" datetime=''>{{ post.date }}<\/time> <h3><a class="a/;"	j
+{{ post.title }}	index.html	/^    <\/h1>$/;"	h
+{{ post.title }} {{ post.date | date_to_string }}	_layouts/post-es.html	/^        <\/h3>$/;"	j
+{{ post.title }} {{ post.date | date_to_string }}	_layouts/post.html	/^        <\/h3>$/;"	j
+{{ site.title }}	_includes/sidebar.bak.html	/^      <\/h1>$/;"	h
+{{ site.title }}	_includes/sidebar.html	/^      <\/h2>$/;"	i
+§1 Conceptos Fundamentales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="1-conceptos-fundamentales">§1	Conceptos Fundamentales<\/h2>$/;"	i
+§1 Conceptos Fundamentales	_site/index.html	/^<h2 id="1-conceptos-fundamentales">§1	Conceptos Fundamentales<\/h2>$/;"	i
+§10 Conjuntos Bien Ordenados	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="10-conjuntos-bien-ordenados">§10 Conjuntos Bien Ordenados<\/h2>$/;"	i
+§10 Conjuntos Bien Ordenados	_site/index.html	/^<h2 id="10-conjuntos-bien-ordenados">§10 Conjuntos Bien Ordenados<\/h2>$/;"	i
+§11 Principio Maximal (de Hausdorff)	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="11-principio-maximal-de-hausdorff">§11 Principio Maximal (de Hausdorff)<\/h2>$/;"	i
+§11 Principio Maximal (de Hausdorff)	_site/index.html	/^<h2 id="11-principio-maximal-de-hausdorff">§11 Principio Maximal (de Hausdorff)<\/h2>$/;"	i
+§2 Funciones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="2-funciones">§2	Funciones<\/h2>$/;"	i
+§2 Funciones	_site/index.html	/^<h2 id="2-funciones">§2	Funciones<\/h2>$/;"	i
+§3 Relaciones	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="3-relaciones">§3	Relaciones<\/h2>$/;"	i
+§3 Relaciones	_site/index.html	/^<h2 id="3-relaciones">§3	Relaciones<\/h2>$/;"	i
+§4 Los enteros y los reales	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="4-los-enteros-y-los-reales">§4	Los enteros y los reales<\/h2>$/;"	i
+§4 Los enteros y los reales	_site/index.html	/^<h2 id="4-los-enteros-y-los-reales">§4	Los enteros y los reales<\/h2>$/;"	i
+§5 Productos Cartesianos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="5-productos-cartesianos">§5 Productos Cartesianos<\/h2>$/;"	i
+§5 Productos Cartesianos	_site/index.html	/^<h2 id="5-productos-cartesianos">§5 Productos Cartesianos<\/h2>$/;"	i
+§6 Conjuntos Finitos	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="6-conjuntos-finitos">§6 Conjuntos Finitos<\/h2>$/;"	i
+§6 Conjuntos Finitos	_site/index.html	/^<h2 id="6-conjuntos-finitos">§6 Conjuntos Finitos<\/h2>$/;"	i
+§7 Conjuntos contables e incontables	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="7-conjuntos-contables-e-incontables">§7 Conjuntos contables e incontables<\/h2>$/;"	i
+§7 Conjuntos contables e incontables	_site/index.html	/^<h2 id="7-conjuntos-contables-e-incontables">§7 Conjuntos contables e incontables<\/h2>$/;"	i
+§8 El Principio de Definición Recursiva	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="8-el-principio-de-definición-recursiva">§8 El Principio de Definición Recursiva<\/h2>$/;"	i
+§8 El Principio de Definición Recursiva	_site/index.html	/^<h2 id="8-el-principio-de-definición-recursiva">§8 El Principio de Definición Recursiva<\/h2>$/;"	i
+§9 Conjuntos Infinitos y el Axioma de Elección	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^<h2 id="9-conjuntos-infinitos-y-el-axioma-de-elección">§9 Conjuntos Infinitos y el Axioma de E/;"	i
+§9 Conjuntos Infinitos y el Axioma de Elección	_site/index.html	/^<h2 id="9-conjuntos-infinitos-y-el-axioma-de-elección">§9 Conjuntos Infinitos y el Axioma de E/;"	i
+Índice	_site/2019/11/05/Rule-of-3.es/index.html	/^  <h2 id="índice">Índice<\/h2>$/;"	i
+Índice	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <h2 id="índice">Índice<\/h2>$/;"	i
+Índice	_site/index.html	/^  <h2 id="índice">Índice<\/h2>$/;"	i
+índice	_site/2019/11/05/Rule-of-3.es/index.html	/^  <h2 id="índice">Índice<\/h2>$/;"	I
+índice	_site/2019/11/10/T-De-Conjuntos-Básica/index.html	/^  <h2 id="índice">Índice<\/h2>$/;"	I
+índice	_site/index.html	/^  <h2 id="índice">Índice<\/h2>$/;"	I

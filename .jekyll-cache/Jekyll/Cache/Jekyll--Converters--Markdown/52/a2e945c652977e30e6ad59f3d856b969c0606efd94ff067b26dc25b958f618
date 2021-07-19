@@ -1,0 +1,188 @@
+I"�%<p><a href="/MathBlog/2019/11/05/Rule-of-3.es">Leer en Español</a></p>
+
+<p>For this post, I want to explore a property of the natural numbers (or integers in this case) that is taught at a very young age and whose proof relies on a weird quirk of the decimal system.</p>
+
+<blockquote>
+  <h2 id="table-of-contents">Table of contents</h2>
+<ul id="markdown-toc">
+  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents</a></li>
+  <li><a href="#the-rule-of-threes" id="markdown-toc-the-rule-of-threes">The rule of threes</a></li>
+  <li><a href="#definitions" id="markdown-toc-definitions">Definitions</a></li>
+  <li><a href="#a-proof-of-the-rule-of-threes" id="markdown-toc-a-proof-of-the-rule-of-threes">A proof of the rule of threes</a></li>
+</ul>
+</blockquote>
+
+<h2 id="the-rule-of-threes">The rule of threes</h2>
+
+<p>Assume that we have a very large number, like \(543\), and we want to know whether this number is divisible by 3, that is, than when we divide it by three, the remainder is 0:</p>
+
+\[543 = 3\cdot k,\qquad\text{for some }k\in\mathbb{Z}\]
+
+<p>An easy way of checking would be to just divide it and see, but, what if that was a lot harder? The rule of threes could help, it tells us that: <em>a number is divisible by three if and only if the sum of its decimal digits is divisible by three</em>. So we check:</p>
+
+\[5+4+3 = 12\]
+
+<p>Which is divisible by three! (We could keep going as \(1+2=3\))</p>
+
+<p>With nine the same rule applies, but why does it work?</p>
+
+<p>First, let us get some Mathematics out of the way:</p>
+
+<h2 id="definitions">Definitions</h2>
+
+<p>In algebra, we call a set with a sum and a multiplication a <strong>Ring</strong> if those operations have certain properties, we won’t go into a lot of detail, but the basic properties are (we will assume that we are in a commutative ring to ease some complication, this means that \(a\cdot b = b\cdot a\)), let \(R\) be a ring:</p>
+<ul>
+  <li>\(R\) is closed by addition, this means that, if we have two elements in \(R\), then their sum will also be in \(R\). Addition also has the following properties:
+    <ol>
+      <li>It is associative: \(a + (b+c) = (a+b) + c\)</li>
+      <li>It is commutative: \(a + b = b + a\)</li>
+      <li>There is an element called zero (0) which acts as an identity for the sum, that is \(0+a=a\)</li>
+      <li>For every element \(a\) in \(R\) there is an <em>additive inverse</em> called \(-a\), such that \(a + (-a) = 0\).</li>
+    </ol>
+  </li>
+  <li>\(R\) is closed by multiplication, this means that, if we have two elements in \(R\), then their product will also be in \(R\). Multiplication also has the following properties:
+    <ol>
+      <li><em>Commutative</em>. As we stated in the definition, this is not part of the usual definition of ring, but, because we <strong>do not</strong><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> want to deal with non-commutative rings right now, we will assume that the product is commutative.</li>
+      <li>It is associative: \(a\cdot (b\cdot c) = (a\cdot b)\cdot c\)</li>
+      <li>There is an element called one (1) which acts as an identity for the multiplication, that is \(1\cdot a = a\)</li>
+    </ol>
+  </li>
+  <li>Both are associative: \(a(b + c) = ab + ac\)</li>
+</ul>
+
+<p>You might think “<em>Hang on, every set of numbers I know follows this!</em>”<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>, you are right for the most part. This is why we use this in Algebra.</p>
+
+<p>Say, we have the set of all the integers, usually written as \(\mathbb{Z}\), this is:</p>
+
+\[\mathbb{Z}=
+\lbrace
+\cdots, -4,-3,-2,-1,
+0,
+1,2,3,4,\cdots
+\rbrace\]
+
+<p>what if we wanted to multiply all the elements by, say, three? We wolud write that as:</p>
+
+\[3\mathbb{Z} = 
+\lbrace
+\cdots, -12,-9,-6,-3,
+0,
+3,6,9,12,\cdots
+\rbrace\]
+
+<p>And now, what if we want to get only the <strong>possible remainders of dividing by three</strong>? This is what is called a modular ring, it is defined via a relation we will see in a sec, for now:</p>
+
+\[\mathbb{Z}_3 = \mathbb{Z}/{3\mathbb{Z}} = \lbrace
+\bar{0}, \bar{1}, \bar{2}
+\rbrace\]
+
+<p>The bar notation will come in handy in a second.</p>
+
+<p>It is clear that the only possible remainders when dividing by three are 0, 1 and 2. We determine which one is the remainder of a number using <em>Euclid’s Algorithm</em> for division, also called <em>Long Division</em>, which gives us, for any integer \(m\):</p>
+
+\[m = 3\cdot k + r\]
+
+<p>Where \(k\) is the number we find through division, and \(r\) our remainder. The ring above, what it does, is “<em>squash</em>” every element in \(\mathbb{Z}\) into its <em>modular class</em>, or, the remainder they give out when dividing by three, usually written with the bar, then \(\bar{2}\) would represent any number that gives a remainder of two when dividing by three.</p>
+
+<p>This is what is called a “cyclic” ring, because it is clear that when you add \(\bar{2}+\bar{1}=\bar{0}\), why? Because adding up numbers with a modulo of 2 (remainder of two) and numbers with a modulo of 1 always will give out a multiple of three.</p>
+
+<p>This ring is closed and it has many more nice properties (because 3 is prime) but, why is this so interesting? Because we have a way to embed our numbers here, this is called the modulo operation and it has a very cumbersome notation:</p>
+
+<p>We will say that \(x \equiv 2 \mod 3\) or \(x\equiv \bar{2}\)<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> if the remainder when dividing by 3 is 2. This operation, as it is defined, has the nice property of being able to be taken through parentheses, as we saw, due to the cyclical nature of \(\mathbb{Z}_3\), this means, and bear with the horrendous notation:</p>
+
+\[(a+b)\mod 3 = \left[ 
+a \mod 3 + b \mod 3
+\right]\mod 3\]
+
+<p>Which is the reason I prefer using the bars and pretending that everything is happening inside of a modular ring.</p>
+
+<p>Now, back to the rule of threes:</p>
+
+<h2 id="a-proof-of-the-rule-of-threes">A proof of the rule of threes</h2>
+
+<p>Imagine we are given a number \(x\) in \(\mathbb{Z}\), this number will have a set of digits in decimal, we will refer to these digits as \(x_n,\dots,x_2,x_1,x_0\) such that:</p>
+
+\[x = x_n10^n + \cdots + x_1 10 + x_010^0\]
+
+<p>(remember that \(10^0 = 0\))</p>
+
+<p>Now, we want to prove that, if \(x\) is divisible by 3, that is, if \(x\equiv 0\mod 3\) or \(x\equiv\bar{0}\), the sum of all its digits is as well.</p>
+
+<p>We begin by taking the modulo of \(x\), we will assume \(x\) is divisible by three to prove the statement:</p>
+
+\[\begin{eqnarray}
+x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_1 10 + x_010^0) \mod 3 &amp;\equiv&amp; 0 \\
+(x_n10^n\mod 3) + \cdots + (x_1 10\mod 3) + (x_010^0\mod 3) &amp;\equiv&amp; 0
+\end{eqnarray}\]
+
+<p>Now, we can also take the modulo through the products, and, we will do a change of notation and move to \(\mathbb{Z}_3\), here, because it is a ring:</p>
+
+\[\overline{x_n10^n}=\overline{x_n}\cdot\overline{10^n}\]
+
+<p>Now, we rewrite the equation above:</p>
+
+\[\overline{x_n}\cdot\overline{10^n} 
++ \cdots + 
+\overline{x_1}\cdot\overline{10^1} + 
+\overline{x_0}\cdot\overline{1} \equiv \bar{0}\]
+
+<p>Now, it is very easy to see that all the powers of ten will be equivalent to 1 modulo 3:</p>
+
+\[\begin{eqnarray}
+10 = 3\cdot 3 + 1\therefore \overline{10}&amp;\equiv&amp;\bar{1}\\
+\overline{10^2} = \overline{10}\cdot\overline{10}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+\overline{10^3} = \overline{10}\cdot\overline{10^2}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+&amp;\vdots&amp;\\
+\overline{10^n} = \overline{10}\cdot\overline{10^{n-1}}&amp;\equiv&amp;
+                                  \bar{1}\cdot\bar{1}=\bar{1}\\
+
+\end{eqnarray}\]
+
+<p>Now, we can rewrite the equation above yet again:</p>
+
+\[\overline{x_n}\cdot\overline{1} 
++ \cdots + 
+\overline{x_1}\cdot\overline{1} + 
+\overline{x_0}\cdot\overline{1} \equiv \bar{0}\]
+
+<p>And, because of the asociative property, we will have:</p>
+
+\[(\overline{x_n}\cdot
++ \cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\overline{1} \equiv \bar{0}\]
+
+<p>And now, we have two things, and their product is 0, because \(\mathbb{Z}_3\) <em>behaves properly</em> (read: does not have <a href="https://en.wikipedia.org/wiki/Zero_divisor">zero divisors</a>), we will have to assume that, either $$(\overline{x_n}\cdot</p>
+<ul>
+  <li>\cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\equiv 0\(or\)\bar{1}\equiv\bar{0}$$ and the second one is impossible, so we have that:</li>
+</ul>
+
+\[(\overline{x_n}\cdot
++ \cdots + 
+\overline{x_1}\cdot + 
+\overline{x_0}\cdot)\equiv 0\]
+
+<p>Which means that the sum of the digits is divisible by three</p>
+
+<p>$$\hspace{25cm}\blacksquare</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>trust me, <strong>we do not</strong> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>If you are not thinking that, Hi fellow mathematician/physicist <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>We use this one when we do not need to specify what number we are dividing by <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

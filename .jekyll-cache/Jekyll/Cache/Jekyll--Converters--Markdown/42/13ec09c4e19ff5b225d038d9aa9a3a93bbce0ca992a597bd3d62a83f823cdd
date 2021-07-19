@@ -1,0 +1,666 @@
+I"˪<blockquote>
+  <h2 id="table-of-contents">Table of contents</h2>
+<ul id="markdown-toc">
+  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of contents</a></li>
+  <li><a href="#1-conceptos-fundamentales" id="markdown-toc-1-conceptos-fundamentales">§1	Conceptos Fundamentales</a>    <ul>
+      <li><a href="#notación-básica" id="markdown-toc-notación-básica">Notación básica</a></li>
+      <li><a href="#unión-de-conjuntos-y-o-lógico" id="markdown-toc-unión-de-conjuntos-y-o-lógico">Unión de conjuntos y “o” lógico</a></li>
+      <li><a href="#intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces" id="markdown-toc-intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces">Intersección de conjuntos, el Conjunto Vacío y el significado de “<em>si… entonces</em>”</a></li>
+      <li><a href="#contrapositivo-y-converso" id="markdown-toc-contrapositivo-y-converso">Contrapositivo y converso</a></li>
+      <li><a href="#diferencia-de-dos-conjuntos" id="markdown-toc-diferencia-de-dos-conjuntos">Diferencia de dos conjuntos</a></li>
+      <li><a href="#reglas-de-la-teoría-de-conjuntos" id="markdown-toc-reglas-de-la-teoría-de-conjuntos">Reglas de la teoría de conjuntos</a></li>
+      <li><a href="#familias-de-conjuntos" id="markdown-toc-familias-de-conjuntos">Familias de Conjuntos</a></li>
+      <li><a href="#uniones-e-intersecciones-arbitrarias" id="markdown-toc-uniones-e-intersecciones-arbitrarias">Uniones e intersecciones arbitrarias</a></li>
+      <li><a href="#producto-cartesiano" id="markdown-toc-producto-cartesiano">Producto cartesiano</a></li>
+    </ul>
+  </li>
+  <li><a href="#2-funciones" id="markdown-toc-2-funciones">§2	Funciones</a></li>
+  <li><a href="#3-relaciones" id="markdown-toc-3-relaciones">§3	Relaciones</a>    <ul>
+      <li><a href="#relaciones-de-equivalencia-y-particiones" id="markdown-toc-relaciones-de-equivalencia-y-particiones">Relaciones de equivalencia y particiones</a></li>
+      <li><a href="#relaciones-de-orden" id="markdown-toc-relaciones-de-orden">Relaciones de orden</a></li>
+    </ul>
+  </li>
+  <li><a href="#4-los-enteros-y-los-reales" id="markdown-toc-4-los-enteros-y-los-reales">§4	Los enteros y los reales</a>    <ul>
+      <li><a href="#los-reales" id="markdown-toc-los-reales">Los reales</a></li>
+      <li><a href="#los-enteros" id="markdown-toc-los-enteros">Los enteros</a></li>
+    </ul>
+  </li>
+  <li><a href="#5-productos-cartesianos" id="markdown-toc-5-productos-cartesianos">§5 Productos Cartesianos</a></li>
+  <li><a href="#6-conjuntos-finitos" id="markdown-toc-6-conjuntos-finitos">§6 Conjuntos Finitos</a></li>
+  <li><a href="#7-conjuntos-contables-e-incontables" id="markdown-toc-7-conjuntos-contables-e-incontables">§7 Conjuntos contables e incontables</a></li>
+  <li><a href="#8-el-principio-de-definición-recursiva" id="markdown-toc-8-el-principio-de-definición-recursiva">§8 El Principio de Definición Recursiva</a></li>
+  <li><a href="#9-conjuntos-infinitos-y-el-axioma-de-elección" id="markdown-toc-9-conjuntos-infinitos-y-el-axioma-de-elección">§9 Conjuntos Infinitos y el Axioma de Elección</a></li>
+  <li><a href="#10-conjuntos-bien-ordenados" id="markdown-toc-10-conjuntos-bien-ordenados">§10 Conjuntos Bien Ordenados</a></li>
+  <li><a href="#11-principio-maximal-de-hausdorff" id="markdown-toc-11-principio-maximal-de-hausdorff">§11 Principio Maximal (de Hausdorff)</a></li>
+</ul>
+</blockquote>
+
+<h2 id="1-conceptos-fundamentales">§1	Conceptos Fundamentales</h2>
+
+<h3 id="notación-básica">Notación básica</h3>
+
+<p>Comunmente usaremos letras mayúsculas \(A, B, \dots\)  para denotar conjuntos y minúsculas \(a,b,\dots\) para denotar sus <strong>objetos</strong> o <strong>elementos</strong>. Denotamos que un objeto pertenece a \(A\) como:</p>
+
+\[a\in A\]
+
+<p>Si el elemento no pertenece a \(A\) lo denotaremos como:</p>
+
+\[a\notin A\]
+
+<p>Si escribimos \(a=b\) nos referimos a <strong>igualdad lógica</strong> es decir, \(a\) y \(b\) son símbolos para el mismo elemento. De manera similar, podemos escribir \(A=B\) cuando dos conjuntos son iguales.</p>
+
+<p>Decimos que \(A\) es un <strong>subconjunto</strong> de \(B\) si cada elemento de \(A\) es también un elemento de \(B\), denotaremos esto como:</p>
+
+\[A\subset B\]
+
+<p>Decimos que \(A\) es un <strong>subconjunto propio</strong> de \(B\) si no son iguales, y se escribe:</p>
+
+\[A \subsetneq B\]
+
+<p>Los conjuntos se pueden especificar como una colección de elementos discretos o como elementos de otro conjunto que comparten una propiedad. Por ejemplo:</p>
+
+\[A = \lbrace a,b,c \rbrace\]
+
+\[B = \left\lbrace x \mid x \text{ es un entero par } \right\rbrace\]
+
+<h3 id="unión-de-conjuntos-y-o-lógico">Unión de conjuntos y “o” lógico</h3>
+
+<p>Dados dos conjuntos \(A\) y \(B\), podemos generar un conjunto que consista de todos los elementos de \(A\) y los de \(B\). Llamaremos a este conjunto la <strong>unión</strong> de \(A\) y \(B\), denotado como \(A \cup B\). Formalmente lo definiremos como:</p>
+
+\[A\cup B = \left\lbrace x\mid x\in A \text{ ó }x\in B \right\rbrace\]
+
+<p>En matemáticas, como no se puede tolerar la ambigüedad, cuando decimos “ó” queremos decir “\(P\), \(Q\) o ambos”.</p>
+
+<h3 id="intersección-de-conjuntos-el-conjunto-vacío-y-el-significado-de-si-entonces">Intersección de conjuntos, el Conjunto Vacío y el significado de “<em>si… entonces</em>”</h3>
+
+<p>Dados los conjuntos \(A\) y \(B\), otra forma de construir otro conjunto es tomando las partes comunes de \(A\) y \(B\). Este conjunto se llama la <strong>intersección</strong> de \(A\) y \(B\) y se denota como \(A\cap B\). Formalmente la definimos como:</p>
+
+\[A\cap B = \left\lbrace x\mid x\in A \text{ and }x\in B \right\rbrace\]
+
+<p>¿Qué pasa cuando no tienen elementos en común? Para encargarnos de esta eventualidad, introducimos el concepto del <strong>conjunto vacío</strong>, denotado \(\emptyset\), del cual podemos pensar como “un conjunto sin elementos”.</p>
+
+<p>Usando este convenio, podemos expresar el caso en el que \(A\) y \(B\) no tienen elementos en común:</p>
+
+\[A\cap B=\emptyset\]
+
+<p>También podemos expresar esto diciendo que \(A\) y \(B\) son <strong>disjuntos</strong>.</p>
+
+<p>Como el concepto de \(\emptyset\) es un convenio, se han de clarificar algunos aspectos. Es claro por la definición de el conjunto vacío que \(\forall x, x\notin \emptyset\). De manera similar, por las definiciones de unión e intersección tendremos:</p>
+
+\[A\cup \emptyset = A\qquad \text{and}\qquad A\cap \emptyset =\emptyset\]
+
+<p>La relación de inclusión tiene un poco más de truco. Dado un conjunto \(A\), ¿debemos decir que \(\emptyset \subset A\)? Esa expresión significa “Todo elemento que pertenece al conjunto vacío pertenece a \(A\)”, o de otro modo, “Para todo objeto \(x\), si \(x\) pertenece al conjunto vacío, entonces también pertenece a \(A\)”.</p>
+
+<p>¿Es esta afirmación correcta o no? La frase de la forma <em>si x entonces y</em> tiene ambigüedad en el lenguaje cotidiano, esta duda es inadmisible en matemáticas, por eso <em>si \(P\) entonces \(Q\)</em> significa que, si \(P\) es cierto, \(Q\) también lo es, pero que si \(P\) no es cierto, no podemos discernir nada sobre la veracidad de \(Q\).</p>
+
+<p>Para visualizar el ejemplo sobre el conjunto vacío, tomemos un ejemplo más simple sobre los números reales:</p>
+
+\[\text{Si }x^2 &lt;0\text{, then }x=23\]
+
+<p>Podemos decir que esta afirmación es correcta, ya que nunca tendremos el caso en el que \(x^2 &lt;0\), en este caso, podemos decir que la afirmación es <strong>vacuamente cierta</strong>. De este modo, podemos decir que el que \(\emptyset \subset A\) es vacuamente cierto.</p>
+
+<h3 id="contrapositivo-y-converso">Contrapositivo y converso</h3>
+
+<p>La discusión sobre el significado de “si,… entonces”, nos lleva a considerar otro tema en lógica elemental que a veces causa dificultades, la relación entre una <em>afirmación</em>, su <em>contrapositiva</em>, y su <em>conversa</em>.</p>
+
+<p>Dada una afirmación de la forma “<em>Si \(P\), entonces \(Q\)</em>”, su <strong>contrapositiva</strong> se define como la afirmación “<em>Si \(Q\) no es cierto, entonces \(P\) no es cierto</em>”. Si tenemos una afirmación de la forma:</p>
+
+\[P\Rightarrow Q\]
+
+<p>que se lee \(P\) implica \(Q\) se sigue que:</p>
+
+\[(¬\ Q)\Rightarrow(¬\ P)\]
+
+<p>Hay otra afirmación que se puede formar desde la afirmación \(P\Rightarrow Q\), y es</p>
+
+\[Q\Rightarrow P\]
+
+<p>La cual es la <strong>conversa</strong> de \(P\Rightarrow Q\). Debemos tener cuidado entre la conversa y la contrapositiva de una afirmación. Mientras que una afirmación y su contrapositiva son lógicamente equivalentes, una afirmación y su conversa no dicen nada la una sobre la otra.</p>
+
+<p>Si tenemos un caso en el que tanto una afirmación como su conversa son ciertas, lo expresaremos:</p>
+
+\[P\Leftrightarrow Q\]
+
+<p>Lo que se lee como “<em>\(P\) es cierto si y solo si \(Q\) es cierto</em>”.</p>
+
+<h3 id="diferencia-de-dos-conjuntos">Diferencia de dos conjuntos</h3>
+
+<p>La última operación útil entre conjuntos será la <strong>diferencia</strong> de dos conjuntos, denotada \(A-B\), y definida como el conjunto que contiene todos los elementos de \(A\) que no están en \(B\), formalmente:</p>
+
+\[A-B= \left\lbrace x\mid x\in A \text{ and }x\notin B \right\rbrace\]
+
+<h3 id="reglas-de-la-teoría-de-conjuntos">Reglas de la teoría de conjuntos</h3>
+
+<p>Dados varios conjuntos, se pueden formar nuevos conjuntos aplicando las operaciones vistas a ellos, como en álgebra, usaremos paréntesis para indicar el orden de operaciones, tenemos varias propiedades para estas operaciones:</p>
+
+<ul>
+  <li>
+    <p><em>Primera distributiva:</em> \(A\cap (B\cup C)=(A\cap B)\cup (A\cap C)\)</p>
+  </li>
+  <li>
+    <p><em>Segunda distributiva:</em> \(A\cup(B\cap C)=(A\cup B)\cap(A\cup C)\)</p>
+  </li>
+  <li>
+    <p><em>Primera ley de DeMorgan:</em> \(A-(B\cup C)=(A-B)\cap(A-C)\)</p>
+
+    <p>Ó, “<em>El complementario de la unión es la intersección de complementarios</em>”</p>
+  </li>
+  <li>
+    <p><em>Segunda ley de DeMorgan:</em> \(A-(B\cap C)=(A-B)\cup(A-C)\)</p>
+
+    <p>Ó, “<em>El complementario de la intersección es la unión de complementarios</em></p>
+  </li>
+</ul>
+
+<h3 id="familias-de-conjuntos">Familias de Conjuntos</h3>
+
+<p>Podemos considerar conjuntos cuyos elementos sean de cualquier naturaleza, incluso conjuntos de <em>conjuntos</em>. En particular, es útil considerar el <em>conjunto de todos los posibles subconjuntos de \(A\)</em>, denotaremos este conjunto \(\mathcal{P}(A)\) y lo llamaremos <strong>conjunto potencia</strong> o <strong>partes de</strong> \(A\).</p>
+
+<p>Cuando tenemos un conjunto cuyos elementos son conjuntos, solemos llamarlo <strong>familia</strong> y lo denotamos con tipografía caligráfica como \(\mathcal{A}\), o \(\mathcal{B}\), aquí necesitamos tener cuidado con la tipografía, ya que tenemos que distinguir entre \(a\) como <em>elemento</em>, del conjunto \(A\), y el conjunto de un elemento \(\lbrace a \rbrace\) que es un <em>subconjunto</em> de \(A\). Para ilustrar, sea \(A=\lbrace a,b,c\rbrace\), entonces:</p>
+
+\[a\in A,\qquad 
+\lbrace a\rbrace \subset A,\text{ and } \qquad
+\lbrace a \rbrace \in \mathcal{P}(A)\]
+
+<h3 id="uniones-e-intersecciones-arbitrarias">Uniones e intersecciones arbitrarias</h3>
+
+<p>Dada una familia \(\mathcal{A}\), la <strong>unión</strong> de los elementos de \(\mathcal{A}\) se define como:</p>
+
+\[\bigcup_{A\in \mathcal{A}} A=\left\lbrace x\mid x\in A \text{ para al menos un }A\in \mathcal{A} \right\rbrace\]
+
+<p>Y la <strong>intersección</strong> de elementos de \(\mathcal{A}\) se define como:</p>
+
+\[\bigcap_{A\in \mathcal{A}} A=\left\lbrace x\mid x\in A\ \forall A\in\mathcal{A}
+\right\rbrace\]
+
+<p>Para evitar confusiones, <em>no definimos la intersección cuando \(\mathcal{A}\) sea vacío</em>.</p>
+
+<h3 id="producto-cartesiano">Producto cartesiano</h3>
+
+<p>Dados dos conjuntos \(A\) y \(B\), definimos su <strong>producto cartesiano</strong> como:</p>
+
+\[A \times B=\left\lbrace \left(a,b\right) 
+\mid a\in A, b\in B
+\right\rbrace\]
+
+<p>También podemos denotar \((a,b)\) como \(a\times b\) ó \(\lbrace a\rbrace \times \lbrace b\rbrace\) para evitar confusiones con los intervalos abiertos en \(\mathbb{R}\).</p>
+
+<h2 id="2-funciones">§2	Funciones</h2>
+
+<p><strong>Definición.</strong> <em>Una <strong>regla de asignación</strong> es un subconjunto \(r\) del producto cartesiano \(C\times D\) de dos conjuntos, con la propiedad de que cada elemento de \(C\) aparece en la primera coordenada de <strong>como mucho una</strong> pareja ordenada que pertenezca a \(r\)</em></p>
+
+<p>En otras palabras, un subconjunto \(r\) de \(C\times D\) es una regla de asignación si:</p>
+
+\[\left[
+(c,d)\in r \text{ y } (c,d^\prime)\in r
+\right] \Rightarrow
+[d=d^\prime]\]
+
+<p>Dada una regla de asignación \(r\), su <strong>dominio</strong> es el subconjunto \(C\) que contiene todas las primeras coordenadas de los elementos de \(r\), y la <strong>imagen</strong> de \(r\) será el conjunto \(D\) que tiene todas lass segundas coordenadas. Formalmente:</p>
+
+\[\text{dominio }r= \left\lbrace 
+ c\mid \exists d\in D \text{ tq } (c,d)\in r
+\right\rbrace
+\\
+\text{imagen }r= \left\lbrace 
+ d\mid \exists c\in C \text{ tq } (c,d)\in r
+\right\rbrace\]
+
+<p>Dada una regla de asignación, su dominio e imagen están completamente definidas. Ahora podemos ver lo que es una función:</p>
+
+<p><strong>Definición:</strong> <em>Una <strong>función</strong> \(f\) es una regla de asignación \(r\), junto a un conjunto \(B\) que contiene la imagen de \(r\). El dominio \(A\) de la regla \(r\) también se llama el <strong>dominio</strong> de \(f\); el conjunto imagen de \(r\) también se llamará la <strong>imagen</strong> de \(f\); y \(B\) será el <strong>rango</strong> de \(f\)</em></p>
+
+<p>Podremos expresar que \(f\) es una función de dominio \(A\) (o con soporte en \(A\)) y rango \(B\) de la siguiente forma:</p>
+
+\[f:A\longrightarrow B\]
+
+<p><strong>Definición:</strong> <em>Sea \(f:A\to B\) un a función y sea \(A_0\) un subconjunto de \(A\), definimos la <strong>restricción</strong> de \(f\) a \(A_0\) como la función que asigna \(A_0\) a \(B\) con regla:</em></p>
+
+\[\left\lbrace
+ \left(a,f(a)\right) \mid a \in A_0
+\right\rbrace\]
+
+<p><em>y se denota como \(f\mid _{A_0}\)</em></p>
+
+<p><strong>Definición:</strong> <em>Dadas dos funciones \(f:A\to B\) y \(g:B\to C\), definimos la <strong>composición</strong> \(g\circ f\) de \(f\) y \(g\) como la función \(g\circ f:A\to C\) definida como \((g\circ f)(a)=g(f(a))\).</em></p>
+
+<p>Podemos clasificar funciones de acuerdo con tres categorías:</p>
+
+<ul>
+  <li><strong>Inyectiva:</strong> \(f(a)=f(a^\prime)\Longrightarrow a=a^\prime\)</li>
+  <li><strong>Sobre ó supreyectiva:</strong> \(\forall b\in B\ \exists a\in A\) tq \(b=f(a)\)</li>
+  <li><strong>Biyectiva:</strong> si es tanto Inyectiva como Sobre.</li>
+</ul>
+
+<p>La inyectividad depende de la regla, mientras que la suprayectividad depende del rango. Se sigue facilmente que la composición de dos aplicaciones biyectivas será biyectiva.</p>
+
+<p>Sea \(f\) biyectiva, eso quiere decir que existe una función de \(B\) a \(A\) llamada la <strong>inversa</strong> de \(f\). Se denota como \(f^{-1}\) y se define haciendo que \(f^{-1}(b)\) sea el único elemento \(a\) de \(A\) para el cual \(f(a)=b\). Dado \(b\in B\), al ser la función sobre, existe tal elemento \(a\in A\); el hecho de que sea inyectiva quiere decir que existe <em>solo uno</em>. Es fácil ver que, siendo \(f\) biyectiva, \(f^{-1}\) también lo será.</p>
+
+<p><strong>Lema:</strong> <em>Sea \(f:A\to B\). Si existen dos funciones \(g:B\to A\) y \(h:B \to A\) tales que \(g(f(a))=a\ \forall a \in A\) y \(f(h(b))=b\ \forall b\in B\), entonces \(f\) es biyectiva y \(h=g=f^{-1}\).</em></p>
+
+<p><strong>Definición:</strong> <em>Sea \(f:A\to B\). Sea \(A_0 \subset A\), denotamos \(f(A_0)\) al conjunto de todas las imagenes de puntos en \(A_0\) bajo \(f\); llamaremos a este conjunto la <strong>imagen</strong> de \(A_0\) bajo \(f\). Formalmente:</em></p>
+
+\[f(A_0)=\left\lbrace
+ b\mid b=f(a)\text{ para al menos un }a\in A_0
+\right\rbrace\]
+
+<p><em>Por otro lado, si \(B_0\) es un subconjunto de \(B\), denotamos como \(f^{-1}(B_0)\) al conjunto de elementos de \(A\) cuyas imágenes bajo \(f\) yacen en \(B_0\); lo llamamos la <strong>antiimagen</strong> de \(B_0\) bajo \(f\). Formalmente:</em></p>
+
+\[f^{-1}(B_0)=\left\lbrace
+ a\mid f(a)\in B_0
+\right\rbrace\]
+
+<p>Debemos notar aquí que la inversa de una función tiene mejor comportamiento que la función en si. La inversa conserva inclusión, unión e intersección, mientras que la función solo conserva unión e inclusión. También cabe mencionar lo siguiente:</p>
+
+\[A_0 \subset f^{-1}(f(A_0))
+ \qquad\text{y}\qquad
+ f(f^{-1}(B_0))\subset B_0\]
+
+<p><strong>Pero no son igualdades</strong>. La primera inclusión será una igualdad si \(f\) es inyectiva, y la segunda si es sobre.</p>
+
+<h2 id="3-relaciones">§3	Relaciones</h2>
+
+<p><strong>Definición:</strong> Una <strong>relación</strong> sobre un conjunto \(A\) es un subconjunto \(C\) del producto cartesiano \(A\times A\).</p>
+
+<p>Usamos la notación \(xCy\) para referirnos a lo mismo que \((x,y)\in C\), el que “<em>\(x\) e \(y\) están relacionados por \(C\)</em>”.</p>
+
+<h3 id="relaciones-de-equivalencia-y-particiones">Relaciones de equivalencia y particiones</h3>
+
+<p>Una <strong>relación de equivalencia</strong> sobre \(A\) es una relación \(C\) en \(A\) que cumple las siguientes tres propiedades:</p>
+
+<ol>
+  <li><strong>Reflexividad:</strong> \(xCx\ \ \forall x\in A\)</li>
+  <li><strong>Simetría:</strong> \(xCy\Rightarrow yCx\)</li>
+  <li><strong>Transitividad:</strong> \(xCy,yCz\Rightarrow xCz\)</li>
+</ol>
+
+<p>Frecuentemente se usa el símbolo \(\sim\) para denotar una relación de equivalencia (también \(\mathfrak{R}\))</p>
+
+<p>Dada una relación de equivalencia \(\sim\) en un conjunto \(A\) y un elemento \(x\in A\), definimos un cierto subconjunto \(E\subset A\), llamado la <strong>clase de equivalencia</strong> de \(x\), como:</p>
+
+\[E=\lbrace y\mid y\sim x\rbrace\]
+
+<p><strong>Lema:</strong> <em>Dos clases de equivalencia \(E\) y \(E^\prime\) son o bien disjuntas o iguales</em></p>
+
+<p>Dada una relación de equivalencia sobre \(A\), denotamos por \(\mathscr{E}\) la familia de todas las clases de equivalencia determinadas por esta relación</p>
+
+<p><strong>Definición:</strong> Una <strong>partición</strong> de \(A\) es una familia de subconjuntos no vacíos y disjuntos de \(A\), cuya unión es todo \(A\).</p>
+
+<p>Dada una partición \(\mathcal{D}\) de \(A\) hay <strong>exactamente una</strong> relación de equivalencia definida en \(A\) que genera tal partición.</p>
+
+<h3 id="relaciones-de-orden">Relaciones de orden</h3>
+
+<p>Una relación \(C\) en un conjunto \(A\) se dice <strong>de orden</strong>, si es:</p>
+
+<ol>
+  <li><strong>Comparable:</strong> \(\forall x,y\in A\) tq \(x\neq y\) entonces, o bien \(xCy\) o \(yCx\)</li>
+  <li><strong>No reflexiva:</strong> \(\nexists x\in A\) tq \(xCx\)</li>
+  <li><strong>Transitiva:</strong> Si \(xCy\) y \(yCz\), entonces \(xCz\)</li>
+</ol>
+
+<p>Notar que las tres propiedades <em>juntas</em> implican que para ninguna pareja \(x,y\in A\) se pueden cumplir \(xCy\) y \(yCx\) simultáneamente.</p>
+
+<p>Se usa el símbolo \(&lt;\) para las relaciones de orden.</p>
+
+<p><strong>Definición:</strong> Sea \(X\) un conjunto y \(&lt;\) una relación de orden en \(X\), si \(a&lt;b\), podemos usar la notación \((a,b)\) para denotar el conjunto:</p>
+
+\[\left\lbrace
+ x\mid a&lt;x&lt;b
+\right\rbrace\]
+
+<p>que se llamará un <strong>intervalo abierto</strong> en \(X\). Si el conjunto es vacío, \(a\) se dirá el <strong>predecesor inmediato</strong> de \(b\), y \(b\) será el <strong>sucesor inmediato</strong> de \(a\).</p>
+
+<p><strong>Definición:</strong> Supongamos que \(A, B\) son conjuntos con relaciones de orden \(&lt;_A , &lt;_B\). Decimos que \(A\) y \(B\) tienen el mismo <strong>tipo de orden</strong> si existe una biyección entre ellos que preserve el orden, es decir \(\exists f:A\to B\) tq:</p>
+
+\[a_1 &lt;_A a_2 \Rightarrow f(a_1)&lt;_B f(a_2)\]
+
+<p><strong>Definición:</strong> Sean \(A,B\) dos conjuntos con relaciones de orden \(&lt;_A , &lt;_B\) respectivamente. Definimos una relación de orden en \(A\times B\) definiendo:</p>
+
+\[a_1 \times b_1 &lt; a_2 \times b_2\]
+
+<p>si \(a_1 &lt;_A a_2\), o si \(a_1 = a_2\) y \(b_1 &lt;_B b_2\). Se llama <strong>Relación de orden de diccionario</strong>.</p>
+
+<p>Sea \(A\) un conjunto con una relación de orden \(&lt;\). Sea \(A_0 \subset A\). Decimos que un elemento \(b\in A_0\) es el <strong>mayor elemento (máximo)</strong> de \(A_0\) si \(b\in A_0\) y \(x \le b\ \ \forall x\in A_0\). Definimos de manera análoga el <strong>menor elemento (mínimo)</strong> de \(A_0\).</p>
+
+<p>Decimos que el subconjunto \(A_0 \subset A\) está <strong>acotado por arriba</strong> si \(\exists b\in A\) tq \(x\le b\ \ \forall x\in A_0\), llamaremos a \(b\) una <strong>cota superior</strong> de \(A_0\). Si el conjunto de todas las cotas superiores de \(A_0\) tiene un mínimo, ese elemento se llamará la <strong>menor cota superior</strong> o <strong>supremo</strong> de \(A_0\) (\(\sup A_0\)).</p>
+
+<p>Similarmente, diremos que el subconjunto \(A_0 \subset A\) está <strong>acotado por abajo</strong> si \(\exists b\in A\) tq \(x\ge b\ \ \forall x\in A_0\), llamaremos a \(b\) una <strong>cota inferior</strong> de \(A_0\). Si el conjunto de todas las cotas superiores de \(A_0\) tiene un máximo, ese elemento se llamará la <strong>mayor cota inferior</strong> o <strong>ínfimo</strong> de \(A_0\) (\(\inf A_0\)).</p>
+
+<p>El supremo e ínfimo de un conjunto <em>pueden no estar</em> dentro del propio conjunto, en el caso de que estén, coincidirán siempre con el mínimo y máximo.</p>
+
+<p><strong>Definición:</strong> Un conjunto ordenado \(A\) se dice tiene la <strong>propiedad de mínima cota superior</strong> si todo subconjunto \(\emptyset \neq A_0 \subset A\) acotado por arriba tiene al menos una cota superior. De forma análoga, diremos que tiene la propiedad de <strong>máxima cota inferior</strong> si todo subconjunto no vacío acotado por abajo tiene al menos una cota inferior.</p>
+
+<p>\(A\) tiene la propiedad de mínima cota superior \(\iff\) tiene la propiedad de máxima cota inferior.</p>
+
+<h2 id="4-los-enteros-y-los-reales">§4	Los enteros y los reales</h2>
+
+<h3 id="los-reales">Los reales</h3>
+
+<p>Asumimos que existe un conjunto \(\mathbb{R}\), llamado <strong>los números reales</strong>, con dos operaciones binarias \(+\) y \(\cdot\) sobre \(\mathbb{R}\) llamadas adición y producto, y una relación de orden \(&lt;\) en \(\mathbb{R}\), tal que se cumplen las siguientes propiedades:</p>
+
+<ul>
+  <li>
+    <p><em>Propiedades algebraicas:</em></p>
+
+    <ol>
+      <li>
+\[(x+y)+z=x+(y+z) \\ (x\cdot y)\cdot z=x\cdot (y\cdot z), \forall x,y,z\in\mathbb{R}\]
+      </li>
+      <li>
+\[x+y=y+x \\ x\cdot y=y\cdot x, \forall x,y\in \mathbb{R}\]
+      </li>
+      <li>
+        <p>Existe un único elemento en \(\mathbb{R}\) llamado <strong>cero</strong>, denotado 0, tal que \(x+0=x,\forall x\in\mathbb{R}\)</p>
+
+        <p>Existe un único elemento en \(\mathbb{R}\) llamado <strong>uno</strong>, distinto de 0 y denotado 1, tal que \(x\cdot 1=x,\forall x\in \mathbb{R}\)</p>
+      </li>
+      <li>
+        <p>Para cada \(x\in\mathbb{R}\) existe un único \(y\) tal que \(x+y=0\)</p>
+
+        <p>Para cada \(x\in\mathbb{R}\) existe un único \(y\) tal que \(x\cdot y=1\)</p>
+      </li>
+      <li>
+\[x\cdot (y+z)=(x\cdot y)+(x\cdot z),\forall x,y,z\in\mathbb{R}\]
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p><em>Propiedades mixtas algebraicas y de orden:</em></p>
+
+    <ol>
+      <li>
+        <p>Si \(x&gt;y\), entonces \(x+z&gt;y+z\)</p>
+
+        <p>Si \(x&gt;y,z&gt;0\), entonces \(x\cdot z&gt;y\cdot z\)</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p><em>Propiedades de orden:</em></p>
+
+    <ol>
+      <li>La relación de orden \(&lt;\) tiene la propiedad de mínima cota superior.</li>
+      <li>Si \(x&lt;y\), existe un elemento \(z\) tal que \(x&lt;z\) y \(z&lt;y\)</li>
+    </ol>
+  </li>
+</ul>
+
+<p>Las propiedades (1) a (5) definen en álgebra un <strong>campo</strong>, añadiendo la propiedad (6) tenemos un <strong>campo ordenado</strong>.</p>
+
+<p>Las propiedades (7) y (8) definen en topología un <strong>continuo lineal</strong>. En general las propiedades (1) a (7) se toman como axiomas, mientras que la propiedad (8) se ve como un teorema, ya que es consecuencia de las otras.</p>
+
+<h3 id="los-enteros">Los enteros</h3>
+
+<p>S pueden definir usando las propiedades (1) a (6).</p>
+
+<p><strong>Definición:</strong> Un subconjunto \(A\) de los reales se dice <strong>inductivo</strong> si contiene al número 1 y, para cada \(x\in A\), el número \(x+1\) también está en \(A\). Sea \(\mathcal{A}\) una familia de todos los subconjuntos de \(\mathbb{R}\). Entonces el conjunto \(\mathbb{Z}_+\) de los <strong>enteros positivos</strong> se define como:</p>
+
+\[\mathbb{Z}_+ = \bigcap_{A\in\mathcal{A}} A\]
+
+<p>El conjunto de los enteros positivos tiene dos propiedades que se infieren de la definición:</p>
+
+<ol>
+  <li>\(\mathbb{Z}_+\) es inductivo</li>
+  <li>(<em>Principio de inducción</em>). Si \(A\) es un conjunto inductivo de enteros positivos, entonces \(A=\mathbb{Z}_+\)</li>
+</ol>
+
+<p>\(\mathbb{Z}\) se definirá como el conjunto de los enteros positivos junto con el 0 y todos los recíprocos aditivos de los positivos. Así mismo, los <strong>racionales</strong> (\(\mathbb{Q}\)) se definirán como cocientes de enteros.</p>
+
+<p>Se puede demostrar que, dado un entero \(n\), no existe un entero \(a\), tq \(n&lt;a&lt;n+1\).</p>
+
+<p>Sea \(n\) un entero positivo, usamos el símbolo \(S_n\) para denotar el conjunto de todos los enteros positivos menores que \(n\); llamaremos a esto una <strong>sección<a name="seccion"></a></strong> de los enteros positivos. El conjunto \(S_1\) es vacío.</p>
+
+<p><strong>Teorema 4.1: (Principio del buen orden).</strong> <em>Todo subconjunto de \(\mathbb{Z}_+\) tiene un elemento mínimo</em></p>
+
+<p><strong>Teorema 4.2: (Principio de inducción fuerte.</strong> <em>Sea \(A\) un conjunto de enteros positivos. Supongamos que para cada entero positivo \(n\), la afirmación \(S_n \subset A\) implica \(n\in A\). Entonces \(A=\mathbb{Z}_+\)</em>.</p>
+
+<p>Hasta ahora nos bastaba con los axiomas (1) a (6) de los reales, pero necesitamos el (7) para una cosa:</p>
+
+<p>**Axioma de ordenación de Arquímedes: ** El conjunto de los enteros positivos no tiene cota superior en los reales.</p>
+
+<h2 id="5-productos-cartesianos">§5 Productos Cartesianos</h2>
+
+<p><strong>Definición:</strong> Sea \(\mathcal{A}\) una familia no vacía de conjuntos. Una <strong>función índice</strong> de \(\mathcal{A}\) es una función sobre \(f\) sobre un conjunto \(J\), llamado el <strong>conjunto índice</strong> de \(\mathcal{A}\). La familia \(\mathcal{A}\) junto con la función índice \(f\) se llama <strong>familia indexada</strong>. Dado \(\alpha\in J\), denotaremos el conjunto \(f(\alpha)\) como \(A_\alpha\). Y denotaremos la familia indexada como:</p>
+
+\[\left\lbrace
+ A_\alpha
+\right\rbrace_{\alpha\in J}\]
+
+<p>Cabe notar que la función no tiene que ser <em>inyectiva</em>, por lo cual puede darse el caso de que \(A_\alpha = A_\beta\) si \(\alpha\neq\beta\).</p>
+
+<p><strong>Definición:</strong> Sea \(m\) un entero positivo. Dado un conjunto \(X\), definimos una \(m\)<strong>-tupla</strong> de elementos de \(X\) como una función:</p>
+
+\[\bar{x}:\lbrace 1,\dots,m \rbrace \to X\]
+
+<p>Si \(\bar{x}\) es una \(m\)-tupla, solemos denotar el valor de \(\bar{x}\) en \(i\) como \(x_i\) en vez de \(\bar{x}(i)\), y llamaremos a este valor la \(i\)-ésima <strong>coordenada</strong> de \(\bar{x}\). También solemos representar la función misma con el símbolo:</p>
+
+\[\left(
+ x_1,x_2,\dots,x_m
+\right)\]
+
+<p>Sea ahora la familia \(\left\lbrace A_1 ,\cdots,A_m \right\rbrace\) de conjuntos indexada por el conjunto \(\lbrace 1,\cdots, m\rbrace\). Sea \(X=A_1 \cup \cdots\cup A_m\). Definimos el <strong>producto cartesiano</strong> de esta familia indexada, denotado por:</p>
+
+\[\prod_{i=1}^m A_i 
+\qquad\text{ó}\qquad
+ A_1 \times\cdots\times A_m\]
+
+<p>Será el conjunto de todas las \(m\)-tuplas \((x_1 ,\dots,x_m)\) de elementos de \(X\) tales que \(x_i \in A_i\) para cada \(i\).</p>
+
+<p><strong>Definición:</strong> Dado un conjunto \(X\) definimos una \(\omega\)<strong>-tupla</strong> de elementos de \(X\) como una función:</p>
+
+\[\bar{x}:\mathbb{Z}_+ \to X\]
+
+<p>También decimos que esta función es una <strong>secuencia</strong> o una <strong>secuencia infinita</strong> de elementos de \(X\).</p>
+
+<p>Ahora, sea \(\lbrace A_1, A_2,\dots\rbrace\) una familia de conjuntos, indexada por los enteros positivos; sea \(X\) la unión de todos los conjuntos de esta familia. El <strong>producto cartesiano</strong> de esta familia indexada, denotado por:</p>
+
+\[\prod_{i\in \mathbb{Z}_+}A_i \quad\text{ó}\quad A_1 \times A_2 \times\cdots\]
+
+<p>se define como el conjunto de todas las \(\omega\)-tuplas \((x_1 , x_2 ,\cdots)\) de elementos de \(X\) tales que \(x_i \in A_i\) para cada \(i\).</p>
+
+<p>Si todos los \(A_i\)’s son iguales e iguales a \(X\), el producto cartesiano \(X\times\overbrace{\cdots}^{m}\times X\) se denotará \(X^m\) mientras que el producto cartesiano \(X\times X\times\cdots\) se denotará \(X^\omega\).</p>
+
+<h2 id="6-conjuntos-finitos">§6 Conjuntos Finitos</h2>
+
+<p>Usaremos los conjuntos definidos antes como <a href="#seccion">sección</a> como prototipo de conjunto finito.</p>
+
+<p><strong>Definición:</strong> Diremos que un conjunto es <strong>finito</strong> si hay una correspondencia biyectiva entre \(A\) y una sección de los enteros positivos. Es decir, \(A\) es finito si es vacío o existe una biyección:</p>
+
+\[f:A\to \lbrace 1,\dots,n\rbrace\]
+
+<p>para algún entero positivo \(n\). En el caso de \(A=\emptyset\) diremos que \(A\) tiene <strong>cardinalidad</strong> 0 (\(\vert  A\vert  =0\)) en el otro caso, diremos que tiene <strong>cardinalidad</strong> \(n\) (\(\vert  A\vert  =n\)).</p>
+
+<p><strong>Lema 6.1:</strong> <em>Sea \(n\) un entero positivo. Sea \(A\) un conjunto; sea \(a_0\) un elemento de \(A\). Entonces existe una correspondencia biyectiva \(f\) entre el conjunto \(A\) y \(\lbrace 1, \dots n+1\rbrace\) si y solo si existe una correspondencia biyectiva \(g\) del conjunto \(A-\lbrace a_0\rbrace\) con el conjunto \(\lbrace 1,\dots,n\rbrace\).</em></p>
+
+<p><strong>Teorema 6.2:</strong> <em>Sea \(A\) un conjunto; suponemos que existe una biyección \(f:A\to\lbrace 1,\dots,n\rbrace\) para algún \(n\in\mathbb{Z}_+\). Sea \(S\) un subconjunto propio (\(\subsetneq\)) de \(A\). Entonces no existe una biyección \(g:B\to \lbrace 1,\dots,n\rbrace\); pero (asumiendo \(B\neq\emptyset\)) existe una biyección \(g:B\to\lbrace 1,\dots,m\rbrace\) para algún \(m&lt;n\).</em></p>
+
+<p><strong>Corolario 6.3:</strong> <em>Si \(A\) es finito, no existe biyección entre \(A\) y un subconjunto propio suyo.</em></p>
+
+<p><strong>Corolario 6.4:</strong> <em>\(\mathbb{Z}_+\) no es finito.</em></p>
+
+<p>​	<strong>Dem:</strong> La función \(f:\mathbb{Z}_+\to\mathbb{Z}_+ -\lbrace 1\rbrace\) dada por \(f(n)=n+1\) es una biyección entre \(\mathbb{Z}_+\) y él mismo.</p>
+
+\[\hspace{20cm}\blacksquare\]
+
+<p><strong>Corolario 6.5:</strong> <em>La cardinalidad de un conjunto finito \(A\) está únicamente determinada por \(A\).</em></p>
+
+<p><strong>Corolario 6.6:</strong> <em>Si \(B\) es un subconjunto del conjunto finito \(A\), entonces \(B\) es infinito. Si \(B\) es un subconjunto propio de \(A\), entonces la cardinalidad de \(B\) es menor que la cardinalidad de \(A\).</em></p>
+
+<p><strong>Corolario 6.7:</strong> <em>Sea \(B\) un conjunto no vacío. Entonces las afirmaciones siguientes son equivalentes:</em></p>
+
+<ol>
+  <li><em>\(B\) es finito</em></li>
+  <li><em>Hay una función sobre de una sección de los enteros positivos a \(B\)</em></li>
+  <li><em>Hay una función inyectiva de \(B\) a una sección de los enteros positivos</em></li>
+</ol>
+
+<p><strong>Corolario 6.8:</strong> <em>Las uniones finitas y productos cartesianos finitos de conjuntos finitos son finitas.</em></p>
+
+<h2 id="7-conjuntos-contables-e-incontables">§7 Conjuntos contables e incontables</h2>
+
+<p><strong>Definición:</strong> un conjunto se dice <strong>infinito</strong> si no es finito. Se dice <strong>contablemente infinito</strong> si existe una correspondencia biyectiva:</p>
+
+\[f:A\to\mathbb{Z}_+\]
+
+<p><strong>Definición:</strong> un conjunto se dice <strong>contable</strong> si es finito o contablemente infinito. Un conjunto que no es contable se dice <strong>incontable</strong>.</p>
+
+<p>Solemos expresar contable como \(\vert  A\vert  \le\aleph_0\), e incontable como \(\vert  A\vert  &gt;\aleph_0\). \(\aleph_0\) se toma para representar la cardinalidad de los enteros positivos.</p>
+
+<p>Existe un sencillo criterio para discernir si un conjunto es contable:</p>
+
+<p><strong>Teorema 7.1:</strong> <em>Sea \(B\) un conjunto no vacío. Entonces las siguientes afirmaciones son equivalentes:</em></p>
+
+<ol>
+  <li><em>\(B\) es contable</em></li>
+  <li><em>Hay una función sobre \(f:\mathbb{Z}_+\to B\)</em></li>
+  <li><em>Hay una función inyectiva \(g:B\to \mathbb{Z}_+\)</em></li>
+</ol>
+
+<p><strong>Lema 7.2:</strong> <em>Si \(C\) es un subconjunto infinito de \(\mathbb{Z}_0\), entonces \(C\) es contablemente finito</em></p>
+
+<p>A veces, para demostrar algo (como el lema de arriba[^nota dems]), necesitamos “definir algo por inducción”, es decir, definir algo recursivamente, para esto necesitamos el <strong>principio de definición recursiva</strong>.</p>
+
+<p>Dado el subconjunto infinito \(C\) de \(\mathbb{Z}_+\), hay una única función \(h:\mathbb{Z}_+\to C\) satisfaciendo la formula:</p>
+
+\[(*)\qquad\begin{eqnarray}
+h(1)&amp;=&amp;\text{ elemento más pequeño de }C\\
+h(i)&amp;=&amp;\text{ elemento más pequeño de }[C-h(\lbrace 1,\dots,i-1\rbrace)]\ \forall i&gt;1
+\end{eqnarray}\]
+
+<p>La fórmula (\(*\)) se llama <strong>fórmula de recursión</strong> de \(h\); define la función \(h\), <em>con respecto a si misma</em>. Una definición dada de esta manera se llamará <strong>definición recursiva</strong>. Las definiciones recursivas pueden llevarnos a problemas:</p>
+
+<blockquote>
+  <p><em>Dado que el barbero de Sevilla afeita a todo hombre que no se afeite a si mismo.</em></p>
+
+  <p><em>¿Quién afeitará al barbero de Sevilla?</em></p>
+</blockquote>
+
+<p>Algunas fórmulas recursivas tienen sentido. En concreto, se tiene el siguiente principio:</p>
+
+<p><strong>Principio de definición recursiva:</strong> <em>Sea \(A\) un conjunto. Dada una fórmula que define \(h(1)\) como un único elemento de \(A\), y para todo \(i&gt;1\), define \(i\) de manera única como elemento de \(A\) en términos de valores de \(h\) para enteros positivos menores que \(i\), esta fórmula determina una única función \(h:\mathbb{Z}_+\to A\).</em></p>
+
+<p><strong>Corolario 7.3:</strong> <em>Un subconjunto de un conjunto contable es contable.</em></p>
+
+<p><strong>Corolario 7.4:</strong> <em>El conjunto \(\mathbb{Z}_+ \times \mathbb{Z_+}\) es contablemente infinito</em></p>
+
+<p>Por este corolario podemos ver que \(\mathbb{Q}_+\) es contablemente infinito, ya que podemos definir la suprayección:</p>
+
+\[\begin{eqnarray}
+g:\mathbb{Z}_+\times\mathbb{Z}_+&amp;\to&amp;\mathbb{Q}\\
+(n,m)&amp;\mapsto&amp; m/n
+\end{eqnarray}\]
+
+<p><strong>Teorema 7.5:</strong> <em>La unión contable de conjuntos contables es contable.</em></p>
+
+<p><strong>Teorema 7.6:</strong> <em>El producto contable de conjuntos contables es contable.</em></p>
+
+<p><strong>Teorema 7.8:</strong> <em>Sea \(X=\lbrace 0,1\rbrace\). Entonces el conjunto \(X^\omega\) es incontable.</em></p>
+
+<p>El producto cartesiano \(\lbrace 0,1\rbrace^\omega\) es un ejemplo de conjunto incontable, otro ejemplo será \(\mathcal{P}(\mathbb{Z}_+)\):</p>
+
+<p><strong>Teorema 7.9:</strong> <em>Sea \(A\) un conjunto. No existe aplicación inyectiva \(f:\mathcal{P}(A)\to A\), y tampoco existe aplicación sobre \(g:A\to\mathcal{P}(A)\).</em></p>
+
+<h2 id="8-el-principio-de-definición-recursiva">§8 El Principio de Definición Recursiva</h2>
+
+<p>(En el libro de Munkres esto va mucho más gradual, yo voy a la versión general)</p>
+
+<p><strong>Teorema (Principio de definición recursiva):</strong> <em>Sea \(A\) un conjunto; sea \(a_0\) un elemento de \(A\). Suponemos que \(\rho\) es una función que asigna, a cada función \(f\) que aplica una sección no vacía de los enteros positivos a \(A\), un elemento de \(A\). Entonces existe una única función</em></p>
+
+\[h:\mathbb{Z}_+\to A\]
+
+<p><em>tal que</em></p>
+
+\[(*)\qquad\begin{eqnarray*}
+h(1)&amp;=&amp;a_0,\\
+h(i)&amp;=&amp;\rho(h\mid\lbrace 1,\dots,i-1\rbrace)\quad\text{para }i&gt;1
+\end{eqnarray*}\]
+
+<p>La fórmula (\(*\)) se llamará <strong>fórmula de recursión</strong> para \(h\). Especifica \(h(1)\), y expresa el valor de \(h\) en \(i&gt;1\) en función de los valores de \(h\) para enteros positivos menores de \(i\).</p>
+
+<h2 id="9-conjuntos-infinitos-y-el-axioma-de-elección">§9 Conjuntos Infinitos y el Axioma de Elección</h2>
+
+<p><strong>Teorema 9.1:</strong> <em>Sea \(A\) un conjunto. Las siguientes afirmaciones son equivalentes:</em></p>
+
+<ol>
+  <li><em>Existe una función inyectiva \(f:\mathbb{Z}_+\to A\)</em></li>
+  <li><em>Existe una biyección de \(A\) con un subconjunto propio de \(A\)</em></li>
+  <li><em>\(A\) es infinito</em></li>
+</ol>
+
+<p>Al intentar demostrar este teorema[^nota dems], nos topamos con un problema similar al que nos llevó a las definiciones recursivas, ahora, lo que intentamos definir es:</p>
+
+\[\begin{eqnarray}
+f(1) &amp;=&amp; a_1\\
+f(i) &amp;=&amp; \text{elemento arbitrario de }A-f(\lbrace 1,\dots,i-1\rbrace)\quad\text{para }i&gt;1
+\end{eqnarray}\]
+
+<p>Lo cual no es una definición por recursión aceptable, ya que no define de forma única \(f(i)\) en función a \(f\mid\lbrace 1,\dots, i-1\rbrace\). Esto quiere decir que necesitamos una nueva manera de afirmar la existencia de un conjunto:</p>
+
+<p><strong>El axioma de Elección:</strong> <em>Dada una familia \(\mathcal{A}\) de conjuntos no vacíos y disjuntos, existe un conjunto \(C\) que consiste exactamente de un elemento de cada miembro de \(\mathcal{A}\); esto quiere decir, un conjunto \(C\) contenido en la unión de los elementos de \(\mathcal{A}\) y, para cada \(A\in\mathcal{A}\), el conjunto \(C\cap A\) contiene un solo elemento.</em></p>
+
+<p>Podemos considerar por tanto que el conjunto \(C\) está formado “eligiendo” un elemento de cada uno de los conjuntos en \(\mathcal{A}\).</p>
+
+<p><strong>Lema 9.2 (Existencia de una función de elección):</strong> <em>Dada una familia \(\mathcal{B}\) de conjuntos no vacíos (no necesariamente disjuntos), existe una función:</em></p>
+
+\[c:\mathcal{B}\to\bigcup_{B\in\mathcal{B}}B\]
+
+<p><em>tal que \(c(B)\) es un elemento de \(B\), para cada \(B\in\mathcal{B}\).</em></p>
+
+<p>Esta función \(c\) se llamará <strong>función de elección</strong> para la familia \(\mathcal{B}\). La diferencia entre este lema y el axioma de elección es que en este lema no necesitamos que los conjuntos sean disjuntos.</p>
+
+<h2 id="10-conjuntos-bien-ordenados">§10 Conjuntos Bien Ordenados</h2>
+
+<p><strong>Definición:</strong> Un conjunto \(A\) con una relación de orden \(&lt;\) se dice <strong>bien ordenado</strong> si todo subconjunto no vacío tiene un elemento mínimo.</p>
+
+<p>Hay varias maneras de construir elementos bien ordenados, dos son las siguientes:</p>
+
+<ol>
+  <li>Si \(A\) es un conjunto bien ordenado, entonces todo subconjunto de \(A\) está bien ordenado con la restricción de la relación de orden.</li>
+  <li>Si \(A,B\) son conjuntos bien ordenados, entonces \(A\times B\) está bien ordenado con el orden de diccionario.</li>
+</ol>
+
+<p>Dado un conjunto sin relación de orden \(A\), podemos preguntarnos si puede admitir alguna relación que lo haga bien ordenado:</p>
+
+<p><strong>Teorema 10.1:</strong> <em>Todo conjunto finito, no vacío y ordenado tiene el tipo de orden de una sección \(\lbrace1,\dots,n\rbrace\) de \(\mathbb{Z}_+\) y por tanto está bien ordenado.</em></p>
+
+<p><strong>Teorema (Teorema del buen orden):</strong> <em>Sea \(A\) un conjunto, existe una relación de orden en \(A\) que lo hace bien ordenado.</em></p>
+
+<p><strong>Corolario:</strong> <em>Existe un conjunto bien ordenado incontable.</em></p>
+
+<p><strong>Definición:</strong> Sea \(X\) un conjunto bien ordenado. Dado \(\alpha\in X\), sea \(S_\alpha\) el conjunto:</p>
+
+\[S_\alpha = \lbrace
+ x\mid x\in X\text{ and }x&lt;\alpha
+ \rbrace\]
+
+<p>al cual llamaremos <strong>sección</strong> de \(X\) por \(\alpha\).</p>
+
+<p><strong>Lema 10.2:</strong> <em>Existe un conjunto bien ordenado \(A\) que tiene un elemento máximo \(\Omega\), tal que la sección \(S_\Omega\) de \(A\) por \(\Omega\) es incontable, pero todas las demás secciones de \(A\) son contables.</em></p>
+
+<p>Notamos que \(S_\Omega\) es un conjunto bien ordenado del cual todas las secciones son finitas. Su tipo de orden está determinado únicamente por este hecho. Lo llamaremos <strong>primer conjunto bien ordenado incontable</strong>. También denotaremos el conjunto bien ordenado \(A=S_\Omega \cup \lbrace\Omega\rbrace\) como \(\bar{S} _\Omega\).</p>
+
+<p>La propiedad más útil de este conjunto es:</p>
+
+<p><strong>Teorema 10.3:</strong> <em>Sea \(A\) un subconjunto contable d \(S_\Omega\), entonces \(A\) tiene una cota superior en \(S_\Omega\).</em></p>
+
+<h2 id="11-principio-maximal-de-hausdorff">§11 Principio Maximal (de Hausdorff)</h2>
+
+<p>Dado un conjunto \(A\), una relación \(\prec\) se llamá <strong>orden parcial estricto</strong> en \(A\) si cumple las siguientes propiedades:</p>
+
+<ol>
+  <li>(<em>No-reflexividad</em>) La relación \(a\prec a\) nunca se cumple.</li>
+  <li>(<em>Transitividad</em>) Si \(a\prec b\) y \(b\prec c\), entonces \(a\prec c\).</li>
+</ol>
+
+<p>Siendo \(\prec\) un orden parcial estricto sobre \(A\), puede darse el caso de que algún subconjunto \(B\) de \(A\) esté simplemente ordenado por la relación; lo único que hace falta es que cualquier pareja de elementos sean comparables bajo \(\prec\).</p>
+
+<p><strong>Teorema (Principio Maximal de Hausdorff):</strong> <em>Sea \(A\) un conjunto; sea \(\prec\) un orden parcial estricto sobre \(A\), entonces existe un subconjunto de \(A\) simplemente ordenado.</em></p>
+
+<p><strong>Definición:</strong> Sea \(A\) un conjunto y sea \(\prec\) un orden parcial estricto. Si \(B\) es un subconjunto de \(A\), una <strong>cota superior</strong> de \(B\) es un elemento \(c\in A\) tal que \(\forall b \in B\), o bien \(b=c\) ó \(b\prec c\). Un <strong>elemento maximal</strong> de \(A\) es un elemento \(m\in A\) tal que no existe ningún elemento de \(A\) para el cual se cumpla \(m\prec a\).</p>
+
+<p><strong>Lema de Zorn:</strong> <em>Sea \(A\) un conjunto estrictamente parcialmente ordenado. Si cada subconjunto simplemente ordenado de \(A\) tiene una cota superior en \(A\), entonces \(A\) tiene un elemento maximal</em></p>
+
+<p>A veces se usa el concepto de <strong>orden parcial</strong> (no estricto). Esto se refiere a una relación \(a\preceq b\) si \(a=b\) ó \(a\prec b\).</p>
+
+<p>Fuente: <a href="https://www.allbookstores.com/Topologh-2nd-Edition-James-Munkres/9780131816299"><em>Topology Second Edition</em>, James R. Munkres</a></p>
+:ET
