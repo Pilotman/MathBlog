@@ -1,0 +1,2 @@
+I";<p>Vamos a simular la máquina Enigma usando Python. Para empezar, vamos a simplificar la máquina como una serie de permutaciones que nos envían letras del alfabeto a otras letras. Vamos a escribirlas usando la notación usual donde, por ejemplo, la permutación que nos lleva una letra a la siguiente será:</p>
+:ET
