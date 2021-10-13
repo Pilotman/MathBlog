@@ -2,7 +2,7 @@
 layout: post
 title: "La máquina Enigma en Python"
 tags:
-  - Spanish
+  - Español
   - Algebra
   - Python
 ---
