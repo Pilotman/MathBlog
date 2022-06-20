@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://github.com/Pilotman/MathBlog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/Pilotman/MathBlog/" rel="alternate" type="text/html" /><updated>2022-06-21T01:27:11+02:00</updated><id>https://github.com/Pilotman/MathBlog/feed.xml</id><title type="html">MathBlog</title><subtitle>Sobre todo hablo de Mates</subtitle><author><name>Diego Pirx</name></author><entry><title type="html">La máquina Enigma en Python</title><link href="https://github.com/Pilotman/MathBlog/2021/10/13/Enigma-En-Python/" rel="alternate" type="text/html" title="La máquina Enigma en Python" /><published>2021-10-13T00:00:00+02:00</published><updated>2021-10-13T00:00:00+02:00</updated><id>https://github.com/Pilotman/MathBlog/2021/10/13/Enigma-En-Python</id><content type="html" xml:base="https://github.com/Pilotman/MathBlog/2021/10/13/Enigma-En-Python/">&lt;p&gt;Vamos a simular la máquina Enigma usando Python. Para empezar, vamos a simplificar la máquina como una serie de permutaciones que nos envían letras del alfabeto a otras letras. Vamos a escribirlas usando la notación usual donde, por ejemplo, la permutación que nos lleva una letra a la siguiente será:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://github.com/Pilotman/MathBlog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/Pilotman/MathBlog/" rel="alternate" type="text/html" /><updated>2022-06-21T01:34:05+02:00</updated><id>https://github.com/Pilotman/MathBlog/feed.xml</id><title type="html">MathBlog</title><subtitle>Sobre todo hablo de Mates</subtitle><author><name>Diego Pirx</name></author><entry><title type="html">La máquina Enigma en Python</title><link href="https://github.com/Pilotman/MathBlog/2021/10/13/Enigma-En-Python/" rel="alternate" type="text/html" title="La máquina Enigma en Python" /><published>2021-10-13T00:00:00+02:00</published><updated>2021-10-13T00:00:00+02:00</updated><id>https://github.com/Pilotman/MathBlog/2021/10/13/Enigma-En-Python</id><content type="html" xml:base="https://github.com/Pilotman/MathBlog/2021/10/13/Enigma-En-Python/">&lt;p&gt;Vamos a simular la máquina Enigma usando Python. Para empezar, vamos a simplificar la máquina como una serie de permutaciones que nos envían letras del alfabeto a otras letras. Vamos a escribirlas usando la notación usual donde, por ejemplo, la permutación que nos lleva una letra a la siguiente será:&lt;/p&gt;
 
 \[\begin{pmatrix}
   abcdefghijklmnopqrstuvwxyz \\
@@ -1006,26 +1006,18 @@ x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_
 
 &lt;p&gt;Y, usando la propiedad asociativa:&lt;/p&gt;
 
-\[(\overline{x_n}\cdot
+\[(\overline{x_n}
 + \cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\overline{1} \equiv \bar{0}\]
+\overline{x_1} + 
+\overline{x_0})\overline{1} \equiv \bar{0}\]
 
-&lt;p&gt;Y ahora, tenemos dos cosas, y su producto es cero, como \(\mathbb{Z}_3\) &lt;em&gt;se porta bien&lt;/em&gt; (véase: no tiene  &lt;a href=&quot;https://es.wikipedia.org/wiki/Divisor_de_cero&quot;&gt;divisores del cero&lt;/a&gt;), tendremos que asumir que, o bien $$(\overline{x_n}\cdot&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;\cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\equiv 0\(o\)\bar{1}\equiv\bar{0}$$ y lo segundo es imposible, así que tendremos:&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Y ahora, tenemos dos cosas, y su producto es cero, como \(\mathbb{Z}_3\) &lt;em&gt;se porta bien&lt;/em&gt; (véase: no tiene  &lt;a href=&quot;https://es.wikipedia.org/wiki/Divisor_de_cero&quot;&gt;divisores del cero&lt;/a&gt;), tendremos que asumir que, o bien \((\overline{x_n}\cdot+ \cdots + \overline{x_1}\cdot + \overline{x_0}\cdot)\equiv 0\) o \(\bar{1}\equiv\bar{0}\) y lo segundo es imposible, así que tendremos:&lt;/p&gt;
 
-\[(\overline{x_n}\cdot
-+ \cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\equiv 0\]
+\[(\overline{x_n}+ \cdots + \overline{x_1} + \overline{x_0})\equiv 0\]
 
 &lt;p&gt;Lo que significará que la suma de los dígitos es divisible entre tres.&lt;/p&gt;
 
-&lt;p&gt;$$\hspace{25cm}\blacksquare&lt;/p&gt;
+\[\hspace{25cm}\blacksquare\]
 
 &lt;hr /&gt;
 
@@ -1192,26 +1184,18 @@ x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_
 
 &lt;p&gt;And, because of the asociative property, we will have:&lt;/p&gt;
 
-\[(\overline{x_n}\cdot
+\[(\overline{x_n}
 + \cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\overline{1} \equiv \bar{0}\]
+\overline{x_1} + 
+\overline{x_0})\overline{1} \equiv \bar{0}\]
 
-&lt;p&gt;And now, we have two things, and their product is 0, because \(\mathbb{Z}_3\) &lt;em&gt;behaves properly&lt;/em&gt; (read: does not have &lt;a href=&quot;https://en.wikipedia.org/wiki/Zero_divisor&quot;&gt;zero divisors&lt;/a&gt;), we will have to assume that, either $$(\overline{x_n}\cdot&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;\cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\equiv 0\(or\)\bar{1}\equiv\bar{0}$$ and the second one is impossible, so we have that:&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;And now, we have two things, and their product is 0, because \(\mathbb{Z}_3\) &lt;em&gt;behaves properly&lt;/em&gt; (read: does not have &lt;a href=&quot;https://en.wikipedia.org/wiki/Zero_divisor&quot;&gt;zero divisors&lt;/a&gt;), we will have to assume that, either \((\overline{x_n}\cdot+ \cdots + \overline{x_1}\cdot + \overline{x_0}\cdot)\equiv 0\) or \(\bar{1}\equiv\bar{0}\) and the second one is impossible, so we have that:&lt;/p&gt;
 
-\[(\overline{x_n}\cdot
-+ \cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\equiv 0\]
+\[(\overline{x_n}+ \cdots + \overline{x_1} + \overline{x_0})\equiv 0\]
 
 &lt;p&gt;Which means that the sum of the digits is divisible by three&lt;/p&gt;
 
-&lt;p&gt;$$\hspace{25cm}\blacksquare&lt;/p&gt;
+\[\hspace{25cm}\blacksquare\]
 
 &lt;hr /&gt;
 

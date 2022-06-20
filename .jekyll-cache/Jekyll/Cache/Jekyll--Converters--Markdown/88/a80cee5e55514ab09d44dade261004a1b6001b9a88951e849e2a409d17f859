@@ -1,4 +1,4 @@
-I"+'<p><a href="/MathBlog/2019/11/05/Rule-of-3">Read in English</a></p>
+I"�&<p><a href="/MathBlog/2019/11/05/Rule-of-3">Read in English</a></p>
 
 <p>Para esta entrada, me gustaría explorar una propiedad de los numeros naturales (o enteros en este caso) que se enseña en primaria, pero su demostración requiere una pequeña peculiaridad del sistema decimal.</p>
 
@@ -148,26 +148,18 @@ x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_
 
 <p>Y, usando la propiedad asociativa:</p>
 
-\[(\overline{x_n}\cdot
+\[(\overline{x_n}
 + \cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\overline{1} \equiv \bar{0}\]
+\overline{x_1} + 
+\overline{x_0})\overline{1} \equiv \bar{0}\]
 
-<p>Y ahora, tenemos dos cosas, y su producto es cero, como \(\mathbb{Z}_3\) <em>se porta bien</em> (véase: no tiene  <a href="https://es.wikipedia.org/wiki/Divisor_de_cero">divisores del cero</a>), tendremos que asumir que, o bien $$(\overline{x_n}\cdot</p>
-<ul>
-  <li>\cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\equiv 0\(o\)\bar{1}\equiv\bar{0}$$ y lo segundo es imposible, así que tendremos:</li>
-</ul>
+<p>Y ahora, tenemos dos cosas, y su producto es cero, como \(\mathbb{Z}_3\) <em>se porta bien</em> (véase: no tiene  <a href="https://es.wikipedia.org/wiki/Divisor_de_cero">divisores del cero</a>), tendremos que asumir que, o bien \((\overline{x_n}\cdot+ \cdots + \overline{x_1}\cdot + \overline{x_0}\cdot)\equiv 0\) o \(\bar{1}\equiv\bar{0}\) y lo segundo es imposible, así que tendremos:</p>
 
-\[(\overline{x_n}\cdot
-+ \cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\equiv 0\]
+\[(\overline{x_n}+ \cdots + \overline{x_1} + \overline{x_0})\equiv 0\]
 
 <p>Lo que significará que la suma de los dígitos es divisible entre tres.</p>
 
-<p>$$\hspace{25cm}\blacksquare</p>
+\[\hspace{25cm}\blacksquare\]
 
 <hr />
 

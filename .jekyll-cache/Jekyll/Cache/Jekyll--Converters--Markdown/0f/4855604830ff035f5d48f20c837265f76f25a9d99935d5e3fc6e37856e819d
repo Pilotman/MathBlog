@@ -1,4 +1,4 @@
-I"�%<p><a href="/MathBlog/2019/11/05/Rule-of-3.es">Leer en Español</a></p>
+I"_%<p><a href="/MathBlog/2019/11/05/Rule-of-3.es">Leer en Español</a></p>
 
 <p>For this post, I want to explore a property of the natural numbers (or integers in this case) that is taught at a very young age and whose proof relies on a weird quirk of the decimal system.</p>
 
@@ -149,26 +149,18 @@ x \equiv 0\mod 3 \Rightarrow x \mod 3\equiv 0 \Rightarrow (x_n10^n + \cdots + x_
 
 <p>And, because of the asociative property, we will have:</p>
 
-\[(\overline{x_n}\cdot
+\[(\overline{x_n}
 + \cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\overline{1} \equiv \bar{0}\]
+\overline{x_1} + 
+\overline{x_0})\overline{1} \equiv \bar{0}\]
 
-<p>And now, we have two things, and their product is 0, because \(\mathbb{Z}_3\) <em>behaves properly</em> (read: does not have <a href="https://en.wikipedia.org/wiki/Zero_divisor">zero divisors</a>), we will have to assume that, either $$(\overline{x_n}\cdot</p>
-<ul>
-  <li>\cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\equiv 0\(or\)\bar{1}\equiv\bar{0}$$ and the second one is impossible, so we have that:</li>
-</ul>
+<p>And now, we have two things, and their product is 0, because \(\mathbb{Z}_3\) <em>behaves properly</em> (read: does not have <a href="https://en.wikipedia.org/wiki/Zero_divisor">zero divisors</a>), we will have to assume that, either \((\overline{x_n}\cdot+ \cdots + \overline{x_1}\cdot + \overline{x_0}\cdot)\equiv 0\) or \(\bar{1}\equiv\bar{0}\) and the second one is impossible, so we have that:</p>
 
-\[(\overline{x_n}\cdot
-+ \cdots + 
-\overline{x_1}\cdot + 
-\overline{x_0}\cdot)\equiv 0\]
+\[(\overline{x_n}+ \cdots + \overline{x_1} + \overline{x_0})\equiv 0\]
 
 <p>Which means that the sum of the digits is divisible by three</p>
 
-<p>$$\hspace{25cm}\blacksquare</p>
+\[\hspace{25cm}\blacksquare\]
 
 <hr />
 
